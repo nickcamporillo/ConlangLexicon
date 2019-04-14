@@ -1,2 +1,2 @@
 # NahenicConlangTools
-Conlang tools associated with my conlang development
+Lexicon associated with my conlang development
