@@ -1,7 +1,7 @@
 ﻿using IModels;
 using IServices;
 
-namespace Services
+namespace LexServices
 {
     public interface ILexiconService<T> : IService<T> where T : class, new()
     {

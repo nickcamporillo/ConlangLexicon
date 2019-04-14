@@ -12,13 +12,10 @@ using log4net.Repository.Hierarchy;
 
 using IViews;
 using IServices;
-using IRepository;
-using Repositories;
 using IPresenters;
 using Presenters;
 using Models;
-using Services;
-using IModels;
+using LexServices;
 
 namespace TestScreens
 {

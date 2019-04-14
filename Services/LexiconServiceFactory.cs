@@ -2,7 +2,7 @@
 using IServices;
 using Repositories;
 
-namespace Services
+namespace LexServices
 {
     public class LexiconServiceFactory<T> : IServiceFactory<T> where T:class,new()
     {

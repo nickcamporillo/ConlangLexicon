@@ -73,9 +73,9 @@
       <Project>{8dff8f3a-7156-4798-960e-24cfdd016993}</Project>
       <Name>Models</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Services\Services.csproj">
-      <Project>{33286957-B797-42E9-908A-438DF3DC5664}</Project>
-      <Name>Services</Name>
+    <ProjectReference Include="..\Services\LexServices.csproj">
+      <Project>{33286957-b797-42e9-908a-438df3dc5664}</Project>
+      <Name>LexServices</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
