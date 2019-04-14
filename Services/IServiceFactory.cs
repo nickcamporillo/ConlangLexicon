@@ -1,6 +1,6 @@
 ﻿using IServices;
 
-namespace Services
+namespace LexServices
 {
     public interface IServiceFactory<T> where T : class, new()
     {

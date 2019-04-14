@@ -3,7 +3,7 @@ using IRepository;
 using IServices;
 using Models;
 using Repositories;
-using Services;
+using LexServices;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -65,13 +65,14 @@ namespace ConsoleDriver
             return test.FindAll().ToList();
         }
 
-        static IList<T> Test_2<T>() where T:class
+        static IList<T> Test_2<T>() where T:class, new()
         {
-            IUnitOfWork unitOfWork = new EfUnitOfWork();
-            //BaseService service = new LexiconService(unitOfWork);
-            IService<LexiconRaw> service = new LexiconService<LexiconRaw>(unitOfWork);
+            LexiconServiceFactory<T> factory = new LexiconServiceFactory<T>();
+            IService<T> service = factory.CreatService();
 
-            return service.FindAll<T>().Distinct().ToList();
+            var dataset = service.FindAll() as IList<T>;//.Distinct().ToList() as IList<T>;
+
+            return dataset;
         }
     }
 }
