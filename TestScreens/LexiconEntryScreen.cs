@@ -34,25 +34,24 @@ namespace TestScreens
             set { lblMode.Text = (value ? "Adding" : "Editing"); }
         }
 
+        public object Datasource { get; set; }
+        public object CurrentItem { get; set; }
+
+        public string PreviousFormName { get; set; }
+        public string NextFormName { get; set; }
+        public ConfirmNavigation ConfirmNavigateToPreviousScreen { get; set; }
+        public ConfirmNavigation ConfirmNavigateToNextScreen { get; set; }
+
         public int Id
         {
             get { return int.Parse(lblId.Text); }
             set { lblId.Text = value.ToString();}
         }
 
-        public int LanguageId 
+        public string LanguageId 
         {
-            get 
-            {
-                var retVal = 0;
-                bool success = int.TryParse(lblLanguageId.Text, out retVal);
- 
-                return (success ? retVal : -99); 
-            }
-            set
-            {
-                lblLanguageId.Text = value.ToString();
-            } 
+            get {return lblLanguageId.Text; }
+            set {lblLanguageId.Text = value;} 
         }
 
         public string Entry 
@@ -132,21 +131,11 @@ namespace TestScreens
 
             LoadEventHandlers();
             SetFormNavigationHandlers();
-
-            //Activated += ((BuilderPresenter)(_presenter)).RefreshBuilderDataBinding;
-            //Activated += UpdateItem; //See Presenter. This is hooked up to "RefreshBuilder(object sender, EventArgs e)"
+           
         }
 
         private void LoadEventHandlers()
         {
-            btnFirst.Click += Message;
-            btnFirst.Click += SaveRecord;
-            btnFirst.Click += MoveFirstRecord;            
-
-            btnLast.Click += Message;
-            btnLast.Click += SaveRecord;
-            btnLast.Click += MoveLastRecord;            
-
             btnNext.Click += Message;
             btnNext.Click += SaveRecord;
             btnNext.Click += MoveNextRecord;
@@ -156,14 +145,62 @@ namespace TestScreens
             btnPrevious.Click += MovePreviousRecord;
 
             btnCancelTab1.Click += Cancel;
+            btnCancelTab1.Click += EnableButtonsOnSaveOrCancelOrReturn;
+
             btnCancelTab2.Click += Cancel;
+            btnCancelTab2.Click += EnableButtonsOnSaveOrCancelOrReturn;
+            //btnCancelTab1.Click += SetAddModeOff;  (No, you might be in the middle of an Add, and want to restart your Add again!)
 
             btnSaveTab1.Click += SaveRecord;
-            btnSaveTab2.Click += SaveRecord;
+            btnSaveTab1.Click += EnableButtonsOnSaveOrCancelOrReturn;
+            btnSaveTab1.Click += SetAddModeOff;
 
+            btnSaveTab2.Click += SaveRecord;
+            btnSaveTab2.Click += EnableButtonsOnSaveOrCancelOrReturn;
+            btnSaveTab2.Click += SetAddModeOff;
+
+            btnReturntoWordListGrid.Click += PromptSaveOnDepartIfChanged;
+            btnReturntoWordListGrid.Click += SetAddModeOff;
+            btnReturntoWordListGrid.Click += ReturnToPreviousScreen;
+
+            btnAdd.Click += DisableButtonsOnAdd;
             btnAdd.Click += Message;
-            btnAdd.Click += SaveRecord;
-            btnAdd.Click += AddRecord;
+        }
+
+        private void SetAddModeOff(object sender, EventArgs e)
+        {
+            IsAddingNewRecord = false;
+        }
+
+        private void ReturnToPreviousScreen(object sender, EventArgs e)
+        {
+            PreviousScreen?.Invoke(sender, e);
+        }
+
+        private void PromptSaveOnDepartIfChanged(object sender, EventArgs e)
+        {
+            MessageBox.Show("Add code here - use PropertyChangedEvents", "Not implemented",MessageBoxButtons.OK);
+        }
+
+        private void DisableButtonsOnAdd(object sender, EventArgs e)
+        {
+            ToggleButtonEnabling(false);
+        }
+
+        private void EnableButtonsOnSaveOrCancelOrReturn(object sender, EventArgs e)
+        {
+            ToggleButtonEnabling(true);
+        }
+
+        private void ToggleButtonEnabling(bool enable)
+        {
+            btnDeactivate.Enabled = enable;
+            btnReactivate.Enabled = enable;
+            btnFirst.Enabled = enable;
+            btnLast.Enabled = enable;
+            btnNext.Enabled = enable;
+            btnPrevious.Enabled = enable;
+            btnAdd.Enabled = enable;
         }
 
         public void RefreshData()
@@ -173,9 +210,8 @@ namespace TestScreens
 
         private void SetFormNavigationHandlers()
         {
-            //btnBackToBpoid.Click += PreviousScreen;
-            btnGotoWordListGrid.Click += ClearAll;
-            btnGotoWordListGrid.Click += NextScreen;
+            btnReturntoWordListGrid.Click += ClearAll;
+            btnReturntoWordListGrid.Click += NextScreen;
             //btnF10.Click += CloseAll;
         }
 
@@ -255,21 +291,9 @@ namespace TestScreens
             MessageBox.Show(_msg);
         }
 
-        public object Datasource
+        public void OnMoveCompleted(object sender, EventArgs e)
         {
-            get;
-            set;
+            PageMoveCompleted?.Invoke(sender, e);
         }
-
-        public object CurrentItem
-        {
-            get;
-            set;
-        }
-
-        public string PreviousFormName { get; set; }
-        public string NextFormName { get; set; }
-        public ConfirmNavigation ConfirmNavigateToPreviousScreen { get; set; }
-        public ConfirmNavigation ConfirmNavigateToNextScreen { get; set; }
     }
 }

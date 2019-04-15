@@ -73,10 +73,8 @@
             this.panelNotes = new System.Windows.Forms.Panel();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.btnGotoWordListGrid = new System.Windows.Forms.Button();
+            this.btnReturntoWordListGrid = new System.Windows.Forms.Button();
             this.btnAdd = new System.Windows.Forms.Button();
-            this.btnLast = new System.Windows.Forms.Button();
-            this.btnFirst = new System.Windows.Forms.Button();
             this.btnPrevious = new System.Windows.Forms.Button();
             this.btnNext = new System.Windows.Forms.Button();
             this.btnCancelTab1 = new System.Windows.Forms.Button();
@@ -93,6 +91,8 @@
             this.label13 = new System.Windows.Forms.Label();
             this.lblId = new System.Windows.Forms.Label();
             this.lblMode = new System.Windows.Forms.Label();
+            this.btnLast = new System.Windows.Forms.Button();
+            this.btnFirst = new System.Windows.Forms.Button();
             this.panelDateControl.SuspendLayout();
             this.panelEntry.SuspendLayout();
             this.panelDialectAndRegister.SuspendLayout();
@@ -517,7 +517,7 @@
             // tabPage1
             // 
             this.tabPage1.BackColor = System.Drawing.Color.Silver;
-            this.tabPage1.Controls.Add(this.btnGotoWordListGrid);
+            this.tabPage1.Controls.Add(this.btnReturntoWordListGrid);
             this.tabPage1.Controls.Add(this.btnAdd);
             this.tabPage1.Controls.Add(this.btnLast);
             this.tabPage1.Controls.Add(this.btnFirst);
@@ -535,14 +535,14 @@
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Main";
             // 
-            // btnGotoWordListGrid
+            // btnReturntoWordListGrid
             // 
-            this.btnGotoWordListGrid.Location = new System.Drawing.Point(596, 540);
-            this.btnGotoWordListGrid.Name = "btnGotoWordListGrid";
-            this.btnGotoWordListGrid.Size = new System.Drawing.Size(237, 23);
-            this.btnGotoWordListGrid.TabIndex = 40;
-            this.btnGotoWordListGrid.Text = "Back to Word List";
-            this.btnGotoWordListGrid.UseVisualStyleBackColor = true;
+            this.btnReturntoWordListGrid.Location = new System.Drawing.Point(596, 540);
+            this.btnReturntoWordListGrid.Name = "btnReturntoWordListGrid";
+            this.btnReturntoWordListGrid.Size = new System.Drawing.Size(237, 23);
+            this.btnReturntoWordListGrid.TabIndex = 40;
+            this.btnReturntoWordListGrid.Text = "Back to Word List";
+            this.btnReturntoWordListGrid.UseVisualStyleBackColor = true;
             // 
             // btnAdd
             // 
@@ -552,24 +552,6 @@
             this.btnAdd.TabIndex = 39;
             this.btnAdd.Text = "Add New";
             this.btnAdd.UseVisualStyleBackColor = true;
-            // 
-            // btnLast
-            // 
-            this.btnLast.Location = new System.Drawing.Point(780, 433);
-            this.btnLast.Name = "btnLast";
-            this.btnLast.Size = new System.Drawing.Size(53, 23);
-            this.btnLast.TabIndex = 38;
-            this.btnLast.Text = ">>";
-            this.btnLast.UseVisualStyleBackColor = true;
-            // 
-            // btnFirst
-            // 
-            this.btnFirst.Location = new System.Drawing.Point(605, 433);
-            this.btnFirst.Name = "btnFirst";
-            this.btnFirst.Size = new System.Drawing.Size(53, 23);
-            this.btnFirst.TabIndex = 37;
-            this.btnFirst.Text = "<<";
-            this.btnFirst.UseVisualStyleBackColor = true;
             // 
             // btnPrevious
             // 
@@ -726,6 +708,24 @@
             this.lblMode.TabIndex = 31;
             this.lblMode.Text = "Mode";
             // 
+            // btnLast
+            // 
+            this.btnLast.Location = new System.Drawing.Point(780, 433);
+            this.btnLast.Name = "btnLast";
+            this.btnLast.Size = new System.Drawing.Size(53, 23);
+            this.btnLast.TabIndex = 38;
+            this.btnLast.Text = ">>";
+            this.btnLast.UseVisualStyleBackColor = true;
+            // 
+            // btnFirst
+            // 
+            this.btnFirst.Location = new System.Drawing.Point(605, 433);
+            this.btnFirst.Name = "btnFirst";
+            this.btnFirst.Size = new System.Drawing.Size(53, 23);
+            this.btnFirst.TabIndex = 37;
+            this.btnFirst.Text = "<<";
+            this.btnFirst.UseVisualStyleBackColor = true;
+            // 
             // LexiconEntryScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -821,14 +821,14 @@
         private System.Windows.Forms.Button btnCancelTab1;
         private System.Windows.Forms.Button btnPrevious;
         private System.Windows.Forms.Button btnNext;
-        private System.Windows.Forms.Button btnLast;
-        private System.Windows.Forms.Button btnFirst;
         private System.Windows.Forms.Button btnAdd;
         private System.Windows.Forms.Label lblLanguageId;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Button btnGotoWordListGrid;
+        private System.Windows.Forms.Button btnReturntoWordListGrid;
         private System.Windows.Forms.Label lblId;
         private System.Windows.Forms.Label lblMode;
+        private System.Windows.Forms.Button btnLast;
+        private System.Windows.Forms.Button btnFirst;
     }
 }
 

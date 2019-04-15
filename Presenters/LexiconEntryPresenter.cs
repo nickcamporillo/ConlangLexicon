@@ -67,7 +67,7 @@ namespace Presenters
         private void PopulateView(LexiconRaw item)
         {
             _view.Id = item.Id;
-            _view.LanguageId = (item.LanguageId ?? 0);
+            _view.LanguageId = item.LanguageId.ToString();
             _view.Entry = item.Entry;
             _view.IPA = item.IPA;
             _view.Meaning = item.Meaning;
@@ -93,9 +93,7 @@ namespace Presenters
 
         private void Deactivate(object sender, EventArgs e)
         {
-            _view.LanguageId = (_view.LanguageId < 1 ? 1 : _view.LanguageId);
-
-            //string sql = CreateSqlInsert();
+            //string sql = UpdateDeactivateRecord();
         }
 
         private LexiconRaw GetDataFromView()
@@ -105,7 +103,10 @@ namespace Presenters
             {
                 newItem.Id = _view.Id;
             }
-            newItem.LanguageId = _view.LanguageId;
+
+            int sInt = 0;
+            newItem.LanguageId = (int.TryParse(_view.LanguageId, out sInt) ? sInt : 0);
+            
             newItem.Entry = _view.Entry;
             newItem.IPA = _view.IPA;
             newItem.Meaning = _view.Meaning;

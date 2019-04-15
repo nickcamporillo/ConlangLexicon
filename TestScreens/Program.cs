@@ -188,7 +188,7 @@ namespace TestScreens
             if (wordList != null && entryScreen != null)
             {
                 entryScreen.IsAddingNewRecord = true;
-                entryScreen.LanguageId = wordList.LanguageId;
+                entryScreen.LanguageId = wordList.LanguageId.ToString();
             }
         }
 
@@ -268,7 +268,8 @@ namespace TestScreens
                         {
                             ((IViewLexiconEntryScreen)(nextForm)).RefreshData();                            
                         }
-
+                        
+                        nextForm.OnMoveCompleted(sender, e);                       
                         nextForm.Show();
                     }
                 }
@@ -276,6 +277,7 @@ namespace TestScreens
                 currentForm.Hide();
             }
         }
+
 
         private static void Mamag(object sender, EventArgs e)
         {
