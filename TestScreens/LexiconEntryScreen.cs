@@ -292,8 +292,10 @@ namespace TestScreens
         }
 
         public void OnMoveCompleted(object sender, EventArgs e)
-        {
+        {            
             PageMoveCompleted?.Invoke(sender, e);
+            txtEntry.Focus();
+            txtEntry.SelectAll();
         }
     }
 }

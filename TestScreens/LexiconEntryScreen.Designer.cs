@@ -75,6 +75,8 @@
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.btnReturntoWordListGrid = new System.Windows.Forms.Button();
             this.btnAdd = new System.Windows.Forms.Button();
+            this.btnLast = new System.Windows.Forms.Button();
+            this.btnFirst = new System.Windows.Forms.Button();
             this.btnPrevious = new System.Windows.Forms.Button();
             this.btnNext = new System.Windows.Forms.Button();
             this.btnCancelTab1 = new System.Windows.Forms.Button();
@@ -91,8 +93,6 @@
             this.label13 = new System.Windows.Forms.Label();
             this.lblId = new System.Windows.Forms.Label();
             this.lblMode = new System.Windows.Forms.Label();
-            this.btnLast = new System.Windows.Forms.Button();
-            this.btnFirst = new System.Windows.Forms.Button();
             this.panelDateControl.SuspendLayout();
             this.panelEntry.SuspendLayout();
             this.panelDialectAndRegister.SuspendLayout();
@@ -110,7 +110,7 @@
             this.txtEntry.Location = new System.Drawing.Point(135, 4);
             this.txtEntry.Name = "txtEntry";
             this.txtEntry.Size = new System.Drawing.Size(321, 20);
-            this.txtEntry.TabIndex = 0;
+            this.txtEntry.TabIndex = 1;
             // 
             // txtMeaning
             // 
@@ -118,7 +118,7 @@
             this.txtMeaning.Multiline = true;
             this.txtMeaning.Name = "txtMeaning";
             this.txtMeaning.Size = new System.Drawing.Size(321, 76);
-            this.txtMeaning.TabIndex = 1;
+            this.txtMeaning.TabIndex = 2;
             // 
             // txtSecondaryMeanings
             // 
@@ -126,42 +126,42 @@
             this.txtSecondaryMeanings.Multiline = true;
             this.txtSecondaryMeanings.Name = "txtSecondaryMeanings";
             this.txtSecondaryMeanings.Size = new System.Drawing.Size(321, 43);
-            this.txtSecondaryMeanings.TabIndex = 0;
+            this.txtSecondaryMeanings.TabIndex = 3;
             // 
             // txtPos
             // 
             this.txtPos.Location = new System.Drawing.Point(102, 81);
             this.txtPos.Name = "txtPos";
             this.txtPos.Size = new System.Drawing.Size(156, 20);
-            this.txtPos.TabIndex = 0;
+            this.txtPos.TabIndex = 7;
             // 
             // txtPosSubtype
             // 
             this.txtPosSubtype.Location = new System.Drawing.Point(137, 118);
             this.txtPosSubtype.Name = "txtPosSubtype";
             this.txtPosSubtype.Size = new System.Drawing.Size(121, 20);
-            this.txtPosSubtype.TabIndex = 0;
+            this.txtPosSubtype.TabIndex = 8;
             // 
             // txtGender
             // 
             this.txtGender.Location = new System.Drawing.Point(102, 31);
             this.txtGender.Name = "txtGender";
             this.txtGender.Size = new System.Drawing.Size(156, 20);
-            this.txtGender.TabIndex = 0;
+            this.txtGender.TabIndex = 6;
             // 
             // txtNounIncorporatedForm
             // 
             this.txtNounIncorporatedForm.Location = new System.Drawing.Point(135, 173);
             this.txtNounIncorporatedForm.Name = "txtNounIncorporatedForm";
             this.txtNounIncorporatedForm.Size = new System.Drawing.Size(321, 20);
-            this.txtNounIncorporatedForm.TabIndex = 0;
+            this.txtNounIncorporatedForm.TabIndex = 4;
             // 
             // txtAlternateForms
             // 
             this.txtAlternateForms.Location = new System.Drawing.Point(135, 204);
             this.txtAlternateForms.Name = "txtAlternateForms";
             this.txtAlternateForms.Size = new System.Drawing.Size(321, 20);
-            this.txtAlternateForms.TabIndex = 0;
+            this.txtAlternateForms.TabIndex = 5;
             // 
             // txtDialect
             // 
@@ -170,21 +170,21 @@
             this.txtDialect.Name = "txtDialect";
             this.txtDialect.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.txtDialect.Size = new System.Drawing.Size(282, 114);
-            this.txtDialect.TabIndex = 0;
+            this.txtDialect.TabIndex = 11;
             // 
             // txtRegister
             // 
             this.txtRegister.Location = new System.Drawing.Point(57, 134);
             this.txtRegister.Name = "txtRegister";
             this.txtRegister.Size = new System.Drawing.Size(282, 20);
-            this.txtRegister.TabIndex = 0;
+            this.txtRegister.TabIndex = 12;
             // 
             // txtDomain
             // 
             this.txtDomain.Location = new System.Drawing.Point(102, 175);
             this.txtDomain.Name = "txtDomain";
             this.txtDomain.Size = new System.Drawing.Size(434, 20);
-            this.txtDomain.TabIndex = 0;
+            this.txtDomain.TabIndex = 9;
             // 
             // txtSynonyms
             // 
@@ -211,7 +211,7 @@
             this.txtIPA.Name = "txtIPA";
             this.txtIPA.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.txtIPA.Size = new System.Drawing.Size(522, 72);
-            this.txtIPA.TabIndex = 0;
+            this.txtIPA.TabIndex = 10;
             // 
             // txtGrammaticalNotes
             // 
@@ -540,7 +540,7 @@
             this.btnReturntoWordListGrid.Location = new System.Drawing.Point(596, 540);
             this.btnReturntoWordListGrid.Name = "btnReturntoWordListGrid";
             this.btnReturntoWordListGrid.Size = new System.Drawing.Size(237, 23);
-            this.btnReturntoWordListGrid.TabIndex = 40;
+            this.btnReturntoWordListGrid.TabIndex = 0;
             this.btnReturntoWordListGrid.Text = "Back to Word List";
             this.btnReturntoWordListGrid.UseVisualStyleBackColor = true;
             // 
@@ -549,16 +549,34 @@
             this.btnAdd.Location = new System.Drawing.Point(677, 486);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(75, 23);
-            this.btnAdd.TabIndex = 39;
+            this.btnAdd.TabIndex = 18;
             this.btnAdd.Text = "Add New";
             this.btnAdd.UseVisualStyleBackColor = true;
+            // 
+            // btnLast
+            // 
+            this.btnLast.Location = new System.Drawing.Point(780, 433);
+            this.btnLast.Name = "btnLast";
+            this.btnLast.Size = new System.Drawing.Size(53, 23);
+            this.btnLast.TabIndex = 16;
+            this.btnLast.Text = ">>";
+            this.btnLast.UseVisualStyleBackColor = true;
+            // 
+            // btnFirst
+            // 
+            this.btnFirst.Location = new System.Drawing.Point(605, 433);
+            this.btnFirst.Name = "btnFirst";
+            this.btnFirst.Size = new System.Drawing.Size(53, 23);
+            this.btnFirst.TabIndex = 13;
+            this.btnFirst.Text = "<<";
+            this.btnFirst.UseVisualStyleBackColor = true;
             // 
             // btnPrevious
             // 
             this.btnPrevious.Location = new System.Drawing.Point(662, 433);
             this.btnPrevious.Name = "btnPrevious";
             this.btnPrevious.Size = new System.Drawing.Size(53, 23);
-            this.btnPrevious.TabIndex = 36;
+            this.btnPrevious.TabIndex = 14;
             this.btnPrevious.Text = "<";
             this.btnPrevious.UseVisualStyleBackColor = true;
             // 
@@ -567,7 +585,7 @@
             this.btnNext.Location = new System.Drawing.Point(721, 433);
             this.btnNext.Name = "btnNext";
             this.btnNext.Size = new System.Drawing.Size(53, 23);
-            this.btnNext.TabIndex = 35;
+            this.btnNext.TabIndex = 15;
             this.btnNext.Text = ">";
             this.btnNext.UseVisualStyleBackColor = true;
             // 
@@ -576,7 +594,7 @@
             this.btnCancelTab1.Location = new System.Drawing.Point(596, 486);
             this.btnCancelTab1.Name = "btnCancelTab1";
             this.btnCancelTab1.Size = new System.Drawing.Size(75, 23);
-            this.btnCancelTab1.TabIndex = 34;
+            this.btnCancelTab1.TabIndex = 17;
             this.btnCancelTab1.Text = "Cancel";
             this.btnCancelTab1.UseVisualStyleBackColor = true;
             // 
@@ -585,7 +603,7 @@
             this.btnSaveTab1.Location = new System.Drawing.Point(758, 486);
             this.btnSaveTab1.Name = "btnSaveTab1";
             this.btnSaveTab1.Size = new System.Drawing.Size(75, 23);
-            this.btnSaveTab1.TabIndex = 29;
+            this.btnSaveTab1.TabIndex = 19;
             this.btnSaveTab1.Text = "Save";
             this.btnSaveTab1.UseVisualStyleBackColor = true;
             // 
@@ -707,24 +725,6 @@
             this.lblMode.Size = new System.Drawing.Size(34, 13);
             this.lblMode.TabIndex = 31;
             this.lblMode.Text = "Mode";
-            // 
-            // btnLast
-            // 
-            this.btnLast.Location = new System.Drawing.Point(780, 433);
-            this.btnLast.Name = "btnLast";
-            this.btnLast.Size = new System.Drawing.Size(53, 23);
-            this.btnLast.TabIndex = 38;
-            this.btnLast.Text = ">>";
-            this.btnLast.UseVisualStyleBackColor = true;
-            // 
-            // btnFirst
-            // 
-            this.btnFirst.Location = new System.Drawing.Point(605, 433);
-            this.btnFirst.Name = "btnFirst";
-            this.btnFirst.Size = new System.Drawing.Size(53, 23);
-            this.btnFirst.TabIndex = 37;
-            this.btnFirst.Text = "<<";
-            this.btnFirst.UseVisualStyleBackColor = true;
             // 
             // LexiconEntryScreen
             // 
