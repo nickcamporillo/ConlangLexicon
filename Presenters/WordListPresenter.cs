@@ -41,9 +41,11 @@ namespace Presenters
 
             //_view.Datasource = _view.Datasource = ((LexiconService<LexiconRaw>)(_svc)).GetSortedItems();
             _view.Datasource = _svc.GetSortedItems();
+            _view.WordCount = _svc.FindAll().Count.ToString();
+
             var item = _svc.GetFirstItem() as ILexiconSummary;
             _view.Id = item.Id;
-            _view.LanguageId = (int) item.LanguageId;
+            _view.LanguageId = item.LanguageId.ToString();
 
             WireupEvents();
 
@@ -57,6 +59,7 @@ namespace Presenters
             _view.InvokeSearch += SearchInvoke;
             _view.RecordChanged += _view_DataItemChanged;
             _view.AddingRecord += _view_AddingRecord;
+            _view.PageMoveCompleted += RefreshWordList;
 
             //_view.MovedNextRecord += MovedNextRecord;                     
         }
@@ -71,6 +74,12 @@ namespace Presenters
             //Data-bound currentItem refreshes first, so after the refresh, resync with the view's Id property
             var x = _view.CurrentItem as LexiconRaw;            
             _view.Id = (x != null ? x.Id : 0);
+        }
+
+        private void RefreshWordList(object sender, EventArgs e)
+        {
+            _view.Datasource = _svc.GetSortedItems();
+            _view.WordCount = _svc.FindAll().Count.ToString();
         }
 
         private void WordListPresenter_SearchInvoke(object sender, EventArgs e)

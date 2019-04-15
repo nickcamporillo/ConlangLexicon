@@ -9,7 +9,7 @@ namespace IViews
 
         bool IsAddingNewRecord { get; set; }
 
-        int LanguageId { get; set; }
+        string LanguageId { get; set; }
         string Entry { get; set; }
         string IPA { get; set; }
         string Meaning { get; set; }

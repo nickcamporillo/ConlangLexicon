@@ -46,11 +46,21 @@ namespace TestScreens
 
         public int Id
         {
-            get { return int.Parse(lblId.Text); }
-            set { lblId.Text = value.ToString(); }
+            get { return int.Parse(lblEntryId.Text); }
+            set { lblEntryId.Text = value.ToString(); }
         }
 
-        public int LanguageId { get; set; }
+        public string LanguageId
+        {
+            get { return lblLangId.Text; }
+            set { lblLangId.Text = value; }
+        }
+
+        public string WordCount
+        {
+            get { return lblWordCount.Text;}
+            set { lblWordCount.Text = value; }
+        }
 
         public object CurrentItem
         {
@@ -90,6 +100,16 @@ namespace TestScreens
 
             btnAddWord.Click += AddingRecord;
             btnAddWord.Click += btnAddWord_Click;
+
+            btnClear.Click += RefreshScreen;
+
+            PageMoveCompleted += RefreshScreen;
+        }
+
+        private void RefreshScreen(object sender, EventArgs e)
+        {
+            searchBox.ClearSearchBox(sender, e);
+            InvokeSearch?.Invoke(sender, e);
         }
 
         private void btnAddWord_Click(object sender, EventArgs e)
@@ -162,7 +182,6 @@ namespace TestScreens
 
         private void SetToAddMode(object sender, EventArgs e)
         {
-            bool isAdd = true;
             AddingRecord?.Invoke(sender, e);
         }
 
@@ -174,6 +193,7 @@ namespace TestScreens
             btnEditData.Click += NextScreen;
             btnF10.Click += CloseAll;
         }
+
         private void SetCrudEventHandlers()
         {
             //[CBorillo] Don't use this, it's out-of-sync when it fires, the values in the previous row are retained at the time of its firing.
@@ -230,10 +250,11 @@ namespace TestScreens
         public void ResetFlags()
         {
         }
+
         public void Clear()
         {
-        }
 
+        }
 
         public string PreviousFormName { get; set; }
         public string NextFormName { get; set; }
@@ -278,6 +299,11 @@ namespace TestScreens
         public void Close(object sender, EventArgs e)
         {
             
+        }
+
+        public void OnMoveCompleted(object sender, EventArgs e)
+        {
+            PageMoveCompleted?.Invoke(sender, e);
         }
     }
 }
