@@ -35,8 +35,6 @@ namespace IViews
         object Datasource { get; set; }
         object CurrentItem { get; set; }
 
-        void OnMoveCompleted(object sender, EventArgs e);
-
         void MoveFirstRecord(object sender, EventArgs e);
         void MoveLastRecord(object sender, EventArgs e);
         void MoveNextRecord(object sender, EventArgs e);
@@ -45,8 +43,11 @@ namespace IViews
         void SaveRecord(object sender, EventArgs e);
         void AddRecord(object sender, EventArgs e);
 
+        void RefreshData();
         void Show();
         void Hide();
         void Close();
+
+        void OnMoveCompleted(object sender, EventArgs e);
     }
 }
