@@ -23,7 +23,8 @@ namespace TestScreens
         public event EventHandler CloseAll;
         public event EventHandler RecordChanged;
 
-        private string _msg = string.Empty;
+        private const string MSG_CLICK_OK = "Click 'Ok' to continue.";
+        private string _msgCaption = string.Empty;
 
         #region "Properties"
 
@@ -243,42 +244,43 @@ namespace TestScreens
 
         public void MovePreviousRecord(object sender, EventArgs e)
         {
-            _msg = "Previous record";
+            _msgCaption = "Previous record";
         }
 
         public void MoveNextRecord(object sender, EventArgs e)
         {
             //stuff here
-            _msg = "Next record";
+            _msgCaption = "Next record";
         }
 
         public void MoveFirstRecord(object sender, EventArgs e)
         {
-            _msg = "First record";
+            _msgCaption = "First record";
         }
 
         public void MoveLastRecord(object sender, EventArgs e)
         {
             //stuff here
-            _msg = "Last record";
+            _msgCaption = "Last record";
         }
 
         public void Cancel(object sender, EventArgs e)
         {
             //stuff here
-            _msg = "Cancel";
+            _msgCaption = "Cancel";
         }
 
         public void AddRecord(object sender, EventArgs e)
         {
             //stuff here
-            _msg = "Add record";
+            _msgCaption = "Add record";
         }
 
         public void SaveRecord(object sender, EventArgs e)
         {
-            _msg = "Saving record";
+            _msgCaption = "Saving record";
             UpdateItem?.Invoke(sender, e);
+            MessageBox.Show(MSG_CLICK_OK, _msgCaption, MessageBoxButtons.OK);
         }
 
         public void Close(object sender, EventArgs e)
@@ -288,7 +290,7 @@ namespace TestScreens
 
         private void Message(object sender, EventArgs e)
         {
-            MessageBox.Show(_msg);
+            MessageBox.Show(_msgCaption);
         }
 
         public void OnMoveCompleted(object sender, EventArgs e)
