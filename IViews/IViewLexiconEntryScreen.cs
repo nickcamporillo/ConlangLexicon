@@ -9,6 +9,8 @@ namespace IViews
 
         bool IsAddingNewRecord { get; set; }
 
+        string WordCount { get; set; }
+
         string LanguageId { get; set; }
         string Entry { get; set; }
         string IPA { get; set; }

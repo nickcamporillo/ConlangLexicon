@@ -35,6 +35,8 @@ namespace TestScreens
             set { lblMode.Text = (value ? "Adding" : "Editing"); }
         }
 
+        public string WordCount { get; set; }
+
         public object Datasource { get; set; }
         public object CurrentItem { get; set; }
 
