@@ -45,7 +45,7 @@ namespace Presenters
 
             var item = _svc.GetFirstItem() as ILexiconSummary;
             _view.Id = item.Id;
-            _view.LanguageId = item.LanguageId.ToString();
+            _view.LanguageId = (int) item.LanguageId;
 
             WireupEvents();
 

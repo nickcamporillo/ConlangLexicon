@@ -263,11 +263,8 @@ namespace TestScreens
                     if (nextForm != null)
                     {
                         SetFormAttributes(ref nextForm, currentForm, NavigationDirection.Forward);
-
-                        if (nextForm is IViewLexiconEntryScreen)
-                        {
-                            ((IViewLexiconEntryScreen)(nextForm)).RefreshData();                            
-                        }
+                        
+                        nextForm.RefreshData();
                         
                         nextForm.OnMoveCompleted(sender, e);                       
                         nextForm.Show();

@@ -18,6 +18,7 @@ namespace TestScreens
         public event DataGridViewCellEventHandler MovedNextRecord;
         public event EventHandler RecordChanged;
         public event EventHandler InvokeSearch;
+        public event EventHandler EditingRecord;
 
         private IPresenter _presenter;
 
@@ -50,10 +51,15 @@ namespace TestScreens
             set { lblEntryId.Text = value.ToString(); }
         }
 
-        public string LanguageId
+        private int _languageId = -1;
+        public int LanguageId
         {
-            get { return lblLangId.Text; }
-            set { lblLangId.Text = value; }
+            get { return _languageId; }
+            set
+            {
+                _languageId = value;
+                lblLangId.Text = _languageId.ToString();
+            }
         }
 
         public string WordCount
@@ -259,7 +265,7 @@ namespace TestScreens
         public string PreviousFormName { get; set; }
         public string NextFormName { get; set; }
         public ConfirmNavigation ConfirmNavigateToPreviousScreen { get; set; }
-        public ConfirmNavigation ConfirmNavigateToNextScreen { get; set; }
+        public ConfirmNavigation ConfirmNavigateToNextScreen { get; set; }        
 
         public void MoveFirstRecord(object sender, EventArgs e)
         {
@@ -304,6 +310,11 @@ namespace TestScreens
         public void OnMoveCompleted(object sender, EventArgs e)
         {
             PageMoveCompleted?.Invoke(sender, e);
+        }
+
+        public void RefreshData()
+        {
+            string s = "3";
         }
     }
 }

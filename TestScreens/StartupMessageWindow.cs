@@ -79,5 +79,10 @@ namespace TestScreens
         {
             PageMoveCompleted?.Invoke(sender, e);
         }
+
+        public void RefreshData()
+        {
+            string s = "3";
+        }
     }
 }
