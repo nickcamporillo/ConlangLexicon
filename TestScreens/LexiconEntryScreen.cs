@@ -5,7 +5,7 @@ using IPresenters;
 using IViews;
 using Models;
 using Presenters;
-using LexServices;
+using Services;
 
 namespace TestScreens
 {
@@ -23,8 +23,7 @@ namespace TestScreens
         public event EventHandler CloseAll;
         public event EventHandler RecordChanged;
 
-        private const string MSG_CLICK_OK = "Click 'Ok' to continue.";
-        private string _msgCaption = string.Empty;
+        private string _msg = string.Empty;
 
         #region "Properties"
 
@@ -35,26 +34,25 @@ namespace TestScreens
             set { lblMode.Text = (value ? "Adding" : "Editing"); }
         }
 
-        public string WordCount { get; set; }
-
-        public object Datasource { get; set; }
-        public object CurrentItem { get; set; }
-
-        public string PreviousFormName { get; set; }
-        public string NextFormName { get; set; }
-        public ConfirmNavigation ConfirmNavigateToPreviousScreen { get; set; }
-        public ConfirmNavigation ConfirmNavigateToNextScreen { get; set; }
-
         public int Id
         {
             get { return int.Parse(lblId.Text); }
             set { lblId.Text = value.ToString();}
         }
 
-        public string LanguageId 
+        public int LanguageId 
         {
-            get {return lblLanguageId.Text; }
-            set {lblLanguageId.Text = value;} 
+            get 
+            {
+                var retVal = 0;
+                bool success = int.TryParse(lblLanguageId.Text, out retVal);
+ 
+                return (success ? retVal : -99); 
+            }
+            set
+            {
+                lblLanguageId.Text = value.ToString();
+            } 
         }
 
         public string Entry 
@@ -118,6 +116,7 @@ namespace TestScreens
         public LexiconEntryScreen(IPresenter presenter)
         {
             InitializeComponent();
+            
 
             _presenter = presenter as LexiconEntryPresenter<LexiconRaw, ILexiconService<LexiconRaw>>;
         }
@@ -134,11 +133,21 @@ namespace TestScreens
 
             LoadEventHandlers();
             SetFormNavigationHandlers();
-           
+            SetTabOrder();
+            //Activated += ((BuilderPresenter)(_presenter)).RefreshBuilderDataBinding;
+            //Activated += UpdateItem; //See Presenter. This is hooked up to "RefreshBuilder(object sender, EventArgs e)"
         }
 
         private void LoadEventHandlers()
         {
+            btnFirst.Click += Message;
+            btnFirst.Click += SaveRecord;
+            btnFirst.Click += MoveFirstRecord;            
+
+            btnLast.Click += Message;
+            btnLast.Click += SaveRecord;
+            btnLast.Click += MoveLastRecord;            
+
             btnNext.Click += Message;
             btnNext.Click += SaveRecord;
             btnNext.Click += MoveNextRecord;
@@ -148,64 +157,56 @@ namespace TestScreens
             btnPrevious.Click += MovePreviousRecord;
 
             btnCancelTab1.Click += Cancel;
-            btnCancelTab1.Click += EnableButtonsOnSaveOrCancelOrReturn;
-
             btnCancelTab2.Click += Cancel;
-            btnCancelTab2.Click += EnableButtonsOnSaveOrCancelOrReturn;
-            //btnCancelTab1.Click += SetAddModeOff;  (No, you might be in the middle of an Add, and want to restart your Add again!)
 
             btnSaveTab1.Click += SaveRecord;
-            btnSaveTab1.Click += EnableButtonsOnSaveOrCancelOrReturn;
-            btnSaveTab1.Click += SetAddModeOff;
-
             btnSaveTab2.Click += SaveRecord;
-            btnSaveTab2.Click += EnableButtonsOnSaveOrCancelOrReturn;
-            btnSaveTab2.Click += SetAddModeOff;
 
-            btnReturntoWordListGrid.Click += PromptSaveOnDepartIfChanged;
-            btnReturntoWordListGrid.Click += SetAddModeOff;
-            btnReturntoWordListGrid.Click += ReturnToPreviousScreen;
-
-            btnAdd.Click += DisableButtonsOnAdd;
             btnAdd.Click += Message;
+            btnAdd.Click += SaveRecord;
+            btnAdd.Click += AddRecord;
         }
-
-        private void SetAddModeOff(object sender, EventArgs e)
+        private void SetTabOrder()
         {
-            IsAddingNewRecord = false;
-        }
+            txtEntry.TabIndex = 1;
+            txtMeaning.TabIndex = 2;
+            txtSecondaryMeanings.TabIndex = 3;
+            txtNounIncorporatedForm.TabIndex = 4;
+            txtAlternateForms.TabIndex = 5;
+            txtGender.TabIndex = 6;
+            txtPos.TabIndex = 7;
+            txtPosSubtype.TabIndex = 8;
+            txtDomain.TabIndex = 9;
+            txtIPA.TabIndex = 10;
 
-        private void ReturnToPreviousScreen(object sender, EventArgs e)
-        {
-            PreviousScreen?.Invoke(sender, e);
-        }
+            panelDialectAndRegister.TabIndex = 11;
 
-        private void PromptSaveOnDepartIfChanged(object sender, EventArgs e)
-        {
-            MessageBox.Show("Add code here - use PropertyChangedEvents", "Not implemented",MessageBoxButtons.OK);
-        }
+            txtDialect.TabIndex = 13;
+            txtRegister.TabIndex = 14;
+            btnSaveTab1.TabIndex = 15;
+            btnAdd.TabIndex = 16;
+            btnCancelTab1.TabIndex = 17;
+            btnGotoWordListGrid.TabIndex = 18;
 
-        private void DisableButtonsOnAdd(object sender, EventArgs e)
-        {
-            ToggleButtonEnabling(false);
-        }
+            panelEtymologyAndSynonyms.TabIndex = 19;
 
-        private void EnableButtonsOnSaveOrCancelOrReturn(object sender, EventArgs e)
-        {
-            ToggleButtonEnabling(true);
-        }
+            txtEtymology.TabIndex = 20;
+            txtSynonyms.TabIndex = 21;
 
-        private void ToggleButtonEnabling(bool enable)
-        {
-            btnDeactivate.Enabled = enable;
-            btnReactivate.Enabled = enable;
-            btnFirst.Enabled = enable;
-            btnLast.Enabled = enable;
-            btnNext.Enabled = enable;
-            btnPrevious.Enabled = enable;
-            btnAdd.Enabled = enable;
-        }
+            panelNotes.TabIndex = 22;
+            txtGrammaticalNotes.TabIndex = 23;
+            
+            txtAdditionalNotes.TabIndex = 24;
 
+            btnSaveTab2.TabIndex = 101;
+            btnCancelTab2.TabIndex = 102;
+            btnReturnToWordListGrid.TabIndex = 103;
+
+            panelDateControl.TabIndex = 200;
+            btnDeactivate.TabIndex = 201;
+            btnReactivate.TabIndex = 202;
+
+        }
         public void RefreshData()
         {
             PageMoveCompleted?.Invoke(this, new EventArgs());
@@ -213,9 +214,11 @@ namespace TestScreens
 
         private void SetFormNavigationHandlers()
         {
-            btnReturntoWordListGrid.Click += ClearAll;
-            btnReturntoWordListGrid.Click += NextScreen;
-            //btnF10.Click += CloseAll;
+            btnGotoWordListGrid.Click += ClearAll;
+            btnGotoWordListGrid.Click += NextScreen;
+
+            btnReturnToWordListGrid.Click += ClearAll;
+            btnReturnToWordListGrid.Click += NextScreen;
         }
 
         private void ClearAll(object sender, EventArgs e)
@@ -242,47 +245,62 @@ namespace TestScreens
             AlternateForms = string.Empty;
             EntryDate = string.Empty;
             DeactivatedDate = string.Empty;
+
+            IsAddingNewRecord = false;
+        }
+
+        public override void Refresh()
+        {
+
         }
 
         public void MovePreviousRecord(object sender, EventArgs e)
         {
-            _msgCaption = "Previous record";
+            _msg = "Previous record";
         }
 
         public void MoveNextRecord(object sender, EventArgs e)
         {
             //stuff here
-            _msgCaption = "Next record";
+            _msg = "Next record";
         }
 
         public void MoveFirstRecord(object sender, EventArgs e)
         {
-            _msgCaption = "First record";
+            _msg = "First record";
         }
 
         public void MoveLastRecord(object sender, EventArgs e)
         {
             //stuff here
-            _msgCaption = "Last record";
+            _msg = "Last record";
         }
 
         public void Cancel(object sender, EventArgs e)
         {
             //stuff here
-            _msgCaption = "Cancel";
+            _msg = "Cancel";
         }
 
         public void AddRecord(object sender, EventArgs e)
         {
             //stuff here
-            _msgCaption = "Add record";
+            _msg = "Add record";
         }
 
         public void SaveRecord(object sender, EventArgs e)
         {
-            _msgCaption = "Saving record";
-            UpdateItem?.Invoke(sender, e);
-            MessageBox.Show(MSG_CLICK_OK, _msgCaption, MessageBoxButtons.OK);
+            _msg = "Click 'Ok' to continue.";
+            try
+            {
+                UpdateItem?.Invoke(sender, e);
+                IsAddingNewRecord = false;
+                MessageBox.Show(_msg, "Record Saved", MessageBoxButtons.OK);
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show("Check log", "Record NOT Saved", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);                
+            }
         }
 
         public void Close(object sender, EventArgs e)
@@ -292,14 +310,24 @@ namespace TestScreens
 
         private void Message(object sender, EventArgs e)
         {
-            MessageBox.Show(_msgCaption);
+            MessageBox.Show(_msg);
         }
 
-        public void OnMoveCompleted(object sender, EventArgs e)
-        {            
-            PageMoveCompleted?.Invoke(sender, e);
-            txtEntry.Focus();
-            txtEntry.SelectAll();
+        public object Datasource
+        {
+            get;
+            set;
         }
+
+        public object CurrentItem
+        {
+            get;
+            set;
+        }
+
+        public string PreviousFormName { get; set; }
+        public string NextFormName { get; set; }
+        public ConfirmNavigation ConfirmNavigateToPreviousScreen { get; set; }
+        public ConfirmNavigation ConfirmNavigateToNextScreen { get; set; }
     }
 }

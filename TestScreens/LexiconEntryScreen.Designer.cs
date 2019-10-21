@@ -73,7 +73,7 @@
             this.panelNotes = new System.Windows.Forms.Panel();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.btnReturntoWordListGrid = new System.Windows.Forms.Button();
+            this.btnGotoWordListGrid = new System.Windows.Forms.Button();
             this.btnAdd = new System.Windows.Forms.Button();
             this.btnLast = new System.Windows.Forms.Button();
             this.btnFirst = new System.Windows.Forms.Button();
@@ -93,6 +93,7 @@
             this.label13 = new System.Windows.Forms.Label();
             this.lblId = new System.Windows.Forms.Label();
             this.lblMode = new System.Windows.Forms.Label();
+            this.btnReturnToWordListGrid = new System.Windows.Forms.Button();
             this.panelDateControl.SuspendLayout();
             this.panelEntry.SuspendLayout();
             this.panelDialectAndRegister.SuspendLayout();
@@ -110,7 +111,7 @@
             this.txtEntry.Location = new System.Drawing.Point(135, 4);
             this.txtEntry.Name = "txtEntry";
             this.txtEntry.Size = new System.Drawing.Size(321, 20);
-            this.txtEntry.TabIndex = 1;
+            this.txtEntry.TabIndex = 0;
             // 
             // txtMeaning
             // 
@@ -118,7 +119,7 @@
             this.txtMeaning.Multiline = true;
             this.txtMeaning.Name = "txtMeaning";
             this.txtMeaning.Size = new System.Drawing.Size(321, 76);
-            this.txtMeaning.TabIndex = 2;
+            this.txtMeaning.TabIndex = 1;
             // 
             // txtSecondaryMeanings
             // 
@@ -126,42 +127,42 @@
             this.txtSecondaryMeanings.Multiline = true;
             this.txtSecondaryMeanings.Name = "txtSecondaryMeanings";
             this.txtSecondaryMeanings.Size = new System.Drawing.Size(321, 43);
-            this.txtSecondaryMeanings.TabIndex = 3;
+            this.txtSecondaryMeanings.TabIndex = 0;
             // 
             // txtPos
             // 
             this.txtPos.Location = new System.Drawing.Point(102, 81);
             this.txtPos.Name = "txtPos";
             this.txtPos.Size = new System.Drawing.Size(156, 20);
-            this.txtPos.TabIndex = 7;
+            this.txtPos.TabIndex = 0;
             // 
             // txtPosSubtype
             // 
             this.txtPosSubtype.Location = new System.Drawing.Point(137, 118);
             this.txtPosSubtype.Name = "txtPosSubtype";
             this.txtPosSubtype.Size = new System.Drawing.Size(121, 20);
-            this.txtPosSubtype.TabIndex = 8;
+            this.txtPosSubtype.TabIndex = 0;
             // 
             // txtGender
             // 
             this.txtGender.Location = new System.Drawing.Point(102, 31);
             this.txtGender.Name = "txtGender";
             this.txtGender.Size = new System.Drawing.Size(156, 20);
-            this.txtGender.TabIndex = 6;
+            this.txtGender.TabIndex = 0;
             // 
             // txtNounIncorporatedForm
             // 
             this.txtNounIncorporatedForm.Location = new System.Drawing.Point(135, 173);
             this.txtNounIncorporatedForm.Name = "txtNounIncorporatedForm";
             this.txtNounIncorporatedForm.Size = new System.Drawing.Size(321, 20);
-            this.txtNounIncorporatedForm.TabIndex = 4;
+            this.txtNounIncorporatedForm.TabIndex = 0;
             // 
             // txtAlternateForms
             // 
             this.txtAlternateForms.Location = new System.Drawing.Point(135, 204);
             this.txtAlternateForms.Name = "txtAlternateForms";
             this.txtAlternateForms.Size = new System.Drawing.Size(321, 20);
-            this.txtAlternateForms.TabIndex = 5;
+            this.txtAlternateForms.TabIndex = 0;
             // 
             // txtDialect
             // 
@@ -170,21 +171,21 @@
             this.txtDialect.Name = "txtDialect";
             this.txtDialect.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.txtDialect.Size = new System.Drawing.Size(282, 114);
-            this.txtDialect.TabIndex = 11;
+            this.txtDialect.TabIndex = 0;
             // 
             // txtRegister
             // 
             this.txtRegister.Location = new System.Drawing.Point(57, 134);
             this.txtRegister.Name = "txtRegister";
             this.txtRegister.Size = new System.Drawing.Size(282, 20);
-            this.txtRegister.TabIndex = 12;
+            this.txtRegister.TabIndex = 0;
             // 
             // txtDomain
             // 
             this.txtDomain.Location = new System.Drawing.Point(102, 175);
             this.txtDomain.Name = "txtDomain";
             this.txtDomain.Size = new System.Drawing.Size(434, 20);
-            this.txtDomain.TabIndex = 9;
+            this.txtDomain.TabIndex = 0;
             // 
             // txtSynonyms
             // 
@@ -211,7 +212,7 @@
             this.txtIPA.Name = "txtIPA";
             this.txtIPA.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.txtIPA.Size = new System.Drawing.Size(522, 72);
-            this.txtIPA.TabIndex = 10;
+            this.txtIPA.TabIndex = 0;
             // 
             // txtGrammaticalNotes
             // 
@@ -380,7 +381,7 @@
             this.btnDeactivate.Location = new System.Drawing.Point(257, 12);
             this.btnDeactivate.Name = "btnDeactivate";
             this.btnDeactivate.Size = new System.Drawing.Size(76, 23);
-            this.btnDeactivate.TabIndex = 20;
+            this.btnDeactivate.TabIndex = 0;
             this.btnDeactivate.Text = "Deactivate";
             this.btnDeactivate.UseVisualStyleBackColor = true;
             // 
@@ -389,7 +390,7 @@
             this.btnReactivate.Location = new System.Drawing.Point(257, 55);
             this.btnReactivate.Name = "btnReactivate";
             this.btnReactivate.Size = new System.Drawing.Size(76, 23);
-            this.btnReactivate.TabIndex = 21;
+            this.btnReactivate.TabIndex = 0;
             this.btnReactivate.Text = "Reactivate";
             this.btnReactivate.UseVisualStyleBackColor = true;
             // 
@@ -508,7 +509,7 @@
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage2);
             this.tabControl1.HotTrack = true;
-            this.tabControl1.Location = new System.Drawing.Point(12, 112);
+            this.tabControl1.Location = new System.Drawing.Point(12, 114);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(884, 635);
@@ -517,7 +518,7 @@
             // tabPage1
             // 
             this.tabPage1.BackColor = System.Drawing.Color.Silver;
-            this.tabPage1.Controls.Add(this.btnReturntoWordListGrid);
+            this.tabPage1.Controls.Add(this.btnGotoWordListGrid);
             this.tabPage1.Controls.Add(this.btnAdd);
             this.tabPage1.Controls.Add(this.btnLast);
             this.tabPage1.Controls.Add(this.btnFirst);
@@ -535,66 +536,74 @@
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Main";
             // 
-            // btnReturntoWordListGrid
+            // btnGotoWordListGrid
             // 
-            this.btnReturntoWordListGrid.Location = new System.Drawing.Point(596, 540);
-            this.btnReturntoWordListGrid.Name = "btnReturntoWordListGrid";
-            this.btnReturntoWordListGrid.Size = new System.Drawing.Size(237, 23);
-            this.btnReturntoWordListGrid.TabIndex = 0;
-            this.btnReturntoWordListGrid.Text = "Back to Word List";
-            this.btnReturntoWordListGrid.UseVisualStyleBackColor = true;
+            this.btnGotoWordListGrid.Location = new System.Drawing.Point(596, 540);
+            this.btnGotoWordListGrid.Name = "btnGotoWordListGrid";
+            this.btnGotoWordListGrid.Size = new System.Drawing.Size(237, 23);
+            this.btnGotoWordListGrid.TabIndex = 40;
+            this.btnGotoWordListGrid.Text = "Back to Word List";
+            this.btnGotoWordListGrid.UseVisualStyleBackColor = true;
             // 
             // btnAdd
             // 
             this.btnAdd.Location = new System.Drawing.Point(677, 486);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(75, 23);
-            this.btnAdd.TabIndex = 18;
+            this.btnAdd.TabIndex = 39;
             this.btnAdd.Text = "Add New";
             this.btnAdd.UseVisualStyleBackColor = true;
             // 
             // btnLast
             // 
+            this.btnLast.Enabled = false;
             this.btnLast.Location = new System.Drawing.Point(780, 433);
             this.btnLast.Name = "btnLast";
             this.btnLast.Size = new System.Drawing.Size(53, 23);
-            this.btnLast.TabIndex = 16;
+            this.btnLast.TabIndex = 38;
             this.btnLast.Text = ">>";
             this.btnLast.UseVisualStyleBackColor = true;
+            this.btnLast.Visible = false;
             // 
             // btnFirst
             // 
+            this.btnFirst.Enabled = false;
             this.btnFirst.Location = new System.Drawing.Point(605, 433);
             this.btnFirst.Name = "btnFirst";
             this.btnFirst.Size = new System.Drawing.Size(53, 23);
-            this.btnFirst.TabIndex = 13;
+            this.btnFirst.TabIndex = 37;
             this.btnFirst.Text = "<<";
             this.btnFirst.UseVisualStyleBackColor = true;
+            this.btnFirst.Visible = false;
             // 
             // btnPrevious
             // 
+            this.btnPrevious.Enabled = false;
             this.btnPrevious.Location = new System.Drawing.Point(662, 433);
             this.btnPrevious.Name = "btnPrevious";
             this.btnPrevious.Size = new System.Drawing.Size(53, 23);
-            this.btnPrevious.TabIndex = 14;
+            this.btnPrevious.TabIndex = 36;
             this.btnPrevious.Text = "<";
             this.btnPrevious.UseVisualStyleBackColor = true;
+            this.btnPrevious.Visible = false;
             // 
             // btnNext
             // 
+            this.btnNext.Enabled = false;
             this.btnNext.Location = new System.Drawing.Point(721, 433);
             this.btnNext.Name = "btnNext";
             this.btnNext.Size = new System.Drawing.Size(53, 23);
-            this.btnNext.TabIndex = 15;
+            this.btnNext.TabIndex = 35;
             this.btnNext.Text = ">";
             this.btnNext.UseVisualStyleBackColor = true;
+            this.btnNext.Visible = false;
             // 
             // btnCancelTab1
             // 
             this.btnCancelTab1.Location = new System.Drawing.Point(596, 486);
             this.btnCancelTab1.Name = "btnCancelTab1";
             this.btnCancelTab1.Size = new System.Drawing.Size(75, 23);
-            this.btnCancelTab1.TabIndex = 17;
+            this.btnCancelTab1.TabIndex = 34;
             this.btnCancelTab1.Text = "Cancel";
             this.btnCancelTab1.UseVisualStyleBackColor = true;
             // 
@@ -603,13 +612,14 @@
             this.btnSaveTab1.Location = new System.Drawing.Point(758, 486);
             this.btnSaveTab1.Name = "btnSaveTab1";
             this.btnSaveTab1.Size = new System.Drawing.Size(75, 23);
-            this.btnSaveTab1.TabIndex = 19;
+            this.btnSaveTab1.TabIndex = 29;
             this.btnSaveTab1.Text = "Save";
             this.btnSaveTab1.UseVisualStyleBackColor = true;
             // 
             // tabPage2
             // 
             this.tabPage2.BackColor = System.Drawing.Color.Silver;
+            this.tabPage2.Controls.Add(this.btnReturnToWordListGrid);
             this.tabPage2.Controls.Add(this.btnCancelTab2);
             this.tabPage2.Controls.Add(this.txtMeaningDisplay);
             this.tabPage2.Controls.Add(this.label12);
@@ -670,7 +680,7 @@
             // 
             // btnSaveTab2
             // 
-            this.btnSaveTab2.Location = new System.Drawing.Point(439, 525);
+            this.btnSaveTab2.Location = new System.Drawing.Point(271, 525);
             this.btnSaveTab2.Name = "btnSaveTab2";
             this.btnSaveTab2.Size = new System.Drawing.Size(75, 23);
             this.btnSaveTab2.TabIndex = 28;
@@ -726,10 +736,20 @@
             this.lblMode.TabIndex = 31;
             this.lblMode.Text = "Mode";
             // 
+            // btnReturnToWordListGrid
+            // 
+            this.btnReturnToWordListGrid.Location = new System.Drawing.Point(459, 525);
+            this.btnReturnToWordListGrid.Name = "btnReturnToWordListGrid";
+            this.btnReturnToWordListGrid.Size = new System.Drawing.Size(150, 23);
+            this.btnReturnToWordListGrid.TabIndex = 34;
+            this.btnReturnToWordListGrid.Text = "Back to Word List";
+            this.btnReturnToWordListGrid.UseVisualStyleBackColor = true;
+            // 
             // LexiconEntryScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ClientSize = new System.Drawing.Size(908, 772);
             this.Controls.Add(this.lblMode);
             this.Controls.Add(this.lblId);
@@ -821,14 +841,15 @@
         private System.Windows.Forms.Button btnCancelTab1;
         private System.Windows.Forms.Button btnPrevious;
         private System.Windows.Forms.Button btnNext;
+        private System.Windows.Forms.Button btnLast;
+        private System.Windows.Forms.Button btnFirst;
         private System.Windows.Forms.Button btnAdd;
         private System.Windows.Forms.Label lblLanguageId;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Button btnReturntoWordListGrid;
+        private System.Windows.Forms.Button btnGotoWordListGrid;
         private System.Windows.Forms.Label lblId;
         private System.Windows.Forms.Label lblMode;
-        private System.Windows.Forms.Button btnLast;
-        private System.Windows.Forms.Button btnFirst;
+        private System.Windows.Forms.Button btnReturnToWordListGrid;
     }
 }
 

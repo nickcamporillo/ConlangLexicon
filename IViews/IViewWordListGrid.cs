@@ -8,7 +8,7 @@ namespace IViews
         event EventHandler InvokeSearch;
         event EventHandler AddingRecord;
         event EventHandler EditingRecord;
-        string WordCount { get; set; }
+        event EventHandler ExportToFile;
         int LanguageId { get; set; }
         bool SearchFromStart { get; }        
         bool SearchWordContains { get; }

@@ -47,7 +47,5 @@ namespace IViews
         void Show();
         void Hide();
         void Close();
-
-        void OnMoveCompleted(object sender, EventArgs e);
     }
 }

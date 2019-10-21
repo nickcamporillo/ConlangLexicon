@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 
-namespace LexServices
+namespace Services
 {
     public class LexiconService<T> : BaseService<T>, ILexiconService<T> where T:class,new()
     {

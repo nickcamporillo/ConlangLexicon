@@ -5,7 +5,9 @@ using IPresenters;
 using Models;
 using IServices;
 using Utilties;
-using LexServices;
+using Services;
+using Presenters.FileWriters;
+using System.Collections.Generic;
 
 namespace Presenters
 {
@@ -17,6 +19,7 @@ namespace Presenters
 
         private ILexiconService<T>  _svc;
         private IViewWordListGrid _view;
+        private IFileWriter _exporter = new ExportToExcel();
 
         public bool SetupComplete
         {
@@ -37,12 +40,9 @@ namespace Presenters
         //Note: SetUp() should be called only once per instantiation, within the Load event of the View class.
         public void Setup(IView view)
         {
-            _view = view as IViewWordListGrid;            
+            _view = view as IViewWordListGrid;
 
-            //_view.Datasource = _view.Datasource = ((LexiconService<LexiconRaw>)(_svc)).GetSortedItems();
             _view.Datasource = _svc.GetSortedItems();
-            _view.WordCount = _svc.FindAll().Count.ToString();
-
             var item = _svc.GetFirstItem() as ILexiconSummary;
             _view.Id = item.Id;
             _view.LanguageId = (int) item.LanguageId;
@@ -59,7 +59,8 @@ namespace Presenters
             _view.InvokeSearch += SearchInvoke;
             _view.RecordChanged += _view_DataItemChanged;
             _view.AddingRecord += _view_AddingRecord;
-            _view.PageMoveCompleted += RefreshWordList;
+            _view.ExportToFile += _view_ExportingToFile;
+            _view.PageMoveCompleted += CompletedPageMove;
 
             //_view.MovedNextRecord += MovedNextRecord;                     
         }
@@ -68,18 +69,22 @@ namespace Presenters
         {
             string s = "3";
         }
+        private void _view_ExportingToFile(object sender, EventArgs e)
+        {
+            var resultSet = _svc.FindAll() as List<LexiconRaw>;
+            _exporter.WriteFile<LexiconRaw>(resultSet);
+        }
+
+        private void CompletedPageMove(object sender, EventArgs e)
+        {
+            _view.Datasource = _svc.FindAll();
+        }
 
         private void _view_DataItemChanged(object sender, EventArgs e)
         {
             //Data-bound currentItem refreshes first, so after the refresh, resync with the view's Id property
             var x = _view.CurrentItem as LexiconRaw;            
             _view.Id = (x != null ? x.Id : 0);
-        }
-
-        private void RefreshWordList(object sender, EventArgs e)
-        {
-            _view.Datasource = _svc.GetSortedItems();
-            _view.WordCount = _svc.FindAll().Count.ToString();
         }
 
         private void WordListPresenter_SearchInvoke(object sender, EventArgs e)

@@ -30,6 +30,7 @@ namespace TestScreens
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.dgWordList = new System.Windows.Forms.DataGridView();
             this.btnEditData = new System.Windows.Forms.Button();
             this.btnF10 = new System.Windows.Forms.Button();
@@ -37,14 +38,12 @@ namespace TestScreens
             this.grpSearchType = new System.Windows.Forms.GroupBox();
             this.rbContains = new System.Windows.Forms.RadioButton();
             this.rbStartsWith = new System.Windows.Forms.RadioButton();
-            this.lblEntryId = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.lblLangId = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.lblWordCount = new System.Windows.Forms.Label();
             this.searchBox = new TestScreens.SearchBox();
-            this.btnClear = new System.Windows.Forms.Button();
+            this.lblId = new System.Windows.Forms.Label();
+            this.btnReset = new System.Windows.Forms.Button();
+            this.lblTime = new System.Windows.Forms.Label();
+            this.timerDisplay = new System.Windows.Forms.Timer(this.components);
+            this.btnExportToExcel = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgWordList)).BeginInit();
             this.grpSearchType.SuspendLayout();
             this.SuspendLayout();
@@ -52,7 +51,7 @@ namespace TestScreens
             // dgWordList
             // 
             this.dgWordList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgWordList.Location = new System.Drawing.Point(28, 211);
+            this.dgWordList.Location = new System.Drawing.Point(27, 171);
             this.dgWordList.MultiSelect = false;
             this.dgWordList.Name = "dgWordList";
             this.dgWordList.Size = new System.Drawing.Size(858, 325);
@@ -60,7 +59,7 @@ namespace TestScreens
             // 
             // btnEditData
             // 
-            this.btnEditData.Location = new System.Drawing.Point(426, 559);
+            this.btnEditData.Location = new System.Drawing.Point(425, 519);
             this.btnEditData.Name = "btnEditData";
             this.btnEditData.Size = new System.Drawing.Size(106, 23);
             this.btnEditData.TabIndex = 9;
@@ -70,7 +69,7 @@ namespace TestScreens
             // btnF10
             // 
             this.btnF10.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnF10.Location = new System.Drawing.Point(680, 96);
+            this.btnF10.Location = new System.Drawing.Point(625, 55);
             this.btnF10.Name = "btnF10";
             this.btnF10.Size = new System.Drawing.Size(75, 23);
             this.btnF10.TabIndex = 10;
@@ -79,7 +78,7 @@ namespace TestScreens
             // 
             // btnAddWord
             // 
-            this.btnAddWord.Location = new System.Drawing.Point(310, 559);
+            this.btnAddWord.Location = new System.Drawing.Point(309, 519);
             this.btnAddWord.Name = "btnAddWord";
             this.btnAddWord.Size = new System.Drawing.Size(106, 23);
             this.btnAddWord.TabIndex = 11;
@@ -90,7 +89,7 @@ namespace TestScreens
             // 
             this.grpSearchType.Controls.Add(this.rbContains);
             this.grpSearchType.Controls.Add(this.rbStartsWith);
-            this.grpSearchType.Location = new System.Drawing.Point(76, 114);
+            this.grpSearchType.Location = new System.Drawing.Point(75, 93);
             this.grpSearchType.Name = "grpSearchType";
             this.grpSearchType.Size = new System.Drawing.Size(200, 72);
             this.grpSearchType.TabIndex = 12;
@@ -120,92 +119,62 @@ namespace TestScreens
             this.rbStartsWith.Text = "Starts With";
             this.rbStartsWith.UseVisualStyleBackColor = true;
             // 
-            // lblEntryId
-            // 
-            this.lblEntryId.AutoSize = true;
-            this.lblEntryId.Location = new System.Drawing.Point(73, 30);
-            this.lblEntryId.Name = "lblEntryId";
-            this.lblEntryId.Size = new System.Drawing.Size(35, 13);
-            this.lblEntryId.TabIndex = 13;
-            this.lblEntryId.Text = "label1";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(21, 30);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(46, 13);
-            this.label1.TabIndex = 14;
-            this.label1.Text = "Entry Id:";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(3, 9);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(70, 13);
-            this.label2.TabIndex = 15;
-            this.label2.Text = "Language Id:";
-            // 
-            // lblLangId
-            // 
-            this.lblLangId.AutoSize = true;
-            this.lblLangId.Location = new System.Drawing.Point(73, 9);
-            this.lblLangId.Name = "lblLangId";
-            this.lblLangId.Size = new System.Drawing.Size(35, 13);
-            this.lblLangId.TabIndex = 16;
-            this.lblLangId.Text = "label1";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(423, 9);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(67, 13);
-            this.label3.TabIndex = 17;
-            this.label3.Text = "Word Count:";
-            // 
-            // lblWordCount
-            // 
-            this.lblWordCount.AutoSize = true;
-            this.lblWordCount.Location = new System.Drawing.Point(496, 9);
-            this.lblWordCount.Name = "lblWordCount";
-            this.lblWordCount.Size = new System.Drawing.Size(67, 13);
-            this.lblWordCount.TabIndex = 18;
-            this.lblWordCount.Text = "Word Count:";
-            // 
             // searchBox
             // 
             this.searchBox.IconLocation = null;
             this.searchBox.InstructionText = "Find Word";
-            this.searchBox.Location = new System.Drawing.Point(28, 67);
+            this.searchBox.Location = new System.Drawing.Point(27, 46);
             this.searchBox.Name = "searchBox";
             this.searchBox.SearchText = "";
             this.searchBox.SearchType = Utilties.SearchMode.ByEntry;
             this.searchBox.Size = new System.Drawing.Size(402, 43);
             this.searchBox.TabIndex = 8;
             // 
-            // btnClear
+            // lblId
             // 
-            this.btnClear.Location = new System.Drawing.Point(549, 559);
-            this.btnClear.Name = "btnClear";
-            this.btnClear.Size = new System.Drawing.Size(106, 23);
-            this.btnClear.TabIndex = 19;
-            this.btnClear.Text = "Clear";
-            this.btnClear.UseVisualStyleBackColor = true;
+            this.lblId.AutoSize = true;
+            this.lblId.Location = new System.Drawing.Point(27, 13);
+            this.lblId.Name = "lblId";
+            this.lblId.Size = new System.Drawing.Size(35, 13);
+            this.lblId.TabIndex = 13;
+            this.lblId.Text = "label1";
+            // 
+            // btnReset
+            // 
+            this.btnReset.Location = new System.Drawing.Point(564, 519);
+            this.btnReset.Name = "btnReset";
+            this.btnReset.Size = new System.Drawing.Size(106, 23);
+            this.btnReset.TabIndex = 14;
+            this.btnReset.Text = "Reset";
+            this.btnReset.UseVisualStyleBackColor = true;
+            // 
+            // lblTime
+            // 
+            this.lblTime.AutoSize = true;
+            this.lblTime.Location = new System.Drawing.Point(773, 13);
+            this.lblTime.Name = "lblTime";
+            this.lblTime.Size = new System.Drawing.Size(35, 13);
+            this.lblTime.TabIndex = 15;
+            this.lblTime.Text = "label1";
+            // 
+            // btnExportToExcel
+            // 
+            this.btnExportToExcel.Location = new System.Drawing.Point(735, 519);
+            this.btnExportToExcel.Name = "btnExportToExcel";
+            this.btnExportToExcel.Size = new System.Drawing.Size(106, 23);
+            this.btnExportToExcel.TabIndex = 16;
+            this.btnExportToExcel.Text = "Export to Excel";
+            this.btnExportToExcel.UseVisualStyleBackColor = true;
             // 
             // WordListGrid
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(954, 611);
-            this.Controls.Add(this.btnClear);
-            this.Controls.Add(this.lblWordCount);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.lblLangId);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.lblEntryId);
+            this.ClientSize = new System.Drawing.Size(954, 566);
+            this.Controls.Add(this.btnExportToExcel);
+            this.Controls.Add(this.lblTime);
+            this.Controls.Add(this.btnReset);
+            this.Controls.Add(this.lblId);
             this.Controls.Add(this.grpSearchType);
             this.Controls.Add(this.btnAddWord);
             this.Controls.Add(this.btnF10);
@@ -232,13 +201,11 @@ namespace TestScreens
         private System.Windows.Forms.GroupBox grpSearchType;
         private System.Windows.Forms.RadioButton rbContains;
         private System.Windows.Forms.RadioButton rbStartsWith;
-        private System.Windows.Forms.Label lblEntryId;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label lblLangId;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label lblWordCount;
-        private System.Windows.Forms.Button btnClear;
+        private System.Windows.Forms.Label lblId;
+        private System.Windows.Forms.Button btnReset;
+        private System.Windows.Forms.Label lblTime;
+        private System.Windows.Forms.Timer timerDisplay;
+        private System.Windows.Forms.Button btnExportToExcel;
     }
 }
 
