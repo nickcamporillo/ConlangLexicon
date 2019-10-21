@@ -12,10 +12,14 @@ using log4net.Repository.Hierarchy;
 
 using IViews;
 using IServices;
+using IRepository;
+using Repositories;
 using IPresenters;
 using Presenters;
 using Models;
-using LexServices;
+using Services;
+using IModels;
+using log = Utilities.LoggerFacade;
 
 namespace TestScreens
 {
@@ -61,7 +65,7 @@ namespace TestScreens
 
         //https://stackify.com/log4net-guide-dotnet-logging/
         //Recipe for simplified configuration by using app.config: https://www.codeproject.com/Tips/1107824/Perfect-Log-Net-with-Csharp
-        private static readonly ILog log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
+        //private static readonly ILog log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
 
         /// <summary>
         /// The main entry point for the application.
@@ -69,30 +73,38 @@ namespace TestScreens
         [STAThread]
         static void Main(string[] commandLine)
         {
-            SetLogLocation("LegacyLexicon");
-
             log.Info($"== Begin Logging [{DateTime.Now.ToLocalTime()}] ==");
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
-            Error += Application_Error;
-            Activate += Application_Activate;
-            Deactivate += Application_Deactivate;
+            //Error += Application_Error;
+            //Activate += Application_Activate;
+            //Deactivate += Application_Deactivate;
 
-            RunProgram(commandLine);            
+            try
+            {
+                RunProgram(commandLine);
+            }
+            catch(Exception ex)
+            {
+                log.Fatal("Fatal error in Controller", ex);
+            }
         }
 
         static void RunProgram(string[] commandLine)
         {
             StartupMessageWindow messager = new StartupMessageWindow();
-            
+
+            log.Info("Initializing - Instantiating service");
             IServiceFactory<LexiconRaw> fact = new LexiconServiceFactory<LexiconRaw>();
 
             var lexService = fact.CreatService();
 
             try
             {
+                log.Info("Initializing - creating forms");
+
                 forms = new List<IView>();
                 forms.Add(CreateForm(typeof(WordListGrid), lexService));
                 forms.Add(CreateForm(typeof(LexiconEntryScreen), lexService));
@@ -101,7 +113,7 @@ namespace TestScreens
             }
             catch (Exception ex)
             {
-                log.Error($"Exception: {ex.Message}");
+                log.Error($"Exception in Controller: {ex.Message}");
 
                 if (lexService != null)
                 {
@@ -188,7 +200,7 @@ namespace TestScreens
             if (wordList != null && entryScreen != null)
             {
                 entryScreen.IsAddingNewRecord = true;
-                entryScreen.LanguageId = wordList.LanguageId.ToString();
+                entryScreen.LanguageId = wordList.LanguageId;
             }
         }
 
@@ -263,10 +275,7 @@ namespace TestScreens
                     if (nextForm != null)
                     {
                         SetFormAttributes(ref nextForm, currentForm, NavigationDirection.Forward);
-                        
                         nextForm.RefreshData();
-                        
-                        nextForm.OnMoveCompleted(sender, e);                       
                         nextForm.Show();
                     }
                 }
@@ -274,7 +283,6 @@ namespace TestScreens
                 currentForm.Hide();
             }
         }
-
 
         private static void Mamag(object sender, EventArgs e)
         {
@@ -344,63 +352,63 @@ namespace TestScreens
 
         #endregion
 
-        #region Log4Net stuff"
+        //#region Log4Net stuff"
 
-        public class ActivityIdHelper
-        {
-            public override string ToString()
-            {
-                if (Trace.CorrelationManager.ActivityId == Guid.Empty)
-                {
-                    Trace.CorrelationManager.ActivityId = Guid.NewGuid();
-                }
+        //public class ActivityIdHelper
+        //{
+        //    public override string ToString()
+        //    {
+        //        if (Trace.CorrelationManager.ActivityId == Guid.Empty)
+        //        {
+        //            Trace.CorrelationManager.ActivityId = Guid.NewGuid();
+        //        }
 
-                return Trace.CorrelationManager.ActivityId.ToString();
-            }
-        }
+        //        return Trace.CorrelationManager.ActivityId.ToString();
+        //    }
+        //}
 
-        static void Application_Activate(object sender, EventArgs e)
-        {
-            //set the property to our new object
-            log4net.LogicalThreadContext.Properties["activityid"] = new ActivityIdHelper();
+        //static void Application_Activate(object sender, EventArgs e)
+        //{
+        //    //set the property to our new object
+        //    log4net.LogicalThreadContext.Properties["activityid"] = new ActivityIdHelper();
 
-            log.Debug("Application_Activate");
-        }
+        //    log.Debug("Application_Activate");
+        //}
 
-        static void Application_Deactivate(object sender, EventArgs e)
-        {
-            //set the property to our new object
-            log4net.LogicalThreadContext.Properties["activityid"] = new ActivityIdHelper();
-            log.Debug("Application_Deactivate");
-        }
+        //static void Application_Deactivate(object sender, EventArgs e)
+        //{
+        //    //set the property to our new object
+        //    log4net.LogicalThreadContext.Properties["activityid"] = new ActivityIdHelper();
+        //    log.Debug("Application_Deactivate");
+        //}
 
-        static void Application_Error(object sender, EventArgs e)
-        {
-            //set the property to our new object
-            log4net.LogicalThreadContext.Properties["activityid"] = new ActivityIdHelper();
-            log.Debug("Application_Error");
-        }
+        //static void Application_Error(object sender, EventArgs e)
+        //{
+        //    //set the property to our new object
+        //    log4net.LogicalThreadContext.Properties["activityid"] = new ActivityIdHelper();
+        //    log.Debug("Application_Error");
+        //}
 
-        //Programatically set the log file's location dynamically to database's containing folder; how-to located here: https://stackoverflow.com/questions/17560396/log4net-how-to-set-logger-file-name-dynamically
-        private static void SetLogLocation(string fileName)
-        {
-            string logPath = $@"{ConfigurationManager.AppSettings[LOG_DIR].ToString()}\{fileName}_{DateTime.Now.Year}{DateTime.Now.Month}{DateTime.Now.Day}_{DateTime.Now.Hour}{DateTime.Now.Minute}.log";
+        //////Programatically set the log file's location dynamically to database's containing folder; how-to located here: https://stackoverflow.com/questions/17560396/log4net-how-to-set-logger-file-name-dynamically
+        ////private static void SetLogLocation(string fileName)
+        ////{
+        ////    string logPath = $@"{ConfigurationManager.AppSettings[LOG_DIR].ToString()}\{fileName}_{DateTime.Now.Year}{DateTime.Now.Month}{DateTime.Now.Day}_{DateTime.Now.Hour}{DateTime.Now.Minute}.log";
 
-            XmlConfigurator.Configure();
-            Hierarchy heirarchy = (Hierarchy)LogManager.GetRepository();
+        ////    XmlConfigurator.Configure();
+        ////    Hierarchy heirarchy = (Hierarchy)LogManager.GetRepository();
 
-            foreach (IAppender appender in heirarchy.Root.Appenders)
-            {
-                if (appender is FileAppender)
-                {
-                    FileAppender fa = (FileAppender)appender;
-                    fa.File = logPath;
-                    fa.ActivateOptions();
-                    break;
-                }
-            }
-        }
+        ////    foreach (IAppender appender in heirarchy.Root.Appenders)
+        ////    {
+        ////        if (appender is FileAppender)
+        ////        {
+        ////            FileAppender fa = (FileAppender)appender;
+        ////            fa.File = logPath;
+        ////            fa.ActivateOptions();
+        ////            break;
+        ////        }
+        ////    }
+        ////}
 
-        #endregion
+        //#endregion
     }
 }

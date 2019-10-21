@@ -1,4 +1,4 @@
-﻿namespace LexServices
+﻿namespace Services
 {
     public enum SearchStartPoint
     {

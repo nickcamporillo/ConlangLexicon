@@ -41,6 +41,11 @@ namespace TestScreens
             //throw new NotImplementedException();
         }
 
+        public void RefreshData()
+        {
+
+        }
+
         public void Clear()
         {
             
@@ -73,16 +78,6 @@ namespace TestScreens
         public void SaveRecord(object sender, EventArgs e)
         {
             //throw new NotImplementedException();
-        }
-
-        public void OnMoveCompleted(object sender, EventArgs e)
-        {
-            PageMoveCompleted?.Invoke(sender, e);
-        }
-
-        public void RefreshData()
-        {
-            string s = "3";
         }
     }
 }

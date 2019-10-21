@@ -9,6 +9,7 @@ namespace TestScreens
     public partial class WordListGrid : Form, IViewWordListGrid
     {
         public event EventHandler AddingRecord;
+        public event EventHandler EditingRecord;
         public event EventHandler PageMoveCompleted;
         public event EventHandler UpdateItem;
         public event EventHandler NextScreen;
@@ -18,7 +19,7 @@ namespace TestScreens
         public event DataGridViewCellEventHandler MovedNextRecord;
         public event EventHandler RecordChanged;
         public event EventHandler InvokeSearch;
-        public event EventHandler EditingRecord;
+        public event EventHandler ExportToFile;
 
         private IPresenter _presenter;
 
@@ -47,26 +48,11 @@ namespace TestScreens
 
         public int Id
         {
-            get { return int.Parse(lblEntryId.Text); }
-            set { lblEntryId.Text = value.ToString(); }
+            get { return int.Parse(lblId.Text); }
+            set { lblId.Text = value.ToString(); }
         }
 
-        private int _languageId = -1;
-        public int LanguageId
-        {
-            get { return _languageId; }
-            set
-            {
-                _languageId = value;
-                lblLangId.Text = _languageId.ToString();
-            }
-        }
-
-        public string WordCount
-        {
-            get { return lblWordCount.Text;}
-            set { lblWordCount.Text = value; }
-        }
+        public int LanguageId { get; set; }
 
         public object CurrentItem
         {
@@ -81,6 +67,11 @@ namespace TestScreens
             get { return dgWordList.DataSource; }
             set { dgWordList.DataSource = value; }
         }
+
+        public string PreviousFormName { get; set; }
+        public string NextFormName { get; set; }
+        public ConfirmNavigation ConfirmNavigateToPreviousScreen { get; set; }
+        public ConfirmNavigation ConfirmNavigateToNextScreen { get; set; }
 
         #endregion
 
@@ -97,6 +88,10 @@ namespace TestScreens
             this.Load += Screen_Load;
             this.Load += RedrawFormOnInit;
 
+            this.timerDisplay.Enabled = true;
+            timerDisplay.Interval = 10;
+            timerDisplay.Tick += TimerDisplay_Tick;
+
             dgWordList.SelectionChanged += DgWordList_SelectionChanged;
 
             dgWordList.RowHeadersVisible = false;
@@ -105,22 +100,29 @@ namespace TestScreens
             dgWordList.EditMode = DataGridViewEditMode.EditProgrammatically;
 
             btnAddWord.Click += AddingRecord;
-            btnAddWord.Click += btnAddWord_Click;
-
-            btnClear.Click += RefreshScreen;
-
-            PageMoveCompleted += RefreshScreen;
+            btnAddWord.Click += btnAddWord_Click;            
+            btnEditData.Click += btnEditWord_Click;
+            btnExportToExcel.Click += btnExportToExcel_Click;
         }
 
-        private void RefreshScreen(object sender, EventArgs e)
+        private void TimerDisplay_Tick(object sender, EventArgs e)
         {
-            searchBox.ClearSearchBox(sender, e);
-            InvokeSearch?.Invoke(sender, e);
+            lblTime.Text = DateTime.Now.ToLongTimeString();
         }
 
         private void btnAddWord_Click(object sender, EventArgs e)
         {
             string s = "click";
+        }
+
+        private void btnEditWord_Click(object sender, EventArgs e)
+        {
+            EditingRecord?.Invoke(sender,e);
+        }
+        private void btnExportToExcel_Click(object sender, EventArgs e)
+        {
+            ExportToFile?.Invoke(sender, e);
+            MessageBox.Show("You may pick up your lexicon now.", "Lexicon Exported to Excel Successfully");
         }
 
         private void DgBuilders_CellEnter(object sender, DataGridViewCellEventArgs e)
@@ -148,7 +150,7 @@ namespace TestScreens
         {
             SetCrudEventHandlers();
             SetSearchBoxEventHandlers();
-            SetFormNavigationHandlers();
+            SetFormNavigationHandlers(); 
         }
         private void SetSearchBoxEventHandlers()
         {
@@ -156,18 +158,18 @@ namespace TestScreens
             searchBox.InvokeSearch += InvokeSearch;
             searchBox.InvokeSearch += RedrawFormOnInit;
             InvokeSearch += SearchBox_InvokeSearch;
-            searchBox.InvokeSearch += InvokeSearch;
+            searchBox.InvokeSearch += InvokeSearch;           
 
             //Need to clear out the SearchBox user control if this form routes to another screen:
             dgWordList.Click += Grid_Click;
             dgWordList.DoubleClick += Grid_DoubleClick;
-
-            //dgWordList.DoubleClick += searchBox.ClearSearchBox;
+            
             dgWordList.SelectionChanged += RecordChanged;
             dgWordList.SelectionChanged += DgWordList_SelectionChanged;
 
             rbStartsWith.Click += searchBox.ClearSearchBox;
             rbContains.Click += searchBox.ClearSearchBox;
+            btnReset.Click += searchBox.ClearSearchBox;
         }
 
         private void DgWordList_SelectionChanged(object sender, EventArgs e)
@@ -188,6 +190,7 @@ namespace TestScreens
 
         private void SetToAddMode(object sender, EventArgs e)
         {
+            bool isAdd = true;
             AddingRecord?.Invoke(sender, e);
         }
 
@@ -199,7 +202,6 @@ namespace TestScreens
             btnEditData.Click += NextScreen;
             btnF10.Click += CloseAll;
         }
-
         private void SetCrudEventHandlers()
         {
             //[CBorillo] Don't use this, it's out-of-sync when it fires, the values in the previous row are retained at the time of its firing.
@@ -256,16 +258,15 @@ namespace TestScreens
         public void ResetFlags()
         {
         }
-
         public void Clear()
         {
-
         }
 
-        public string PreviousFormName { get; set; }
-        public string NextFormName { get; set; }
-        public ConfirmNavigation ConfirmNavigateToPreviousScreen { get; set; }
-        public ConfirmNavigation ConfirmNavigateToNextScreen { get; set; }        
+        public void RefreshData()
+        {
+            searchBox.SearchText = string.Empty;
+            PageMoveCompleted?.Invoke(this, new EventArgs());
+        }
 
         public void MoveFirstRecord(object sender, EventArgs e)
         {
@@ -305,16 +306,6 @@ namespace TestScreens
         public void Close(object sender, EventArgs e)
         {
             
-        }
-
-        public void OnMoveCompleted(object sender, EventArgs e)
-        {
-            PageMoveCompleted?.Invoke(sender, e);
-        }
-
-        public void RefreshData()
-        {
-            string s = "3";
         }
     }
 }
