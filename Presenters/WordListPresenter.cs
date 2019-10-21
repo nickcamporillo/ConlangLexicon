@@ -8,6 +8,7 @@ using Utilties;
 using Services;
 using Presenters.FileWriters;
 using System.Collections.Generic;
+using Utilities;
 
 namespace Presenters
 {
@@ -71,8 +72,9 @@ namespace Presenters
         }
         private void _view_ExportingToFile(object sender, EventArgs e)
         {
-            var resultSet = _svc.FindAll() as List<LexiconRaw>;
+            List<LexiconRaw> resultSet = _svc.FindAll() as List<LexiconRaw>;
             _exporter.WriteFile<LexiconRaw>(resultSet);
+            string s = GeneralUtils.SerializeToJson<LexiconRaw>(resultSet);
         }
 
         private void CompletedPageMove(object sender, EventArgs e)
