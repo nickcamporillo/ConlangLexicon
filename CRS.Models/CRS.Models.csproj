@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9E44BAAA-95C3-4A3B-B145-688BDF8CE7FF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CRS.Models</RootNamespace>
+    <AssemblyName>CRS.Models</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="IST.Common">
+      <HintPath>..\lib\IST.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="IT.Utility">
+      <HintPath>..\lib\IT.Utility.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="DTOs\ApplicantSummary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DTOs\EnumerationInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DTOs\NullPerson.cs" />
+    <Compile Include="DTOs\UserAccessLevel.cs" />
+    <Compile Include="Interfaces\IApplicant.cs" />
+    <Compile Include="Interfaces\IPerson.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interfaces\IUser.cs" />
+    <Compile Include="Partials\EnumerationDetailPartial.cs" />
+    <Compile Include="Partials\ApplicantsPart.cs" />
+    <Compile Include="Partials\EnumerationsPartial.cs" />
+    <Compile Include="Partials\LambdaRegistryDetailPartial.cs" />
+    <Compile Include="Partials\LambdaRegistryPartial.cs" />
+    <Compile Include="Partials\ListsPartial.cs" />
+    <Compile Include="Partials\PageInventoryPartial.cs" />
+    <Compile Include="Partials\QueryRegistryPartial.cs" />
+    <Compile Include="Partials\RolePermissionPartial.cs" />
+    <Compile Include="Partials\RolesPartial.cs" />
+    <Compile Include="Partials\TablePart.cs" />
+    <Compile Include="Partials\UsersPart.cs" />
+    <Compile Include="Partials\WidgetInventoryPart.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.Config">
+      <SubType>Designer</SubType>
+    </None>
+    <EntityDeploy Include="DataModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>DataModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="DataModel.datasource" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DataModel.edmx.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CRS.App_Level\CRS.App_Level.csproj">
+      <Project>{4D37B47D-B15A-4108-8E69-4649F951F8CE}</Project>
+      <Name>CRS.App_Level</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CRS.IViews\CRS.IViews.csproj">
+      <Project>{585CE2F6-CF8E-4BEC-9358-CED919DA20CD}</Project>
+      <Name>CRS.IViews</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -2,7 +2,7 @@
 using System.Windows.Forms;
 using IViews;
 
-namespace TestScreens
+namespace Screens
 {
     public partial class StartupMessageWindow : Form, IView
     {

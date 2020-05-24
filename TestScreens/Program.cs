@@ -20,6 +20,8 @@ using Models;
 using Services;
 using IModels;
 using log = Utilities.LoggerFacade;
+using Screens;
+using System.Reflection;
 
 namespace TestScreens
 {
@@ -94,15 +96,20 @@ namespace TestScreens
 
         static void RunProgram(string[] commandLine)
         {
+            Cursor.Current = Cursors.WaitCursor;
+
             StartupMessageWindow messager = new StartupMessageWindow();
-
-            log.Info("Initializing - Instantiating service");
-            IServiceFactory<LexiconRaw> fact = new LexiconServiceFactory<LexiconRaw>();
-
-            var lexService = fact.CreatService();
+            
+            IServiceFactory<LexiconRaw> fact = null;// new LexiconServiceFactory<LexiconRaw>();
+            IService<LexiconRaw> lexService = null;
 
             try
             {
+                log.Info("Initializing - Instantiating service");
+
+                fact = new LexiconServiceFactory<LexiconRaw>();
+                lexService = fact.CreatService();
+
                 log.Info("Initializing - creating forms");
 
                 forms = new List<IView>();
@@ -110,6 +117,8 @@ namespace TestScreens
                 forms.Add(CreateForm(typeof(LexiconEntryScreen), lexService));
 
                 Application.Run(forms[STARTING_FORM] as Form);
+
+                Cursor.Current = Cursors.Default;
             }
             catch (Exception ex)
             {
@@ -132,8 +141,10 @@ namespace TestScreens
             IView form = null;
             IPresenter pres = null;
 
-            string versionNumber = ConfigurationManager.AppSettings[APP_VERSION_CONFIG].ToString();
-            string prefix = $"Lexicon Manager 2019 {versionNumber} - ";
+            string productName = Assembly.GetExecutingAssembly().GetCustomAttribute<AssemblyTitleAttribute>().Title;
+            string versionNumber = AssemblyInfo.Version; //ConfigurationManager.AppSettings[APP_VERSION_CONFIG].ToString();
+            
+            string prefix = $"{productName} ver.{versionNumber} - ";
             string suffix = string.Empty;
 
             if (typ == typeof(WordListGrid))

@@ -1,6 +1,6 @@
 ﻿using Utilties;
 
-namespace TestScreens
+namespace Screens
 {
     partial class WordListGrid
     {
@@ -38,14 +38,17 @@ namespace TestScreens
             this.grpSearchType = new System.Windows.Forms.GroupBox();
             this.rbContains = new System.Windows.Forms.RadioButton();
             this.rbStartsWith = new System.Windows.Forms.RadioButton();
-            this.searchBox = new TestScreens.SearchBox();
             this.lblId = new System.Windows.Forms.Label();
             this.btnReset = new System.Windows.Forms.Button();
             this.lblTime = new System.Windows.Forms.Label();
             this.timerDisplay = new System.Windows.Forms.Timer(this.components);
             this.btnExportToExcel = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.searchBox = new Screens.SearchBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgWordList)).BeginInit();
             this.grpSearchType.SuspendLayout();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // dgWordList
@@ -69,7 +72,7 @@ namespace TestScreens
             // btnF10
             // 
             this.btnF10.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnF10.Location = new System.Drawing.Point(625, 55);
+            this.btnF10.Location = new System.Drawing.Point(1075, 45);
             this.btnF10.Name = "btnF10";
             this.btnF10.Size = new System.Drawing.Size(75, 23);
             this.btnF10.TabIndex = 10;
@@ -119,17 +122,6 @@ namespace TestScreens
             this.rbStartsWith.Text = "Starts With";
             this.rbStartsWith.UseVisualStyleBackColor = true;
             // 
-            // searchBox
-            // 
-            this.searchBox.IconLocation = null;
-            this.searchBox.InstructionText = "Find Word";
-            this.searchBox.Location = new System.Drawing.Point(27, 46);
-            this.searchBox.Name = "searchBox";
-            this.searchBox.SearchText = "";
-            this.searchBox.SearchType = Utilties.SearchMode.ByEntry;
-            this.searchBox.Size = new System.Drawing.Size(402, 43);
-            this.searchBox.TabIndex = 8;
-            // 
             // lblId
             // 
             this.lblId.AutoSize = true;
@@ -151,7 +143,7 @@ namespace TestScreens
             // lblTime
             // 
             this.lblTime.AutoSize = true;
-            this.lblTime.Location = new System.Drawing.Point(773, 13);
+            this.lblTime.Location = new System.Drawing.Point(137, 25);
             this.lblTime.Name = "lblTime";
             this.lblTime.Size = new System.Drawing.Size(35, 13);
             this.lblTime.TabIndex = 15;
@@ -166,13 +158,44 @@ namespace TestScreens
             this.btnExportToExcel.Text = "Export to Excel";
             this.btnExportToExcel.UseVisualStyleBackColor = true;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(21, 25);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(110, 13);
+            this.label1.TabIndex = 18;
+            this.label1.Text = "Current DateTime:";
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.lblTime);
+            this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.Location = new System.Drawing.Point(706, 30);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(351, 59);
+            this.groupBox1.TabIndex = 19;
+            this.groupBox1.TabStop = false;
+            // 
+            // searchBox
+            // 
+            this.searchBox.IconLocation = null;
+            this.searchBox.InstructionText = "Find Word";
+            this.searchBox.Location = new System.Drawing.Point(27, 46);
+            this.searchBox.Name = "searchBox";
+            this.searchBox.SearchText = "";
+            this.searchBox.SearchType = Utilties.SearchMode.ByEntry;
+            this.searchBox.Size = new System.Drawing.Size(402, 43);
+            this.searchBox.TabIndex = 8;
+            // 
             // WordListGrid
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(954, 566);
+            this.ClientSize = new System.Drawing.Size(1182, 566);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.btnExportToExcel);
-            this.Controls.Add(this.lblTime);
             this.Controls.Add(this.btnReset);
             this.Controls.Add(this.lblId);
             this.Controls.Add(this.grpSearchType);
@@ -186,6 +209,8 @@ namespace TestScreens
             ((System.ComponentModel.ISupportInitialize)(this.dgWordList)).EndInit();
             this.grpSearchType.ResumeLayout(false);
             this.grpSearchType.PerformLayout();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -206,6 +231,8 @@ namespace TestScreens
         private System.Windows.Forms.Label lblTime;
         private System.Windows.Forms.Timer timerDisplay;
         private System.Windows.Forms.Button btnExportToExcel;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.GroupBox groupBox1;
     }
 }
 

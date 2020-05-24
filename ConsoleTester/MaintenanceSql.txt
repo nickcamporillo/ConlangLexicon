@@ -1,0 +1,20 @@
+﻿
+=== Find dupes on "Entry" ===
+SELECT        Id, LanguageId, Entry, Meaning, SecondaryMeanings, Pos, PosCode, PosSubtype, Gender, NounIncorporatedForm, AlternateForms, Dialect, Register, Domain, 
+                         Synonyms, Etymology, IPA, GrammaticalNotes, AdditionalNotes, EntryDate, DeactivatedDate
+FROM            LexiconRaw
+WHERE        (Entry IN
+                             (SELECT        Entry
+                               FROM            LexiconRaw AS LexiconRaw_1
+                               GROUP BY Entry
+                               HAVING         (COUNT(Entry) > 1)))
+
+=== Find dupes on "Meaning" ===
+SELECT        Id, LanguageId, Entry, Meaning, SecondaryMeanings, Pos, PosCode, PosSubtype, Gender, NounIncorporatedForm, AlternateForms, Dialect, Register, Domain, 
+                         Synonyms, Etymology, IPA, GrammaticalNotes, AdditionalNotes, EntryDate, DeactivatedDate
+FROM            LexiconRaw
+WHERE        (Meaning IN
+                             (SELECT        Meaning
+                               FROM            LexiconRaw AS LexiconRaw_1
+                               GROUP BY Meaning
+                               HAVING         (COUNT(Meaning) > 1)))

@@ -4,7 +4,7 @@ using IViews;
 using IPresenters;
 using Utilties;
 
-namespace TestScreens
+namespace Screens
 {
     public partial class WordListGrid : Form, IViewWordListGrid
     {
@@ -105,9 +105,19 @@ namespace TestScreens
             btnExportToExcel.Click += btnExportToExcel_Click;
         }
 
+        protected override bool ProcessDialogKey(Keys keyData)
+        {
+            if (keyData == Keys.F10)
+            {
+                CloseAll?.Invoke(this, new EventArgs());
+                return true;
+            }
+            return base.ProcessDialogKey(keyData);
+        }
+
         private void TimerDisplay_Tick(object sender, EventArgs e)
         {
-            lblTime.Text = DateTime.Now.ToLongTimeString();
+            lblTime.Text = $"{DateTime.Now.ToLongDateString()}   ||   {DateTime.Now.ToLongTimeString()}"; 
         }
 
         private void btnAddWord_Click(object sender, EventArgs e)

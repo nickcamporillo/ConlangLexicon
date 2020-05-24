@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace TestScreens
+namespace Screens
 {
     partial class SearchBox : UserControl
     {

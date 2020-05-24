@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleDriver", "Console\Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{8DFF8F3A-7156-4798-960E-24CFDD016993}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestScreens", "TestScreens\TestScreens.csproj", "{23DB9C4F-E2CD-4F9C-8018-BD6B1B0AC3AB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Screens", "TestScreens\Screens.csproj", "{23DB9C4F-E2CD-4F9C-8018-BD6B1B0AC3AB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LexServices", "Services\LexServices.csproj", "{33286957-B797-42E9-908A-438DF3DC5664}"
 EndProject

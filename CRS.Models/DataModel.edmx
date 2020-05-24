@@ -1,0 +1,2488 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="CRS.Models.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+        <EntityContainer Name="CRSModelsStoreContainer">
+          <EntitySet Name="ActivityLogs" EntityType="CRS.Models.Store.ActivityLogs" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="ApplicantOutcomes" EntityType="CRS.Models.Store.ApplicantOutcomes" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Applicants" EntityType="CRS.Models.Store.Applicants" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Comments" EntityType="CRS.Models.Store.Comments" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="DisplaySelection" EntityType="CRS.Models.Store.DisplaySelection" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Documents" EntityType="CRS.Models.Store.Documents" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="EnumerationDetails" EntityType="CRS.Models.Store.EnumerationDetails" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Enumerations" EntityType="CRS.Models.Store.Enumerations" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="InterviewFeedbacks" EntityType="CRS.Models.Store.InterviewFeedbacks" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Interviews" EntityType="CRS.Models.Store.Interviews" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="LambdaRegistry" EntityType="CRS.Models.Store.LambdaRegistry" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="LambdaRegistryDetails" EntityType="CRS.Models.Store.LambdaRegistryDetails" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Lists" EntityType="CRS.Models.Store.Lists" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="PageInventory" EntityType="CRS.Models.Store.PageInventory" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="QueryRegistry" EntityType="CRS.Models.Store.QueryRegistry" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="RolePermissions" EntityType="CRS.Models.Store.RolePermissions" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Roles" EntityType="CRS.Models.Store.Roles" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Tables" EntityType="CRS.Models.Store.Tables" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="UserNotes" EntityType="CRS.Models.Store.UserNotes" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Users" EntityType="CRS.Models.Store.Users" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="WidgetAccessInfo" EntityType="CRS.Models.Store.WidgetAccessInfo" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="WidgetBehaviorInventory" EntityType="CRS.Models.Store.WidgetBehaviorInventory" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="WidgetInventory" EntityType="CRS.Models.Store.WidgetInventory" store:Type="Tables" Schema="dbo" />
+          <AssociationSet Name="FK_ActivityLogs_Applicants" Association="CRS.Models.Store.FK_ActivityLogs_Applicants">
+            <End Role="Applicants" EntitySet="Applicants" />
+            <End Role="ActivityLogs" EntitySet="ActivityLogs" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ActivityLogs_Users" Association="CRS.Models.Store.FK_ActivityLogs_Users">
+            <End Role="Users" EntitySet="Users" />
+            <End Role="ActivityLogs" EntitySet="ActivityLogs" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ApplicantOutcomes_Applicants" Association="CRS.Models.Store.FK_ApplicantOutcomes_Applicants">
+            <End Role="Applicants" EntitySet="Applicants" />
+            <End Role="ApplicantOutcomes" EntitySet="ApplicantOutcomes" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ApplicantOutcomes_Users" Association="CRS.Models.Store.FK_ApplicantOutcomes_Users">
+            <End Role="Users" EntitySet="Users" />
+            <End Role="ApplicantOutcomes" EntitySet="ApplicantOutcomes" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Comments_Applicants" Association="CRS.Models.Store.FK_Comments_Applicants">
+            <End Role="Applicants" EntitySet="Applicants" />
+            <End Role="Comments" EntitySet="Comments" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Comments_Users" Association="CRS.Models.Store.FK_Comments_Users">
+            <End Role="Users" EntitySet="Users" />
+            <End Role="Comments" EntitySet="Comments" />
+          </AssociationSet>
+          <AssociationSet Name="FK_DisplaySelection_EnumerationDetails" Association="CRS.Models.Store.FK_DisplaySelection_EnumerationDetails">
+            <End Role="EnumerationDetails" EntitySet="EnumerationDetails" />
+            <End Role="DisplaySelection" EntitySet="DisplaySelection" />
+          </AssociationSet>
+          <AssociationSet Name="FK_DisplaySelection_Roles" Association="CRS.Models.Store.FK_DisplaySelection_Roles">
+            <End Role="Roles" EntitySet="Roles" />
+            <End Role="DisplaySelection" EntitySet="DisplaySelection" />
+          </AssociationSet>
+          <AssociationSet Name="FK_DisplaySelection_WidgetInventory" Association="CRS.Models.Store.FK_DisplaySelection_WidgetInventory">
+            <End Role="WidgetInventory" EntitySet="WidgetInventory" />
+            <End Role="DisplaySelection" EntitySet="DisplaySelection" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Documents_Applicants" Association="CRS.Models.Store.FK_Documents_Applicants">
+            <End Role="Applicants" EntitySet="Applicants" />
+            <End Role="Documents" EntitySet="Documents" />
+          </AssociationSet>
+          <AssociationSet Name="FK_EnumerationEnumerationDetail" Association="CRS.Models.Store.FK_EnumerationEnumerationDetail">
+            <End Role="Enumerations" EntitySet="Enumerations" />
+            <End Role="EnumerationDetails" EntitySet="EnumerationDetails" />
+          </AssociationSet>
+          <AssociationSet Name="FK_InterviewFeedbacks_Users1" Association="CRS.Models.Store.FK_InterviewFeedbacks_Users1">
+            <End Role="Users" EntitySet="Users" />
+            <End Role="InterviewFeedbacks" EntitySet="InterviewFeedbacks" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Interviews_Applicants" Association="CRS.Models.Store.FK_Interviews_Applicants">
+            <End Role="Applicants" EntitySet="Applicants" />
+            <End Role="Interviews" EntitySet="Interviews" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Interviews_Users" Association="CRS.Models.Store.FK_Interviews_Users">
+            <End Role="Users" EntitySet="Users" />
+            <End Role="Interviews" EntitySet="Interviews" />
+          </AssociationSet>
+          <AssociationSet Name="FK_LambdaRegistry_EnumerationDetails" Association="CRS.Models.Store.FK_LambdaRegistry_EnumerationDetails">
+            <End Role="EnumerationDetails" EntitySet="EnumerationDetails" />
+            <End Role="LambdaRegistry" EntitySet="LambdaRegistry" />
+          </AssociationSet>
+          <AssociationSet Name="FK_LambdaRegistry_Roles" Association="CRS.Models.Store.FK_LambdaRegistry_Roles">
+            <End Role="Roles" EntitySet="Roles" />
+            <End Role="LambdaRegistry" EntitySet="LambdaRegistry" />
+          </AssociationSet>
+          <AssociationSet Name="FK_LambdaRegistryDetails_ToEnumerationDetails" Association="CRS.Models.Store.FK_LambdaRegistryDetails_ToEnumerationDetails">
+            <End Role="EnumerationDetails" EntitySet="EnumerationDetails" />
+            <End Role="LambdaRegistryDetails" EntitySet="LambdaRegistryDetails" />
+          </AssociationSet>
+          <AssociationSet Name="FK_LambdaRegistryDetails_ToLambdaRegistryId" Association="CRS.Models.Store.FK_LambdaRegistryDetails_ToLambdaRegistryId">
+            <End Role="LambdaRegistry" EntitySet="LambdaRegistry" />
+            <End Role="LambdaRegistryDetails" EntitySet="LambdaRegistryDetails" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Lists_EnumerationDetails" Association="CRS.Models.Store.FK_Lists_EnumerationDetails">
+            <End Role="EnumerationDetails" EntitySet="EnumerationDetails" />
+            <End Role="Lists" EntitySet="Lists" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Lists_Roles" Association="CRS.Models.Store.FK_Lists_Roles">
+            <End Role="Roles" EntitySet="Roles" />
+            <End Role="Lists" EntitySet="Lists" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Lists_WidgetInventory" Association="CRS.Models.Store.FK_Lists_WidgetInventory">
+            <End Role="WidgetInventory" EntitySet="WidgetInventory" />
+            <End Role="Lists" EntitySet="Lists" />
+          </AssociationSet>
+          <AssociationSet Name="FK_PageInventory_EnumerationDetails1" Association="CRS.Models.Store.FK_PageInventory_EnumerationDetails1">
+            <End Role="EnumerationDetails" EntitySet="EnumerationDetails" />
+            <End Role="PageInventory" EntitySet="PageInventory" />
+          </AssociationSet>
+          <AssociationSet Name="FK_QueryRegistry_EnumerationDetails" Association="CRS.Models.Store.FK_QueryRegistry_EnumerationDetails">
+            <End Role="EnumerationDetails" EntitySet="EnumerationDetails" />
+            <End Role="QueryRegistry" EntitySet="QueryRegistry" />
+          </AssociationSet>
+          <AssociationSet Name="FK_QueryRegistry_EnumerationDetails1" Association="CRS.Models.Store.FK_QueryRegistry_EnumerationDetails1">
+            <End Role="EnumerationDetails" EntitySet="EnumerationDetails" />
+            <End Role="QueryRegistry" EntitySet="QueryRegistry" />
+          </AssociationSet>
+          <AssociationSet Name="FK_RolePermissions_EnumerationDetails" Association="CRS.Models.Store.FK_RolePermissions_EnumerationDetails">
+            <End Role="EnumerationDetails" EntitySet="EnumerationDetails" />
+            <End Role="RolePermissions" EntitySet="RolePermissions" />
+          </AssociationSet>
+          <AssociationSet Name="FK_RolePermissions_Roles" Association="CRS.Models.Store.FK_RolePermissions_Roles">
+            <End Role="Roles" EntitySet="Roles" />
+            <End Role="RolePermissions" EntitySet="RolePermissions" />
+          </AssociationSet>
+          <AssociationSet Name="FK_RolePermissions_WidgetInventory" Association="CRS.Models.Store.FK_RolePermissions_WidgetInventory">
+            <End Role="WidgetInventory" EntitySet="WidgetInventory" />
+            <End Role="RolePermissions" EntitySet="RolePermissions" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Roles_EnumerationDetails" Association="CRS.Models.Store.FK_Roles_EnumerationDetails">
+            <End Role="EnumerationDetails" EntitySet="EnumerationDetails" />
+            <End Role="Roles" EntitySet="Roles" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Tables_EnumerationDetails" Association="CRS.Models.Store.FK_Tables_EnumerationDetails">
+            <End Role="EnumerationDetails" EntitySet="EnumerationDetails" />
+            <End Role="Tables" EntitySet="Tables" />
+          </AssociationSet>
+          <AssociationSet Name="FK_UserNotes_Applicants" Association="CRS.Models.Store.FK_UserNotes_Applicants">
+            <End Role="Applicants" EntitySet="Applicants" />
+            <End Role="UserNotes" EntitySet="UserNotes" />
+          </AssociationSet>
+          <AssociationSet Name="FK_WidgetBehaviorInventory_EnumerationDetails" Association="CRS.Models.Store.FK_WidgetBehaviorInventory_EnumerationDetails">
+            <End Role="EnumerationDetails" EntitySet="EnumerationDetails" />
+            <End Role="WidgetBehaviorInventory" EntitySet="WidgetBehaviorInventory" />
+          </AssociationSet>
+          <AssociationSet Name="FK_WidgetBehaviorInventory_WidgetInventory" Association="CRS.Models.Store.FK_WidgetBehaviorInventory_WidgetInventory">
+            <End Role="WidgetInventory" EntitySet="WidgetInventory" />
+            <End Role="WidgetBehaviorInventory" EntitySet="WidgetBehaviorInventory" />
+          </AssociationSet>
+          <AssociationSet Name="FK_WidgetInventory_EnumerationDetails" Association="CRS.Models.Store.FK_WidgetInventory_EnumerationDetails">
+            <End Role="EnumerationDetails" EntitySet="EnumerationDetails" />
+            <End Role="WidgetInventory" EntitySet="WidgetInventory" />
+          </AssociationSet>
+          <AssociationSet Name="FK_WidgetInventory_PageInventory" Association="CRS.Models.Store.FK_WidgetInventory_PageInventory">
+            <End Role="PageInventory" EntitySet="PageInventory" />
+            <End Role="WidgetInventory" EntitySet="WidgetInventory" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="ActivityLogs">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="UserId" Type="int" Nullable="false" />
+          <Property Name="ApplicantId" Type="int" Nullable="false" />
+          <Property Name="ActionType" Type="int" Nullable="false" />
+          <Property Name="Timestamp" Type="datetime" Nullable="false" />
+        </EntityType>
+        <EntityType Name="ApplicantOutcomes">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="ApplicantId" Type="int" Nullable="false" />
+          <Property Name="UserId" Type="int" Nullable="false" />
+          <Property Name="OfferStatus" Type="int" Nullable="false" />
+          <Property Name="DivisionId" Type="int" Nullable="false" />
+          <Property Name="ClosingDate" Type="datetime" Nullable="false" />
+          <Property Name="OutcomeDate" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="Remarks" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="Applicants">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="FirstName" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="MiddleName" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="LastName" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="AddedBy" Type="int" Nullable="false" />
+          <Property Name="VeteransPreference" Type="int" Nullable="false" />
+          <Property Name="Series" Type="int" Nullable="false" />
+          <Property Name="DateCreated" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="DateDeactivated" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="Active" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="Status" Type="int" Nullable="false" />
+          <Property Name="Division" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="Gender" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="Ownership" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Comments">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="ApplicantId" Type="int" Nullable="false" />
+          <Property Name="Remarks" Type="nvarchar(max)" />
+          <Property Name="UserId" Type="int" Nullable="false" />
+          <Property Name="Timestamp" Type="datetime" Nullable="false" />
+        </EntityType>
+        <EntityType Name="DisplaySelection">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="WidgetId" Type="int" Nullable="false" />
+          <Property Name="EnumerationDetailId" Type="int" Nullable="false" />
+          <Property Name="AccessCode" Type="int" Nullable="false" />
+          <Property Name="HeaderText" Type="nchar" MaxLength="200" />
+          <Property Name="Description" Type="nchar" MaxLength="200" />
+        </EntityType>
+        <EntityType Name="Documents">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="ApplicantId" Type="int" Nullable="false" />
+          <Property Name="DocumentName" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="DocumentType" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="EnumerationDetails">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="EnumerationId" Type="int" Nullable="false" />
+          <Property Name="IntVal" Type="int" Nullable="false" />
+          <Property Name="EnumerationName" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="SortOrder" Type="int" Nullable="false" />
+          <Property Name="DisplayText" Type="nvarchar" MaxLength="200" />
+          <Property Name="Description" Type="nvarchar" MaxLength="50" />
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+        </EntityType>
+        <EntityType Name="Enumerations">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="Description" Type="nvarchar" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="InterviewFeedbacks">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="UserId" Type="int" Nullable="false" />
+          <Property Name="ApplicantId" Type="int" Nullable="false" />
+          <Property Name="OfferStatus" Type="nvarchar(max)" />
+          <Property Name="InterviewDone" Type="nvarchar(max)" />
+          <Property Name="CensusOfferStatus" Type="nvarchar(max)" />
+          <Property Name="ParsNumber" Type="nvarchar(max)" />
+          <Property Name="Supervisor1" Type="nvarchar(max)" />
+          <Property Name="Supervisor2" Type="nvarchar(max)" />
+          <Property Name="RelocationExpense" Type="nvarchar(max)" />
+          <Property Name="OfferReason1" Type="nvarchar(max)" />
+          <Property Name="OfferReason2" Type="nvarchar(max)" />
+          <Property Name="OfferReason3" Type="nvarchar(max)" />
+          <Property Name="OfferReason4" Type="nvarchar(max)" />
+          <Property Name="OfferReason5" Type="nvarchar(max)" />
+          <Property Name="OfferReason6" Type="nvarchar(max)" />
+          <Property Name="OfferReason7" Type="nvarchar(max)" />
+          <Property Name="OfferReason8" Type="nvarchar(max)" />
+          <Property Name="OfferReason9" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="Interviews">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="InterviewId" Type="int" Nullable="false" />
+          <Property Name="ApplicantId" Type="int" Nullable="false" />
+          <Property Name="FeedbackProvided" Type="int" Nullable="false" />
+          <Property Name="InterviewDate" Type="datetime" Nullable="false" />
+        </EntityType>
+        <EntityType Name="LambdaRegistry">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="RoleId" Type="int" Nullable="false" />
+          <Property Name="EnumerationDetailsId" Type="int" Nullable="false" />
+          <Property Name="DependentEnumerationDetailId" Type="int" Nullable="false" />
+          <Property Name="LambdaExpressionType" Type="int" Nullable="false" />
+          <Property Name="LambdaExpression" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="Description" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="LambdaRegistryDetails">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="LambdaRegistryId" Type="int" Nullable="false" />
+          <Property Name="ExpressionType" Type="int" Nullable="false" />
+          <Property Name="LambdaExpression" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="Description" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="Lists">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="AccessCode" Type="int" Nullable="false" />
+          <Property Name="WidgetId" Type="int" Nullable="false" />
+          <Property Name="EnumerationDetailId" Type="int" Nullable="false" />
+          <Property Name="Description" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="PageInventory">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="PageInventoryId" Type="int" Nullable="false" />
+          <Property Name="PageType" Type="int" />
+          <Property Name="Title" Type="nvarchar" MaxLength="50" />
+          <Property Name="Aliases" Type="nvarchar" MaxLength="100" />
+          <Property Name="PageOrder" Type="int" Nullable="false" />
+          <Property Name="Description" Type="nvarchar" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="QueryRegistry">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Role" Type="int" />
+          <Property Name="EnumerationDetailId" Type="int" Nullable="false" />
+          <Property Name="PickerId" Type="int" Nullable="false" />
+          <Property Name="QueryTypeId" Type="int" Nullable="false" />
+          <Property Name="QueryScript" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="ParameterNames" Type="nchar" MaxLength="100" />
+          <Property Name="Parameters" Type="nvarchar(max)" />
+          <Property Name="Description" Type="varchar(max)" />
+        </EntityType>
+        <EntityType Name="RolePermissions">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="AccessCode" Type="int" Nullable="false" />
+          <Property Name="PermissionTypeId" Type="int" Nullable="false" />
+          <Property Name="WidgetId" Type="int" />
+          <Property Name="Description" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Roles">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="EnumerationDetailsId" Type="int" Nullable="false" />
+          <Property Name="ActiveStatusId" Type="int" Nullable="false" />
+          <Property Name="Description" Type="nchar" MaxLength="10" />
+        </EntityType>
+        <EntityType Name="Tables">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="TableType" Type="int" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="Description" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="UserNotes">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="ApplicantId" Type="int" Nullable="false" />
+          <Property Name="Remarks" Type="nvarchar(max)" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Users">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="JamesBond" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="AccessCode" Type="int" Nullable="false" />
+          <Property Name="FirstName" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="MiddleName" Type="nvarchar" MaxLength="50" />
+          <Property Name="LastName" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="Email" Type="nvarchar" MaxLength="200" />
+          <Property Name="Division" Type="nvarchar" MaxLength="50" />
+          <Property Name="FailedLogins" Type="int" />
+          <Property Name="FirstFailureDate" Type="date" />
+          <Property Name="LastFailureDate" Type="date" />
+          <Property Name="CreatedDate" Type="date" Nullable="false" />
+          <Property Name="UserStatus" Type="int" Nullable="false" />
+          <Property Name="ExpirationDate" Type="date" Nullable="false" />
+          <Property Name="LastLoginDate" Type="date" Nullable="false" />
+          <Property Name="ISB" Type="nvarchar" Nullable="false" MaxLength="1" />
+          <Property Name="PasswordReset" Type="char" Nullable="false" MaxLength="1" />
+          <Property Name="PasswordExpirationDate" Type="date" Nullable="false" />
+        </EntityType>
+        <EntityType Name="WidgetAccessInfo">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="WidgetId" Type="int" Nullable="false" />
+          <Property Name="AccessLevelId" Type="int" Nullable="false" />
+          <Property Name="Description" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="WidgetBehaviorInventory">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="WidgetId" Type="int" Nullable="false" />
+          <Property Name="BehaviorId" Type="int" Nullable="false" />
+          <Property Name="Description" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="WidgetInventory">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="PageId" Type="int" Nullable="false" />
+          <Property Name="WidgetType" Type="int" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="DisplayText" Type="nvarchar(max)" />
+          <Property Name="Description" Type="nvarchar" MaxLength="250" />
+        </EntityType>
+        <Association Name="FK_ActivityLogs_Applicants">
+          <End Role="Applicants" Type="CRS.Models.Store.Applicants" Multiplicity="1" />
+          <End Role="ActivityLogs" Type="CRS.Models.Store.ActivityLogs" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Applicants">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="ActivityLogs">
+              <PropertyRef Name="ApplicantId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ActivityLogs_Users">
+          <End Role="Users" Type="CRS.Models.Store.Users" Multiplicity="1" />
+          <End Role="ActivityLogs" Type="CRS.Models.Store.ActivityLogs" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="ActivityLogs">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ApplicantOutcomes_Applicants">
+          <End Role="Applicants" Type="CRS.Models.Store.Applicants" Multiplicity="1" />
+          <End Role="ApplicantOutcomes" Type="CRS.Models.Store.ApplicantOutcomes" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Applicants">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="ApplicantOutcomes">
+              <PropertyRef Name="ApplicantId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ApplicantOutcomes_Users">
+          <End Role="Users" Type="CRS.Models.Store.Users" Multiplicity="1" />
+          <End Role="ApplicantOutcomes" Type="CRS.Models.Store.ApplicantOutcomes" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="ApplicantOutcomes">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Comments_Applicants">
+          <End Role="Applicants" Type="CRS.Models.Store.Applicants" Multiplicity="1" />
+          <End Role="Comments" Type="CRS.Models.Store.Comments" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Applicants">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Comments">
+              <PropertyRef Name="ApplicantId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Comments_Users">
+          <End Role="Users" Type="CRS.Models.Store.Users" Multiplicity="1" />
+          <End Role="Comments" Type="CRS.Models.Store.Comments" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Comments">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_DisplaySelection_EnumerationDetails">
+          <End Role="EnumerationDetails" Type="CRS.Models.Store.EnumerationDetails" Multiplicity="1" />
+          <End Role="DisplaySelection" Type="CRS.Models.Store.DisplaySelection" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="EnumerationDetails">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="DisplaySelection">
+              <PropertyRef Name="EnumerationDetailId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_DisplaySelection_Roles">
+          <End Role="Roles" Type="CRS.Models.Store.Roles" Multiplicity="1" />
+          <End Role="DisplaySelection" Type="CRS.Models.Store.DisplaySelection" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Roles">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="DisplaySelection">
+              <PropertyRef Name="AccessCode" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_DisplaySelection_WidgetInventory">
+          <End Role="WidgetInventory" Type="CRS.Models.Store.WidgetInventory" Multiplicity="1" />
+          <End Role="DisplaySelection" Type="CRS.Models.Store.DisplaySelection" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="WidgetInventory">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="DisplaySelection">
+              <PropertyRef Name="WidgetId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Documents_Applicants">
+          <End Role="Applicants" Type="CRS.Models.Store.Applicants" Multiplicity="1" />
+          <End Role="Documents" Type="CRS.Models.Store.Documents" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Applicants">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Documents">
+              <PropertyRef Name="ApplicantId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_EnumerationEnumerationDetail">
+          <End Role="Enumerations" Type="CRS.Models.Store.Enumerations" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="EnumerationDetails" Type="CRS.Models.Store.EnumerationDetails" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Enumerations">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="EnumerationDetails">
+              <PropertyRef Name="EnumerationId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_InterviewFeedbacks_Users1">
+          <End Role="Users" Type="CRS.Models.Store.Users" Multiplicity="1" />
+          <End Role="InterviewFeedbacks" Type="CRS.Models.Store.InterviewFeedbacks" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="InterviewFeedbacks">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Interviews_Applicants">
+          <End Role="Applicants" Type="CRS.Models.Store.Applicants" Multiplicity="1" />
+          <End Role="Interviews" Type="CRS.Models.Store.Interviews" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Applicants">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Interviews">
+              <PropertyRef Name="ApplicantId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Interviews_Users">
+          <End Role="Users" Type="CRS.Models.Store.Users" Multiplicity="1" />
+          <End Role="Interviews" Type="CRS.Models.Store.Interviews" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Interviews">
+              <PropertyRef Name="InterviewId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_LambdaRegistry_EnumerationDetails">
+          <End Role="EnumerationDetails" Type="CRS.Models.Store.EnumerationDetails" Multiplicity="1" />
+          <End Role="LambdaRegistry" Type="CRS.Models.Store.LambdaRegistry" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="EnumerationDetails">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="LambdaRegistry">
+              <PropertyRef Name="EnumerationDetailsId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_LambdaRegistry_Roles">
+          <End Role="Roles" Type="CRS.Models.Store.Roles" Multiplicity="1" />
+          <End Role="LambdaRegistry" Type="CRS.Models.Store.LambdaRegistry" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Roles">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="LambdaRegistry">
+              <PropertyRef Name="RoleId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_LambdaRegistryDetails_ToEnumerationDetails">
+          <End Role="EnumerationDetails" Type="CRS.Models.Store.EnumerationDetails" Multiplicity="1" />
+          <End Role="LambdaRegistryDetails" Type="CRS.Models.Store.LambdaRegistryDetails" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="EnumerationDetails">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="LambdaRegistryDetails">
+              <PropertyRef Name="ExpressionType" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_LambdaRegistryDetails_ToLambdaRegistryId">
+          <End Role="LambdaRegistry" Type="CRS.Models.Store.LambdaRegistry" Multiplicity="1" />
+          <End Role="LambdaRegistryDetails" Type="CRS.Models.Store.LambdaRegistryDetails" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="LambdaRegistry">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="LambdaRegistryDetails">
+              <PropertyRef Name="LambdaRegistryId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Lists_EnumerationDetails">
+          <End Role="EnumerationDetails" Type="CRS.Models.Store.EnumerationDetails" Multiplicity="1" />
+          <End Role="Lists" Type="CRS.Models.Store.Lists" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="EnumerationDetails">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Lists">
+              <PropertyRef Name="EnumerationDetailId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Lists_Roles">
+          <End Role="Roles" Type="CRS.Models.Store.Roles" Multiplicity="1" />
+          <End Role="Lists" Type="CRS.Models.Store.Lists" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Roles">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Lists">
+              <PropertyRef Name="AccessCode" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Lists_WidgetInventory">
+          <End Role="WidgetInventory" Type="CRS.Models.Store.WidgetInventory" Multiplicity="1" />
+          <End Role="Lists" Type="CRS.Models.Store.Lists" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="WidgetInventory">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Lists">
+              <PropertyRef Name="WidgetId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_PageInventory_EnumerationDetails1">
+          <End Role="EnumerationDetails" Type="CRS.Models.Store.EnumerationDetails" Multiplicity="1" />
+          <End Role="PageInventory" Type="CRS.Models.Store.PageInventory" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="EnumerationDetails">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="PageInventory">
+              <PropertyRef Name="PageInventoryId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_QueryRegistry_EnumerationDetails">
+          <End Role="EnumerationDetails" Type="CRS.Models.Store.EnumerationDetails" Multiplicity="1" />
+          <End Role="QueryRegistry" Type="CRS.Models.Store.QueryRegistry" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="EnumerationDetails">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="QueryRegistry">
+              <PropertyRef Name="EnumerationDetailId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_QueryRegistry_EnumerationDetails1">
+          <End Role="EnumerationDetails" Type="CRS.Models.Store.EnumerationDetails" Multiplicity="1" />
+          <End Role="QueryRegistry" Type="CRS.Models.Store.QueryRegistry" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="EnumerationDetails">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="QueryRegistry">
+              <PropertyRef Name="PickerId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_RolePermissions_EnumerationDetails">
+          <End Role="EnumerationDetails" Type="CRS.Models.Store.EnumerationDetails" Multiplicity="1" />
+          <End Role="RolePermissions" Type="CRS.Models.Store.RolePermissions" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="EnumerationDetails">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="RolePermissions">
+              <PropertyRef Name="PermissionTypeId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_RolePermissions_Roles">
+          <End Role="Roles" Type="CRS.Models.Store.Roles" Multiplicity="1" />
+          <End Role="RolePermissions" Type="CRS.Models.Store.RolePermissions" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Roles">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="RolePermissions">
+              <PropertyRef Name="AccessCode" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_RolePermissions_WidgetInventory">
+          <End Role="WidgetInventory" Type="CRS.Models.Store.WidgetInventory" Multiplicity="0..1" />
+          <End Role="RolePermissions" Type="CRS.Models.Store.RolePermissions" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="WidgetInventory">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="RolePermissions">
+              <PropertyRef Name="WidgetId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Roles_EnumerationDetails">
+          <End Role="EnumerationDetails" Type="CRS.Models.Store.EnumerationDetails" Multiplicity="1" />
+          <End Role="Roles" Type="CRS.Models.Store.Roles" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="EnumerationDetails">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Roles">
+              <PropertyRef Name="EnumerationDetailsId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Tables_EnumerationDetails">
+          <End Role="EnumerationDetails" Type="CRS.Models.Store.EnumerationDetails" Multiplicity="1" />
+          <End Role="Tables" Type="CRS.Models.Store.Tables" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="EnumerationDetails">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Tables">
+              <PropertyRef Name="TableType" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_UserNotes_Applicants">
+          <End Role="Applicants" Type="CRS.Models.Store.Applicants" Multiplicity="1" />
+          <End Role="UserNotes" Type="CRS.Models.Store.UserNotes" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Applicants">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="UserNotes">
+              <PropertyRef Name="ApplicantId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_WidgetBehaviorInventory_EnumerationDetails">
+          <End Role="EnumerationDetails" Type="CRS.Models.Store.EnumerationDetails" Multiplicity="1" />
+          <End Role="WidgetBehaviorInventory" Type="CRS.Models.Store.WidgetBehaviorInventory" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="EnumerationDetails">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="WidgetBehaviorInventory">
+              <PropertyRef Name="BehaviorId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_WidgetBehaviorInventory_WidgetInventory">
+          <End Role="WidgetInventory" Type="CRS.Models.Store.WidgetInventory" Multiplicity="1" />
+          <End Role="WidgetBehaviorInventory" Type="CRS.Models.Store.WidgetBehaviorInventory" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="WidgetInventory">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="WidgetBehaviorInventory">
+              <PropertyRef Name="WidgetId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_WidgetInventory_EnumerationDetails">
+          <End Role="EnumerationDetails" Type="CRS.Models.Store.EnumerationDetails" Multiplicity="1" />
+          <End Role="WidgetInventory" Type="CRS.Models.Store.WidgetInventory" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="EnumerationDetails">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="WidgetInventory">
+              <PropertyRef Name="WidgetType" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_WidgetInventory_PageInventory">
+          <End Role="PageInventory" Type="CRS.Models.Store.PageInventory" Multiplicity="1" />
+          <End Role="WidgetInventory" Type="CRS.Models.Store.WidgetInventory" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="PageInventory">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="WidgetInventory">
+              <PropertyRef Name="PageId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Function Name="QueryDbForActiveApplicants" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="UserId" Type="int" Mode="In" />
+          <Parameter Name="ApplicantStatus" Type="int" Mode="In" />
+        </Function>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="CRS.Models" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+        <EntityContainer Name="DataModel" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="ActivityLogs" EntityType="CRS.Models.ActivityLog" />
+          <EntitySet Name="ApplicantOutcomes" EntityType="CRS.Models.ApplicantOutcome" />
+          <EntitySet Name="Applicants1" EntityType="CRS.Models.Applicants" />
+          <EntitySet Name="Comments1" EntityType="CRS.Models.Comments" />
+          <EntitySet Name="Documents1" EntityType="CRS.Models.Documents" />
+          <EntitySet Name="EnumerationDetails1" EntityType="CRS.Models.EnumerationDetails" />
+          <EntitySet Name="Enumerations1" EntityType="CRS.Models.Enumerations" />
+          <EntitySet Name="InterviewFeedbacks" EntityType="CRS.Models.InterviewFeedback" />
+          <EntitySet Name="Interviews1" EntityType="CRS.Models.Interviews" />
+          <EntitySet Name="PageInventories" EntityType="CRS.Models.PageInventory" />
+          <EntitySet Name="RolePermissions" EntityType="CRS.Models.RolePermission" />
+          <EntitySet Name="Roles" EntityType="CRS.Models.Role" />
+          <EntitySet Name="Tables" EntityType="CRS.Models.Table" />
+          <EntitySet Name="UserNotes1" EntityType="CRS.Models.UserNotes" />
+          <EntitySet Name="Users1" EntityType="CRS.Models.Users" />
+          <EntitySet Name="WidgetAccessInfoes" EntityType="CRS.Models.WidgetAccessInfo" />
+          <EntitySet Name="WidgetBehaviorInventories" EntityType="CRS.Models.WidgetBehaviorInventory" />
+          <EntitySet Name="WidgetInventories" EntityType="CRS.Models.WidgetInventory" />
+          <AssociationSet Name="FK_ActivityLogs_Applicants" Association="CRS.Models.FK_ActivityLogs_Applicants">
+            <End Role="Applicants" EntitySet="Applicants1" />
+            <End Role="ActivityLogs" EntitySet="ActivityLogs" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ActivityLogs_Users" Association="CRS.Models.FK_ActivityLogs_Users">
+            <End Role="Users" EntitySet="Users1" />
+            <End Role="ActivityLogs" EntitySet="ActivityLogs" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ApplicantOutcomes_Applicants" Association="CRS.Models.FK_ApplicantOutcomes_Applicants">
+            <End Role="Applicants" EntitySet="Applicants1" />
+            <End Role="ApplicantOutcomes" EntitySet="ApplicantOutcomes" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ApplicantOutcomes_Users" Association="CRS.Models.FK_ApplicantOutcomes_Users">
+            <End Role="Users" EntitySet="Users1" />
+            <End Role="ApplicantOutcomes" EntitySet="ApplicantOutcomes" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Comments_Applicants" Association="CRS.Models.FK_Comments_Applicants">
+            <End Role="Applicants" EntitySet="Applicants1" />
+            <End Role="Comments" EntitySet="Comments1" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Documents_Applicants" Association="CRS.Models.FK_Documents_Applicants">
+            <End Role="Applicants" EntitySet="Applicants1" />
+            <End Role="Documents" EntitySet="Documents1" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Interviews_Applicants" Association="CRS.Models.FK_Interviews_Applicants">
+            <End Role="Applicants" EntitySet="Applicants1" />
+            <End Role="Interviews" EntitySet="Interviews1" />
+          </AssociationSet>
+          <AssociationSet Name="FK_UserNotes_Applicants" Association="CRS.Models.FK_UserNotes_Applicants">
+            <End Role="Applicants" EntitySet="Applicants1" />
+            <End Role="UserNotes" EntitySet="UserNotes1" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Comments_Users" Association="CRS.Models.FK_Comments_Users">
+            <End Role="Users" EntitySet="Users1" />
+            <End Role="Comments" EntitySet="Comments1" />
+          </AssociationSet>
+          <AssociationSet Name="FK_EnumerationEnumerationDetail" Association="CRS.Models.FK_EnumerationEnumerationDetail">
+            <End Role="Enumerations" EntitySet="Enumerations1" />
+            <End Role="EnumerationDetails" EntitySet="EnumerationDetails1" />
+          </AssociationSet>
+          <AssociationSet Name="FK_PageInventory_EnumerationDetails1" Association="CRS.Models.FK_PageInventory_EnumerationDetails1">
+            <End Role="EnumerationDetails" EntitySet="EnumerationDetails1" />
+            <End Role="PageInventory" EntitySet="PageInventories" />
+          </AssociationSet>
+          <AssociationSet Name="FK_RolePermissions_EnumerationDetails" Association="CRS.Models.FK_RolePermissions_EnumerationDetails">
+            <End Role="EnumerationDetails" EntitySet="EnumerationDetails1" />
+            <End Role="RolePermissions" EntitySet="RolePermissions" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Roles_EnumerationDetails" Association="CRS.Models.FK_Roles_EnumerationDetails">
+            <End Role="EnumerationDetails" EntitySet="EnumerationDetails1" />
+            <End Role="Roles" EntitySet="Roles" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Tables_EnumerationDetails" Association="CRS.Models.FK_Tables_EnumerationDetails">
+            <End Role="EnumerationDetails" EntitySet="EnumerationDetails1" />
+            <End Role="Tables" EntitySet="Tables" />
+          </AssociationSet>
+          <AssociationSet Name="FK_WidgetBehaviorInventory_EnumerationDetails" Association="CRS.Models.FK_WidgetBehaviorInventory_EnumerationDetails">
+            <End Role="EnumerationDetails" EntitySet="EnumerationDetails1" />
+            <End Role="WidgetBehaviorInventory" EntitySet="WidgetBehaviorInventories" />
+          </AssociationSet>
+          <AssociationSet Name="FK_WidgetInventory_EnumerationDetails" Association="CRS.Models.FK_WidgetInventory_EnumerationDetails">
+            <End Role="EnumerationDetails" EntitySet="EnumerationDetails1" />
+            <End Role="WidgetInventory" EntitySet="WidgetInventories" />
+          </AssociationSet>
+          <AssociationSet Name="FK_InterviewFeedbacks_Users1" Association="CRS.Models.FK_InterviewFeedbacks_Users1">
+            <End Role="Users" EntitySet="Users1" />
+            <End Role="InterviewFeedbacks" EntitySet="InterviewFeedbacks" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Interviews_Users" Association="CRS.Models.FK_Interviews_Users">
+            <End Role="Users" EntitySet="Users1" />
+            <End Role="Interviews" EntitySet="Interviews1" />
+          </AssociationSet>
+          <AssociationSet Name="FK_WidgetInventory_PageInventory" Association="CRS.Models.FK_WidgetInventory_PageInventory">
+            <End Role="PageInventory" EntitySet="PageInventories" />
+            <End Role="WidgetInventory" EntitySet="WidgetInventories" />
+          </AssociationSet>
+          <AssociationSet Name="FK_RolePermissions_Roles" Association="CRS.Models.FK_RolePermissions_Roles">
+            <End Role="Roles" EntitySet="Roles" />
+            <End Role="RolePermissions" EntitySet="RolePermissions" />
+          </AssociationSet>
+          <AssociationSet Name="FK_RolePermissions_WidgetInventory" Association="CRS.Models.FK_RolePermissions_WidgetInventory">
+            <End Role="WidgetInventory" EntitySet="WidgetInventories" />
+            <End Role="RolePermissions" EntitySet="RolePermissions" />
+          </AssociationSet>
+          <AssociationSet Name="FK_WidgetBehaviorInventory_WidgetInventory" Association="CRS.Models.FK_WidgetBehaviorInventory_WidgetInventory">
+            <End Role="WidgetInventory" EntitySet="WidgetInventories" />
+            <End Role="WidgetBehaviorInventory" EntitySet="WidgetBehaviorInventories" />
+          </AssociationSet>
+          <FunctionImport Name="QueryDbForActiveApplicants" ReturnType="Collection(CRS.Models.QueryDbForActiveApplicants_Result)">
+            <Parameter Name="UserId" Mode="In" Type="Int32" />
+            <Parameter Name="ApplicantStatus" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <EntitySet Name="Lists" EntityType="CRS.Models.List" />
+          <AssociationSet Name="FK_Lists_WidgetInventory" Association="CRS.Models.FK_Lists_WidgetInventory">
+            <End Role="WidgetInventory" EntitySet="WidgetInventories" />
+            <End Role="List" EntitySet="Lists" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Lists_EnumerationDetails" Association="CRS.Models.FK_Lists_EnumerationDetails">
+            <End Role="EnumerationDetails" EntitySet="EnumerationDetails1" />
+            <End Role="List" EntitySet="Lists" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Roles_EnumerationDetails1" Association="CRS.Models.FK_Roles_EnumerationDetails1">
+            <End Role="EnumerationDetails" EntitySet="EnumerationDetails1" />
+            <End Role="Role" EntitySet="Roles" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Roles_EnumerationDetails2" Association="CRS.Models.FK_Roles_EnumerationDetails2">
+            <End Role="EnumerationDetails" EntitySet="EnumerationDetails1" />
+            <End Role="Role" EntitySet="Roles" />
+          </AssociationSet>
+          <AssociationSet Name="FK_RolePermissions_Roles1" Association="CRS.Models.FK_RolePermissions_Roles1">
+            <End Role="Role" EntitySet="Roles" />
+            <End Role="RolePermission" EntitySet="RolePermissions" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Lists_Roles" Association="CRS.Models.FK_Lists_Roles">
+            <End Role="Role" EntitySet="Roles" />
+            <End Role="List" EntitySet="Lists" />
+          </AssociationSet>
+          <EntitySet Name="DisplaySelections" EntityType="CRS.Models.DisplaySelection" />
+          <AssociationSet Name="FK_DisplaySelection_WidgetInventory" Association="CRS.Models.FK_DisplaySelection_WidgetInventory">
+            <End Role="WidgetInventory" EntitySet="WidgetInventories" />
+            <End Role="DisplaySelection" EntitySet="DisplaySelections" />
+          </AssociationSet>
+          <AssociationSet Name="FK_DisplaySelection_EnumerationDetails" Association="CRS.Models.FK_DisplaySelection_EnumerationDetails">
+            <End Role="EnumerationDetails" EntitySet="EnumerationDetails1" />
+            <End Role="DisplaySelection" EntitySet="DisplaySelections" />
+          </AssociationSet>
+          <AssociationSet Name="FK_DisplaySelection_Roles" Association="CRS.Models.FK_DisplaySelection_Roles">
+            <End Role="Role" EntitySet="Roles" />
+            <End Role="DisplaySelection" EntitySet="DisplaySelections" />
+          </AssociationSet>
+          <EntitySet Name="QueryRegistries" EntityType="CRS.Models.QueryRegistry" />
+          <AssociationSet Name="FK_QueryRegistry_EnumerationDetails" Association="CRS.Models.FK_QueryRegistry_EnumerationDetails">
+            <End Role="EnumerationDetails" EntitySet="EnumerationDetails1" />
+            <End Role="QueryRegistry" EntitySet="QueryRegistries" />
+          </AssociationSet>
+          <AssociationSet Name="FK_QueryRegistry_EnumerationDetails1" Association="CRS.Models.FK_QueryRegistry_EnumerationDetails1">
+            <End Role="EnumerationDetails" EntitySet="EnumerationDetails1" />
+            <End Role="QueryRegistry" EntitySet="QueryRegistries" />
+          </AssociationSet>
+          <EntitySet Name="LambdaRegistries" EntityType="CRS.Models.LambdaRegistry" />
+          <AssociationSet Name="FK_LambdaRegistry_EnumerationDetails" Association="CRS.Models.FK_LambdaRegistry_EnumerationDetails">
+            <End Role="EnumerationDetails" EntitySet="EnumerationDetails1" />
+            <End Role="LambdaRegistry" EntitySet="LambdaRegistries" />
+          </AssociationSet>
+          <AssociationSet Name="FK_LambdaRegistry_Roles" Association="CRS.Models.FK_LambdaRegistry_Roles">
+            <End Role="Role" EntitySet="Roles" />
+            <End Role="LambdaRegistry" EntitySet="LambdaRegistries" />
+          </AssociationSet>
+          <EntitySet Name="LambdaRegistryDetails" EntityType="CRS.Models.LambdaRegistryDetail" />
+          <AssociationSet Name="FK_LambdaRegistryDetails_ToEnumerationDetails" Association="CRS.Models.FK_LambdaRegistryDetails_ToEnumerationDetails">
+            <End Role="EnumerationDetails" EntitySet="EnumerationDetails1" />
+            <End Role="LambdaRegistryDetail" EntitySet="LambdaRegistryDetails" />
+          </AssociationSet>
+          <AssociationSet Name="FK_LambdaRegistryDetails_ToLambdaRegistryId" Association="CRS.Models.FK_LambdaRegistryDetails_ToLambdaRegistryId">
+            <End Role="LambdaRegistry" EntitySet="LambdaRegistries" />
+            <End Role="LambdaRegistryDetail" EntitySet="LambdaRegistryDetails" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="ActivityLog">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="UserId" Type="Int32" Nullable="false" />
+          <Property Name="ApplicantId" Type="Int32" Nullable="false" />
+          <Property Name="ActionType" Type="Int32" Nullable="false" />
+          <Property Name="Timestamp" Type="DateTime" Nullable="false" />
+          <NavigationProperty Name="Applicant" Relationship="CRS.Models.FK_ActivityLogs_Applicants" FromRole="ActivityLogs" ToRole="Applicants" />
+          <NavigationProperty Name="User" Relationship="CRS.Models.FK_ActivityLogs_Users" FromRole="ActivityLogs" ToRole="Users" />
+        </EntityType>
+        <EntityType Name="ApplicantOutcome">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ApplicantId" Type="Int32" Nullable="false" />
+          <Property Name="UserId" Type="Int32" Nullable="false" />
+          <Property Name="OfferStatus" Type="Int32" Nullable="false" />
+          <Property Name="DivisionId" Type="Int32" Nullable="false" />
+          <Property Name="ClosingDate" Type="DateTime" Nullable="false" />
+          <Property Name="OutcomeDate" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="Remarks" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <NavigationProperty Name="Applicant" Relationship="CRS.Models.FK_ApplicantOutcomes_Applicants" FromRole="ApplicantOutcomes" ToRole="Applicants" />
+          <NavigationProperty Name="User" Relationship="CRS.Models.FK_ApplicantOutcomes_Users" FromRole="ApplicantOutcomes" ToRole="Users" />
+        </EntityType>
+        <EntityType Name="Applicants">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="FirstName" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="MiddleName" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="LastName" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="AddedBy" Type="Int32" Nullable="false" />
+          <Property Name="VeteransPreference" Type="Int32" Nullable="false" />
+          <Property Name="Series" Type="Int32" Nullable="false" />
+          <Property Name="DateCreated" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="DateDeactivated" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="Active" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="Status" Type="Int32" Nullable="false" />
+          <Property Name="Division" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="Gender" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <NavigationProperty Name="ActivityLogs" Relationship="CRS.Models.FK_ActivityLogs_Applicants" FromRole="Applicants" ToRole="ActivityLogs" />
+          <NavigationProperty Name="ApplicantOutcomes" Relationship="CRS.Models.FK_ApplicantOutcomes_Applicants" FromRole="Applicants" ToRole="ApplicantOutcomes" />
+          <NavigationProperty Name="Comments" Relationship="CRS.Models.FK_Comments_Applicants" FromRole="Applicants" ToRole="Comments" />
+          <NavigationProperty Name="Documents" Relationship="CRS.Models.FK_Documents_Applicants" FromRole="Applicants" ToRole="Documents" />
+          <NavigationProperty Name="Interviews" Relationship="CRS.Models.FK_Interviews_Applicants" FromRole="Applicants" ToRole="Interviews" />
+          <NavigationProperty Name="UserNotes" Relationship="CRS.Models.FK_UserNotes_Applicants" FromRole="Applicants" ToRole="UserNotes" />
+          <Property Type="Int32" Name="Ownership" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Comments">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ApplicantId" Type="Int32" Nullable="false" />
+          <Property Name="Remarks" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="UserId" Type="Int32" Nullable="false" />
+          <Property Name="Timestamp" Type="DateTime" Nullable="false" />
+          <NavigationProperty Name="Applicant" Relationship="CRS.Models.FK_Comments_Applicants" FromRole="Comments" ToRole="Applicants" />
+          <NavigationProperty Name="User" Relationship="CRS.Models.FK_Comments_Users" FromRole="Comments" ToRole="Users" />
+        </EntityType>
+        <EntityType Name="Documents">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ApplicantId" Type="Int32" Nullable="false" />
+          <Property Name="DocumentName" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="DocumentType" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Applicant" Relationship="CRS.Models.FK_Documents_Applicants" FromRole="Documents" ToRole="Applicants" />
+        </EntityType>
+        <EntityType Name="EnumerationDetails">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="EnumerationId" Type="Int32" Nullable="false" />
+          <Property Name="IntVal" Type="Int32" Nullable="false" />
+          <Property Name="EnumerationName" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="SortOrder" Type="Int32" Nullable="false" />
+          <Property Name="DisplayText" Type="String" MaxLength="200" Unicode="true" FixedLength="false" />
+          <Property Name="Description" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <NavigationProperty Name="Enumeration" Relationship="CRS.Models.FK_EnumerationEnumerationDetail" FromRole="EnumerationDetails" ToRole="Enumerations" />
+          <NavigationProperty Name="PageInventories" Relationship="CRS.Models.FK_PageInventory_EnumerationDetails1" FromRole="EnumerationDetails" ToRole="PageInventory" />
+          <NavigationProperty Name="RolePermissions" Relationship="CRS.Models.FK_RolePermissions_EnumerationDetails" FromRole="EnumerationDetails" ToRole="RolePermissions" />
+          <NavigationProperty Name="Roles" Relationship="CRS.Models.FK_Roles_EnumerationDetails" FromRole="EnumerationDetails" ToRole="Roles" />
+          <NavigationProperty Name="Tables" Relationship="CRS.Models.FK_Tables_EnumerationDetails" FromRole="EnumerationDetails" ToRole="Tables" />
+          <NavigationProperty Name="WidgetBehaviorInventories" Relationship="CRS.Models.FK_WidgetBehaviorInventory_EnumerationDetails" FromRole="EnumerationDetails" ToRole="WidgetBehaviorInventory" />
+          <NavigationProperty Name="WidgetInventories" Relationship="CRS.Models.FK_WidgetInventory_EnumerationDetails" FromRole="EnumerationDetails" ToRole="WidgetInventory" />
+          <NavigationProperty Name="Lists" Relationship="CRS.Models.FK_Lists_EnumerationDetails" FromRole="EnumerationDetails" ToRole="List" />
+          <NavigationProperty Name="Roles_1" Relationship="CRS.Models.FK_Roles_EnumerationDetails2" FromRole="EnumerationDetails" ToRole="Role" />
+          <NavigationProperty Name="DisplaySelections" Relationship="CRS.Models.FK_DisplaySelection_EnumerationDetails" FromRole="EnumerationDetails" ToRole="DisplaySelection" />
+          <NavigationProperty Name="QueryRegistries" Relationship="CRS.Models.FK_QueryRegistry_EnumerationDetails" FromRole="EnumerationDetails" ToRole="QueryRegistry" />
+          <NavigationProperty Name="QueryRegistries1" Relationship="CRS.Models.FK_QueryRegistry_EnumerationDetails1" FromRole="EnumerationDetails" ToRole="QueryRegistry" />
+          <NavigationProperty Name="LambdaRegistries" Relationship="CRS.Models.FK_LambdaRegistry_EnumerationDetails" FromRole="EnumerationDetails" ToRole="LambdaRegistry" />
+          <NavigationProperty Name="LambdaRegistryDetails" Relationship="CRS.Models.FK_LambdaRegistryDetails_ToEnumerationDetails" FromRole="EnumerationDetails" ToRole="LambdaRegistryDetail" />
+        </EntityType>
+        <EntityType Name="Enumerations">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="Description" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+          <NavigationProperty Name="EnumerationDetails" Relationship="CRS.Models.FK_EnumerationEnumerationDetail" FromRole="Enumerations" ToRole="EnumerationDetails" />
+        </EntityType>
+        <EntityType Name="InterviewFeedback">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="UserId" Type="Int32" Nullable="false" />
+          <Property Name="ApplicantId" Type="Int32" Nullable="false" />
+          <Property Name="OfferStatus" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="InterviewDone" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="CensusOfferStatus" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="ParsNumber" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="Supervisor1" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="Supervisor2" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="RelocationExpense" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="OfferReason1" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="OfferReason2" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="OfferReason3" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="OfferReason4" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="OfferReason5" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="OfferReason6" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="OfferReason7" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="OfferReason8" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="OfferReason9" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <NavigationProperty Name="User" Relationship="CRS.Models.FK_InterviewFeedbacks_Users1" FromRole="InterviewFeedbacks" ToRole="Users" />
+        </EntityType>
+        <EntityType Name="Interviews">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="InterviewId" Type="Int32" Nullable="false" />
+          <Property Name="ApplicantId" Type="Int32" Nullable="false" />
+          <Property Name="FeedbackProvided" Type="Int32" Nullable="false" />
+          <Property Name="InterviewDate" Type="DateTime" Nullable="false" />
+          <NavigationProperty Name="Applicant" Relationship="CRS.Models.FK_Interviews_Applicants" FromRole="Interviews" ToRole="Applicants" />
+          <NavigationProperty Name="User" Relationship="CRS.Models.FK_Interviews_Users" FromRole="Interviews" ToRole="Users" />
+        </EntityType>
+        <EntityType Name="PageInventory">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="PageInventoryId" Type="Int32" Nullable="false" />
+          <Property Name="PageType" Type="Int32" />
+          <Property Name="Title" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="Aliases" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="Description" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+          <NavigationProperty Name="EnumerationDetail" Relationship="CRS.Models.FK_PageInventory_EnumerationDetails1" FromRole="PageInventory" ToRole="EnumerationDetails" />
+          <NavigationProperty Name="WidgetInventories" Relationship="CRS.Models.FK_WidgetInventory_PageInventory" FromRole="PageInventory" ToRole="WidgetInventory" />
+          <Property Type="Int32" Name="PageOrder" Nullable="false" />
+        </EntityType>
+        <EntityType Name="RolePermission">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="PermissionTypeId" Type="Int32" Nullable="false" />
+          <Property Name="WidgetId" Type="Int32" />
+          <Property Name="Description" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <NavigationProperty Name="EnumerationDetail" Relationship="CRS.Models.FK_RolePermissions_EnumerationDetails" FromRole="RolePermissions" ToRole="EnumerationDetails" />
+          <NavigationProperty Name="Role" Relationship="CRS.Models.FK_RolePermissions_Roles" FromRole="RolePermissions" ToRole="Roles" />
+          <NavigationProperty Name="WidgetInventory" Relationship="CRS.Models.FK_RolePermissions_WidgetInventory" FromRole="RolePermissions" ToRole="WidgetInventory" />
+          <Property Type="Int32" Name="AccessCode" Nullable="false" />
+          <NavigationProperty Name="Role_1" Relationship="CRS.Models.FK_RolePermissions_Roles1" FromRole="RolePermission" ToRole="Role" />
+        </EntityType>
+        <EntityType Name="Role">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ActiveStatusId" Type="Int32" Nullable="false" />
+          <Property Name="Description" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+          <NavigationProperty Name="EnumerationDetail" Relationship="CRS.Models.FK_Roles_EnumerationDetails" FromRole="Roles" ToRole="EnumerationDetails" />
+          <NavigationProperty Name="RolePermissions" Relationship="CRS.Models.FK_RolePermissions_Roles" FromRole="Roles" ToRole="RolePermissions" />
+          <Property Type="Int32" Name="EnumerationDetailsId" Nullable="false" />
+          <NavigationProperty Name="EnumerationDetail_1" Relationship="CRS.Models.FK_Roles_EnumerationDetails2" FromRole="Role" ToRole="EnumerationDetails" />
+          <NavigationProperty Name="RolePermissions_1" Relationship="CRS.Models.FK_RolePermissions_Roles1" FromRole="Role" ToRole="RolePermission" />
+          <NavigationProperty Name="Lists" Relationship="CRS.Models.FK_Lists_Roles" FromRole="Role" ToRole="List" />
+          <NavigationProperty Name="DisplaySelections" Relationship="CRS.Models.FK_DisplaySelection_Roles" FromRole="Role" ToRole="DisplaySelection" />
+          <NavigationProperty Name="LambdaRegistries" Relationship="CRS.Models.FK_LambdaRegistry_Roles" FromRole="Role" ToRole="LambdaRegistry" />
+        </EntityType>
+        <EntityType Name="Table">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="TableType" Type="Int32" Nullable="false" />
+          <Property Name="Name" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="Description" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <NavigationProperty Name="EnumerationDetail" Relationship="CRS.Models.FK_Tables_EnumerationDetails" FromRole="Tables" ToRole="EnumerationDetails" />
+        </EntityType>
+        <EntityType Name="UserNotes">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ApplicantId" Type="Int32" Nullable="false" />
+          <Property Name="Remarks" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <NavigationProperty Name="Applicant" Relationship="CRS.Models.FK_UserNotes_Applicants" FromRole="UserNotes" ToRole="Applicants" />
+        </EntityType>
+        <EntityType Name="Users">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="JamesBond" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="FirstName" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="MiddleName" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="LastName" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="Email" Type="String" MaxLength="200" Unicode="true" FixedLength="false" />
+          <Property Name="Division" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="FailedLogins" Type="Int32" />
+          <Property Name="FirstFailureDate" Type="DateTime" />
+          <Property Name="LastFailureDate" Type="DateTime" />
+          <Property Name="CreatedDate" Type="DateTime" Nullable="false" />
+          <Property Name="UserStatus" Type="Int32" Nullable="false" />
+          <Property Name="ExpirationDate" Type="DateTime" Nullable="false" />
+          <Property Name="LastLoginDate" Type="DateTime" Nullable="false" />
+          <Property Name="ISB" Type="String" Nullable="false" MaxLength="1" Unicode="true" FixedLength="false" />
+          <Property Name="PasswordReset" Type="String" Nullable="false" MaxLength="1" Unicode="false" FixedLength="true" />
+          <Property Name="PasswordExpirationDate" Type="DateTime" Nullable="false" />
+          <NavigationProperty Name="ActivityLogs" Relationship="CRS.Models.FK_ActivityLogs_Users" FromRole="Users" ToRole="ActivityLogs" />
+          <NavigationProperty Name="ApplicantOutcomes" Relationship="CRS.Models.FK_ApplicantOutcomes_Users" FromRole="Users" ToRole="ApplicantOutcomes" />
+          <NavigationProperty Name="Comments" Relationship="CRS.Models.FK_Comments_Users" FromRole="Users" ToRole="Comments" />
+          <NavigationProperty Name="InterviewFeedbacks" Relationship="CRS.Models.FK_InterviewFeedbacks_Users1" FromRole="Users" ToRole="InterviewFeedbacks" />
+          <NavigationProperty Name="Interviews" Relationship="CRS.Models.FK_Interviews_Users" FromRole="Users" ToRole="Interviews" />
+          <Property Type="Int32" Name="AccessCode" Nullable="false" />
+        </EntityType>
+        <EntityType Name="WidgetAccessInfo">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="WidgetId" Type="Int32" Nullable="false" />
+          <Property Name="AccessLevelId" Type="Int32" Nullable="false" />
+          <Property Name="Description" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="WidgetBehaviorInventory">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="WidgetId" Type="Int32" Nullable="false" />
+          <Property Name="BehaviorId" Type="Int32" Nullable="false" />
+          <Property Name="Description" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <NavigationProperty Name="EnumerationDetail" Relationship="CRS.Models.FK_WidgetBehaviorInventory_EnumerationDetails" FromRole="WidgetBehaviorInventory" ToRole="EnumerationDetails" />
+          <NavigationProperty Name="WidgetInventory" Relationship="CRS.Models.FK_WidgetBehaviorInventory_WidgetInventory" FromRole="WidgetBehaviorInventory" ToRole="WidgetInventory" />
+        </EntityType>
+        <EntityType Name="WidgetInventory">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="PageId" Type="Int32" Nullable="false" />
+          <Property Name="WidgetType" Type="Int32" Nullable="false" />
+          <Property Name="Name" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="DisplayText" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="Description" Type="String" MaxLength="250" Unicode="true" FixedLength="false" />
+          <NavigationProperty Name="EnumerationDetail" Relationship="CRS.Models.FK_WidgetInventory_EnumerationDetails" FromRole="WidgetInventory" ToRole="EnumerationDetails" />
+          <NavigationProperty Name="PageInventory" Relationship="CRS.Models.FK_WidgetInventory_PageInventory" FromRole="WidgetInventory" ToRole="PageInventory" />
+          <NavigationProperty Name="RolePermissions" Relationship="CRS.Models.FK_RolePermissions_WidgetInventory" FromRole="WidgetInventory" ToRole="RolePermissions" />
+          <NavigationProperty Name="WidgetBehaviorInventories" Relationship="CRS.Models.FK_WidgetBehaviorInventory_WidgetInventory" FromRole="WidgetInventory" ToRole="WidgetBehaviorInventory" />
+          <NavigationProperty Name="Lists" Relationship="CRS.Models.FK_Lists_WidgetInventory" FromRole="WidgetInventory" ToRole="List" />
+          <NavigationProperty Name="DisplaySelections" Relationship="CRS.Models.FK_DisplaySelection_WidgetInventory" FromRole="WidgetInventory" ToRole="DisplaySelection" />
+        </EntityType>
+        <Association Name="FK_ActivityLogs_Applicants">
+          <End Role="Applicants" Type="CRS.Models.Applicants" Multiplicity="1" />
+          <End Role="ActivityLogs" Type="CRS.Models.ActivityLog" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Applicants">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="ActivityLogs">
+              <PropertyRef Name="ApplicantId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ActivityLogs_Users">
+          <End Role="Users" Type="CRS.Models.Users" Multiplicity="1" />
+          <End Role="ActivityLogs" Type="CRS.Models.ActivityLog" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="ActivityLogs">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ApplicantOutcomes_Applicants">
+          <End Role="Applicants" Type="CRS.Models.Applicants" Multiplicity="1" />
+          <End Role="ApplicantOutcomes" Type="CRS.Models.ApplicantOutcome" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Applicants">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="ApplicantOutcomes">
+              <PropertyRef Name="ApplicantId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ApplicantOutcomes_Users">
+          <End Role="Users" Type="CRS.Models.Users" Multiplicity="1" />
+          <End Role="ApplicantOutcomes" Type="CRS.Models.ApplicantOutcome" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="ApplicantOutcomes">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Comments_Applicants">
+          <End Role="Applicants" Type="CRS.Models.Applicants" Multiplicity="1" />
+          <End Role="Comments" Type="CRS.Models.Comments" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Applicants">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Comments">
+              <PropertyRef Name="ApplicantId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Documents_Applicants">
+          <End Role="Applicants" Type="CRS.Models.Applicants" Multiplicity="1" />
+          <End Role="Documents" Type="CRS.Models.Documents" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Applicants">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Documents">
+              <PropertyRef Name="ApplicantId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Interviews_Applicants">
+          <End Role="Applicants" Type="CRS.Models.Applicants" Multiplicity="1" />
+          <End Role="Interviews" Type="CRS.Models.Interviews" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Applicants">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Interviews">
+              <PropertyRef Name="ApplicantId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_UserNotes_Applicants">
+          <End Role="Applicants" Type="CRS.Models.Applicants" Multiplicity="1" />
+          <End Role="UserNotes" Type="CRS.Models.UserNotes" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Applicants">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="UserNotes">
+              <PropertyRef Name="ApplicantId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Comments_Users">
+          <End Role="Users" Type="CRS.Models.Users" Multiplicity="1" />
+          <End Role="Comments" Type="CRS.Models.Comments" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Comments">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_EnumerationEnumerationDetail">
+          <End Role="Enumerations" Type="CRS.Models.Enumerations" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="EnumerationDetails" Type="CRS.Models.EnumerationDetails" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Enumerations">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="EnumerationDetails">
+              <PropertyRef Name="EnumerationId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_PageInventory_EnumerationDetails1">
+          <End Role="EnumerationDetails" Type="CRS.Models.EnumerationDetails" Multiplicity="1" />
+          <End Role="PageInventory" Type="CRS.Models.PageInventory" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="EnumerationDetails">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="PageInventory">
+              <PropertyRef Name="PageInventoryId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_RolePermissions_EnumerationDetails">
+          <End Role="EnumerationDetails" Type="CRS.Models.EnumerationDetails" Multiplicity="1" />
+          <End Role="RolePermissions" Type="CRS.Models.RolePermission" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="EnumerationDetails">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="RolePermissions">
+              <PropertyRef Name="PermissionTypeId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Roles_EnumerationDetails">
+          <End Role="EnumerationDetails" Type="CRS.Models.EnumerationDetails" Multiplicity="1" />
+          <End Role="Roles" Type="CRS.Models.Role" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="EnumerationDetails">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Roles">
+              <PropertyRef Name="EnumerationDetailsId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Tables_EnumerationDetails">
+          <End Role="EnumerationDetails" Type="CRS.Models.EnumerationDetails" Multiplicity="1" />
+          <End Role="Tables" Type="CRS.Models.Table" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="EnumerationDetails">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Tables">
+              <PropertyRef Name="TableType" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_WidgetBehaviorInventory_EnumerationDetails">
+          <End Role="EnumerationDetails" Type="CRS.Models.EnumerationDetails" Multiplicity="1" />
+          <End Role="WidgetBehaviorInventory" Type="CRS.Models.WidgetBehaviorInventory" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="EnumerationDetails">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="WidgetBehaviorInventory">
+              <PropertyRef Name="BehaviorId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_WidgetInventory_EnumerationDetails">
+          <End Role="EnumerationDetails" Type="CRS.Models.EnumerationDetails" Multiplicity="1" />
+          <End Role="WidgetInventory" Type="CRS.Models.WidgetInventory" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="EnumerationDetails">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="WidgetInventory">
+              <PropertyRef Name="WidgetType" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_InterviewFeedbacks_Users1">
+          <End Role="Users" Type="CRS.Models.Users" Multiplicity="1" />
+          <End Role="InterviewFeedbacks" Type="CRS.Models.InterviewFeedback" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="InterviewFeedbacks">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Interviews_Users">
+          <End Role="Users" Type="CRS.Models.Users" Multiplicity="1" />
+          <End Role="Interviews" Type="CRS.Models.Interviews" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Interviews">
+              <PropertyRef Name="InterviewId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_WidgetInventory_PageInventory">
+          <End Role="PageInventory" Type="CRS.Models.PageInventory" Multiplicity="1" />
+          <End Role="WidgetInventory" Type="CRS.Models.WidgetInventory" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="PageInventory">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="WidgetInventory">
+              <PropertyRef Name="PageId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_RolePermissions_Roles">
+          <End Role="Roles" Type="CRS.Models.Role" Multiplicity="1" />
+          <End Role="RolePermissions" Type="CRS.Models.RolePermission" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Roles">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="RolePermissions">
+              <PropertyRef Name="AccessCode" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_RolePermissions_WidgetInventory">
+          <End Role="WidgetInventory" Type="CRS.Models.WidgetInventory" Multiplicity="0..1" />
+          <End Role="RolePermissions" Type="CRS.Models.RolePermission" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="WidgetInventory">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="RolePermissions">
+              <PropertyRef Name="WidgetId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_WidgetBehaviorInventory_WidgetInventory">
+          <End Role="WidgetInventory" Type="CRS.Models.WidgetInventory" Multiplicity="1" />
+          <End Role="WidgetBehaviorInventory" Type="CRS.Models.WidgetBehaviorInventory" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="WidgetInventory">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="WidgetBehaviorInventory">
+              <PropertyRef Name="WidgetId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <ComplexType Name="QueryDbForActiveApplicants">
+          <Property Type="Int32" Name="Id" Nullable="false" />
+          <Property Type="String" Name="FirstName" Nullable="false" />
+          <Property Type="String" Name="LastName" Nullable="false" />
+          <Property Type="String" Name="DateCreated" Nullable="false" />
+          <Property Type="String" Name="Series" Nullable="false" />
+          <Property Type="Int16" Name="VeteransPreference" Nullable="false" />
+          <Property Type="Int32" Name="OfferStatus" Nullable="false" />
+        </ComplexType>
+        <ComplexType Name="QueryDbForActiveApplicants_Result">
+          <Property Type="Int32" Name="Id" Nullable="false" />
+          <Property Type="String" Name="FirstName" Nullable="false" />
+          <Property Type="String" Name="LastName" Nullable="false" />
+          <Property Type="String" Name="DateCreated" Nullable="false" />
+          <Property Type="String" Name="Series" Nullable="false" />
+          <Property Type="Int16" Name="VeteransPreference" Nullable="false" />
+          <Property Type="Int32" Name="OfferStatus" Nullable="false" />
+        </ComplexType>
+        <EntityType Name="List">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="Int32" Name="WidgetId" Nullable="false" />
+          <Property Type="String" Name="Description" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="WidgetInventory" Relationship="CRS.Models.FK_Lists_WidgetInventory" FromRole="List" ToRole="WidgetInventory" />
+          <Property Type="Int32" Name="EnumerationDetailId" Nullable="false" />
+          <NavigationProperty Name="EnumerationDetail" Relationship="CRS.Models.FK_Lists_EnumerationDetails" FromRole="List" ToRole="EnumerationDetails" />
+          <Property Type="Int32" Name="AccessCode" Nullable="false" />
+          <NavigationProperty Name="Role" Relationship="CRS.Models.FK_Lists_Roles" FromRole="List" ToRole="Role" />
+        </EntityType>
+        <Association Name="FK_Lists_WidgetInventory">
+          <End Type="CRS.Models.WidgetInventory" Role="WidgetInventory" Multiplicity="1" />
+          <End Type="CRS.Models.List" Role="List" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="WidgetInventory">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="List">
+              <PropertyRef Name="WidgetId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Lists_EnumerationDetails">
+          <End Type="CRS.Models.EnumerationDetails" Role="EnumerationDetails" Multiplicity="1" />
+          <End Type="CRS.Models.List" Role="List" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="EnumerationDetails">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="List">
+              <PropertyRef Name="EnumerationDetailId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Roles_EnumerationDetails1">
+          <End Type="CRS.Models.EnumerationDetails" Role="EnumerationDetails" Multiplicity="1" />
+          <End Type="CRS.Models.Role" Role="Role" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="EnumerationDetails">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Role">
+              <PropertyRef Name="EnumerationDetailsId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Roles_EnumerationDetails2">
+          <End Type="CRS.Models.EnumerationDetails" Role="EnumerationDetails" Multiplicity="1" />
+          <End Type="CRS.Models.Role" Role="Role" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="EnumerationDetails">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Role">
+              <PropertyRef Name="EnumerationDetailsId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_RolePermissions_Roles1">
+          <End Type="CRS.Models.Role" Role="Role" Multiplicity="1" />
+          <End Type="CRS.Models.RolePermission" Role="RolePermission" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Role">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="RolePermission">
+              <PropertyRef Name="AccessCode" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Lists_Roles">
+          <End Type="CRS.Models.Role" Role="Role" Multiplicity="1" />
+          <End Type="CRS.Models.List" Role="List" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Role">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="List">
+              <PropertyRef Name="AccessCode" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="DisplaySelection">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="Int32" Name="WidgetId" Nullable="false" />
+          <Property Type="Int32" Name="EnumerationDetailId" Nullable="false" />
+          <Property Type="Int32" Name="AccessCode" Nullable="false" />
+          <Property Type="String" Name="HeaderText" MaxLength="200" FixedLength="true" Unicode="true" />
+          <Property Type="String" Name="Description" MaxLength="200" FixedLength="true" Unicode="true" />
+          <NavigationProperty Name="WidgetInventory" Relationship="CRS.Models.FK_DisplaySelection_WidgetInventory" FromRole="DisplaySelection" ToRole="WidgetInventory" />
+          <NavigationProperty Name="EnumerationDetail" Relationship="CRS.Models.FK_DisplaySelection_EnumerationDetails" FromRole="DisplaySelection" ToRole="EnumerationDetails" />
+          <NavigationProperty Name="Role" Relationship="CRS.Models.FK_DisplaySelection_Roles" FromRole="DisplaySelection" ToRole="Role" />
+        </EntityType>
+        <Association Name="FK_DisplaySelection_WidgetInventory">
+          <End Type="CRS.Models.WidgetInventory" Role="WidgetInventory" Multiplicity="1" />
+          <End Type="CRS.Models.DisplaySelection" Role="DisplaySelection" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="WidgetInventory">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="DisplaySelection">
+              <PropertyRef Name="WidgetId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_DisplaySelection_EnumerationDetails">
+          <End Type="CRS.Models.EnumerationDetails" Role="EnumerationDetails" Multiplicity="1" />
+          <End Type="CRS.Models.DisplaySelection" Role="DisplaySelection" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="EnumerationDetails">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="DisplaySelection">
+              <PropertyRef Name="EnumerationDetailId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_DisplaySelection_Roles">
+          <End Type="CRS.Models.Role" Role="Role" Multiplicity="1" />
+          <End Type="CRS.Models.DisplaySelection" Role="DisplaySelection" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Role">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="DisplaySelection">
+              <PropertyRef Name="AccessCode" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="QueryRegistry">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="Int32" Name="EnumerationDetailId" Nullable="false" />
+          <Property Type="Int32" Name="QueryTypeId" Nullable="false" />
+          <Property Type="String" Name="QueryScript" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="ParameterNames" MaxLength="100" FixedLength="true" Unicode="true" />
+          <Property Type="String" Name="Parameters" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Description" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="EnumerationDetail" Relationship="CRS.Models.FK_QueryRegistry_EnumerationDetails" FromRole="QueryRegistry" ToRole="EnumerationDetails" />
+          <Property Type="Int32" Name="PickerId" Nullable="false" />
+          <NavigationProperty Name="EnumerationDetail1" Relationship="CRS.Models.FK_QueryRegistry_EnumerationDetails1" FromRole="QueryRegistry" ToRole="EnumerationDetails" />
+          <Property Type="Int32" Name="Role" />
+        </EntityType>
+        <Association Name="FK_QueryRegistry_EnumerationDetails">
+          <End Type="CRS.Models.EnumerationDetails" Role="EnumerationDetails" Multiplicity="1" />
+          <End Type="CRS.Models.QueryRegistry" Role="QueryRegistry" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="EnumerationDetails">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="QueryRegistry">
+              <PropertyRef Name="EnumerationDetailId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_QueryRegistry_EnumerationDetails1">
+          <End Type="CRS.Models.EnumerationDetails" Role="EnumerationDetails" Multiplicity="1" />
+          <End Type="CRS.Models.QueryRegistry" Role="QueryRegistry" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="EnumerationDetails">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="QueryRegistry">
+              <PropertyRef Name="PickerId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="LambdaRegistry">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="Int32" Name="RoleId" Nullable="false" />
+          <Property Type="Int32" Name="EnumerationDetailsId" Nullable="false" />
+          <Property Type="Int32" Name="LambdaExpressionType" Nullable="false" />
+          <Property Type="String" Name="LambdaExpression" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Description" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="EnumerationDetail" Relationship="CRS.Models.FK_LambdaRegistry_EnumerationDetails" FromRole="LambdaRegistry" ToRole="EnumerationDetails" />
+          <NavigationProperty Name="Role" Relationship="CRS.Models.FK_LambdaRegistry_Roles" FromRole="LambdaRegistry" ToRole="Role" />
+          <Property Type="Int32" Name="DependentEnumerationDetailId" Nullable="false" />
+          <NavigationProperty Name="LambdaRegistryDetails" Relationship="CRS.Models.FK_LambdaRegistryDetails_ToLambdaRegistryId" FromRole="LambdaRegistry" ToRole="LambdaRegistryDetail" />
+        </EntityType>
+        <Association Name="FK_LambdaRegistry_EnumerationDetails">
+          <End Type="CRS.Models.EnumerationDetails" Role="EnumerationDetails" Multiplicity="1" />
+          <End Type="CRS.Models.LambdaRegistry" Role="LambdaRegistry" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="EnumerationDetails">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="LambdaRegistry">
+              <PropertyRef Name="EnumerationDetailsId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_LambdaRegistry_Roles">
+          <End Type="CRS.Models.Role" Role="Role" Multiplicity="1" />
+          <End Type="CRS.Models.LambdaRegistry" Role="LambdaRegistry" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Role">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="LambdaRegistry">
+              <PropertyRef Name="RoleId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="LambdaRegistryDetail">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="Int32" Name="LambdaRegistryId" Nullable="false" />
+          <Property Type="Int32" Name="ExpressionType" Nullable="false" />
+          <Property Type="String" Name="LambdaExpression" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Description" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="EnumerationDetail" Relationship="CRS.Models.FK_LambdaRegistryDetails_ToEnumerationDetails" FromRole="LambdaRegistryDetail" ToRole="EnumerationDetails" />
+          <NavigationProperty Name="LambdaRegistry" Relationship="CRS.Models.FK_LambdaRegistryDetails_ToLambdaRegistryId" FromRole="LambdaRegistryDetail" ToRole="LambdaRegistry" />
+        </EntityType>
+        <Association Name="FK_LambdaRegistryDetails_ToEnumerationDetails">
+          <End Type="CRS.Models.EnumerationDetails" Role="EnumerationDetails" Multiplicity="1" />
+          <End Type="CRS.Models.LambdaRegistryDetail" Role="LambdaRegistryDetail" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="EnumerationDetails">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="LambdaRegistryDetail">
+              <PropertyRef Name="ExpressionType" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_LambdaRegistryDetails_ToLambdaRegistryId">
+          <End Type="CRS.Models.LambdaRegistry" Role="LambdaRegistry" Multiplicity="1" />
+          <End Type="CRS.Models.LambdaRegistryDetail" Role="LambdaRegistryDetail" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="LambdaRegistry">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="LambdaRegistryDetail">
+              <PropertyRef Name="LambdaRegistryId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="CRSModelsStoreContainer" CdmEntityContainer="DataModel">
+          <EntitySetMapping Name="ActivityLogs">
+            <EntityTypeMapping TypeName="CRS.Models.ActivityLog">
+              <MappingFragment StoreEntitySet="ActivityLogs">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="UserId" ColumnName="UserId" />
+                <ScalarProperty Name="ApplicantId" ColumnName="ApplicantId" />
+                <ScalarProperty Name="ActionType" ColumnName="ActionType" />
+                <ScalarProperty Name="Timestamp" ColumnName="Timestamp" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ApplicantOutcomes">
+            <EntityTypeMapping TypeName="CRS.Models.ApplicantOutcome">
+              <MappingFragment StoreEntitySet="ApplicantOutcomes">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="ApplicantId" ColumnName="ApplicantId" />
+                <ScalarProperty Name="UserId" ColumnName="UserId" />
+                <ScalarProperty Name="OfferStatus" ColumnName="OfferStatus" />
+                <ScalarProperty Name="DivisionId" ColumnName="DivisionId" />
+                <ScalarProperty Name="ClosingDate" ColumnName="ClosingDate" />
+                <ScalarProperty Name="OutcomeDate" ColumnName="OutcomeDate" />
+                <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Applicants1">
+            <EntityTypeMapping TypeName="CRS.Models.Applicants">
+              <MappingFragment StoreEntitySet="Applicants">
+                <ScalarProperty Name="Ownership" ColumnName="Ownership" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+                <ScalarProperty Name="MiddleName" ColumnName="MiddleName" />
+                <ScalarProperty Name="LastName" ColumnName="LastName" />
+                <ScalarProperty Name="AddedBy" ColumnName="AddedBy" />
+                <ScalarProperty Name="VeteransPreference" ColumnName="VeteransPreference" />
+                <ScalarProperty Name="Series" ColumnName="Series" />
+                <ScalarProperty Name="DateCreated" ColumnName="DateCreated" />
+                <ScalarProperty Name="DateDeactivated" ColumnName="DateDeactivated" />
+                <ScalarProperty Name="Active" ColumnName="Active" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="Division" ColumnName="Division" />
+                <ScalarProperty Name="Gender" ColumnName="Gender" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Comments1">
+            <EntityTypeMapping TypeName="CRS.Models.Comments">
+              <MappingFragment StoreEntitySet="Comments">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="ApplicantId" ColumnName="ApplicantId" />
+                <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+                <ScalarProperty Name="UserId" ColumnName="UserId" />
+                <ScalarProperty Name="Timestamp" ColumnName="Timestamp" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Documents1">
+            <EntityTypeMapping TypeName="CRS.Models.Documents">
+              <MappingFragment StoreEntitySet="Documents">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="ApplicantId" ColumnName="ApplicantId" />
+                <ScalarProperty Name="DocumentName" ColumnName="DocumentName" />
+                <ScalarProperty Name="DocumentType" ColumnName="DocumentType" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="EnumerationDetails1">
+            <EntityTypeMapping TypeName="CRS.Models.EnumerationDetails">
+              <MappingFragment StoreEntitySet="EnumerationDetails">
+                <ScalarProperty Name="EnumerationId" ColumnName="EnumerationId" />
+                <ScalarProperty Name="IntVal" ColumnName="IntVal" />
+                <ScalarProperty Name="EnumerationName" ColumnName="EnumerationName" />
+                <ScalarProperty Name="SortOrder" ColumnName="SortOrder" />
+                <ScalarProperty Name="DisplayText" ColumnName="DisplayText" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Enumerations1">
+            <EntityTypeMapping TypeName="CRS.Models.Enumerations">
+              <MappingFragment StoreEntitySet="Enumerations">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="InterviewFeedbacks">
+            <EntityTypeMapping TypeName="CRS.Models.InterviewFeedback">
+              <MappingFragment StoreEntitySet="InterviewFeedbacks">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="UserId" ColumnName="UserId" />
+                <ScalarProperty Name="ApplicantId" ColumnName="ApplicantId" />
+                <ScalarProperty Name="OfferStatus" ColumnName="OfferStatus" />
+                <ScalarProperty Name="InterviewDone" ColumnName="InterviewDone" />
+                <ScalarProperty Name="CensusOfferStatus" ColumnName="CensusOfferStatus" />
+                <ScalarProperty Name="ParsNumber" ColumnName="ParsNumber" />
+                <ScalarProperty Name="Supervisor1" ColumnName="Supervisor1" />
+                <ScalarProperty Name="Supervisor2" ColumnName="Supervisor2" />
+                <ScalarProperty Name="RelocationExpense" ColumnName="RelocationExpense" />
+                <ScalarProperty Name="OfferReason1" ColumnName="OfferReason1" />
+                <ScalarProperty Name="OfferReason2" ColumnName="OfferReason2" />
+                <ScalarProperty Name="OfferReason3" ColumnName="OfferReason3" />
+                <ScalarProperty Name="OfferReason4" ColumnName="OfferReason4" />
+                <ScalarProperty Name="OfferReason5" ColumnName="OfferReason5" />
+                <ScalarProperty Name="OfferReason6" ColumnName="OfferReason6" />
+                <ScalarProperty Name="OfferReason7" ColumnName="OfferReason7" />
+                <ScalarProperty Name="OfferReason8" ColumnName="OfferReason8" />
+                <ScalarProperty Name="OfferReason9" ColumnName="OfferReason9" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Interviews1">
+            <EntityTypeMapping TypeName="CRS.Models.Interviews">
+              <MappingFragment StoreEntitySet="Interviews">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="InterviewId" ColumnName="InterviewId" />
+                <ScalarProperty Name="ApplicantId" ColumnName="ApplicantId" />
+                <ScalarProperty Name="FeedbackProvided" ColumnName="FeedbackProvided" />
+                <ScalarProperty Name="InterviewDate" ColumnName="InterviewDate" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="PageInventories">
+            <EntityTypeMapping TypeName="CRS.Models.PageInventory">
+              <MappingFragment StoreEntitySet="PageInventory">
+                <ScalarProperty Name="PageOrder" ColumnName="PageOrder" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="PageInventoryId" ColumnName="PageInventoryId" />
+                <ScalarProperty Name="PageType" ColumnName="PageType" />
+                <ScalarProperty Name="Title" ColumnName="Title" />
+                <ScalarProperty Name="Aliases" ColumnName="Aliases" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="RolePermissions">
+            <EntityTypeMapping TypeName="CRS.Models.RolePermission">
+              <MappingFragment StoreEntitySet="RolePermissions">
+                <ScalarProperty Name="AccessCode" ColumnName="AccessCode" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="PermissionTypeId" ColumnName="PermissionTypeId" />
+                <ScalarProperty Name="WidgetId" ColumnName="WidgetId" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Roles">
+            <EntityTypeMapping TypeName="CRS.Models.Role">
+              <MappingFragment StoreEntitySet="Roles">
+                <ScalarProperty Name="EnumerationDetailsId" ColumnName="EnumerationDetailsId" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="ActiveStatusId" ColumnName="ActiveStatusId" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Tables">
+            <EntityTypeMapping TypeName="CRS.Models.Table">
+              <MappingFragment StoreEntitySet="Tables">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="TableType" ColumnName="TableType" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="UserNotes1">
+            <EntityTypeMapping TypeName="CRS.Models.UserNotes">
+              <MappingFragment StoreEntitySet="UserNotes">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="ApplicantId" ColumnName="ApplicantId" />
+                <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Users1">
+            <EntityTypeMapping TypeName="CRS.Models.Users">
+              <MappingFragment StoreEntitySet="Users">
+                <ScalarProperty Name="AccessCode" ColumnName="AccessCode" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="JamesBond" ColumnName="JamesBond" />
+                <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+                <ScalarProperty Name="MiddleName" ColumnName="MiddleName" />
+                <ScalarProperty Name="LastName" ColumnName="LastName" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="Division" ColumnName="Division" />
+                <ScalarProperty Name="FailedLogins" ColumnName="FailedLogins" />
+                <ScalarProperty Name="FirstFailureDate" ColumnName="FirstFailureDate" />
+                <ScalarProperty Name="LastFailureDate" ColumnName="LastFailureDate" />
+                <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+                <ScalarProperty Name="UserStatus" ColumnName="UserStatus" />
+                <ScalarProperty Name="ExpirationDate" ColumnName="ExpirationDate" />
+                <ScalarProperty Name="LastLoginDate" ColumnName="LastLoginDate" />
+                <ScalarProperty Name="ISB" ColumnName="ISB" />
+                <ScalarProperty Name="PasswordReset" ColumnName="PasswordReset" />
+                <ScalarProperty Name="PasswordExpirationDate" ColumnName="PasswordExpirationDate" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="WidgetAccessInfoes">
+            <EntityTypeMapping TypeName="CRS.Models.WidgetAccessInfo">
+              <MappingFragment StoreEntitySet="WidgetAccessInfo">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="WidgetId" ColumnName="WidgetId" />
+                <ScalarProperty Name="AccessLevelId" ColumnName="AccessLevelId" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="WidgetBehaviorInventories">
+            <EntityTypeMapping TypeName="CRS.Models.WidgetBehaviorInventory">
+              <MappingFragment StoreEntitySet="WidgetBehaviorInventory">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="WidgetId" ColumnName="WidgetId" />
+                <ScalarProperty Name="BehaviorId" ColumnName="BehaviorId" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="WidgetInventories">
+            <EntityTypeMapping TypeName="CRS.Models.WidgetInventory">
+              <MappingFragment StoreEntitySet="WidgetInventory">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="PageId" ColumnName="PageId" />
+                <ScalarProperty Name="WidgetType" ColumnName="WidgetType" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="DisplayText" ColumnName="DisplayText" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <FunctionImportMapping FunctionImportName="QueryDbForActiveApplicants" FunctionName="CRS.Models.Store.QueryDbForActiveApplicants">
+          <ResultMapping>
+              <ComplexTypeMapping TypeName="CRS.Models.QueryDbForActiveApplicants_Result">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+                <ScalarProperty Name="LastName" ColumnName="LastName" />
+                <ScalarProperty Name="DateCreated" ColumnName="DateCreated" />
+                <ScalarProperty Name="Series" ColumnName="Series" />
+                <ScalarProperty Name="VeteransPreference" ColumnName="VeteransPreference" />
+                <ScalarProperty Name="OfferStatus" ColumnName="OfferStatus" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <EntitySetMapping Name="Lists">
+            <EntityTypeMapping TypeName="CRS.Models.List">
+              <MappingFragment StoreEntitySet="Lists">
+                <ScalarProperty Name="AccessCode" ColumnName="AccessCode" />
+                <ScalarProperty Name="EnumerationDetailId" ColumnName="EnumerationDetailId" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="WidgetId" ColumnName="WidgetId" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="DisplaySelections">
+            <EntityTypeMapping TypeName="CRS.Models.DisplaySelection">
+              <MappingFragment StoreEntitySet="DisplaySelection">
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="HeaderText" ColumnName="HeaderText" />
+                <ScalarProperty Name="AccessCode" ColumnName="AccessCode" />
+                <ScalarProperty Name="EnumerationDetailId" ColumnName="EnumerationDetailId" />
+                <ScalarProperty Name="WidgetId" ColumnName="WidgetId" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="QueryRegistries">
+            <EntityTypeMapping TypeName="CRS.Models.QueryRegistry">
+              <MappingFragment StoreEntitySet="QueryRegistry">
+                <ScalarProperty Name="Role" ColumnName="Role" />
+                <ScalarProperty Name="PickerId" ColumnName="PickerId" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="Parameters" ColumnName="Parameters" />
+                <ScalarProperty Name="ParameterNames" ColumnName="ParameterNames" />
+                <ScalarProperty Name="QueryScript" ColumnName="QueryScript" />
+                <ScalarProperty Name="QueryTypeId" ColumnName="QueryTypeId" />
+                <ScalarProperty Name="EnumerationDetailId" ColumnName="EnumerationDetailId" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="LambdaRegistries">
+            <EntityTypeMapping TypeName="CRS.Models.LambdaRegistry">
+              <MappingFragment StoreEntitySet="LambdaRegistry">
+                <ScalarProperty Name="DependentEnumerationDetailId" ColumnName="DependentEnumerationDetailId" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="LambdaExpression" ColumnName="LambdaExpression" />
+                <ScalarProperty Name="LambdaExpressionType" ColumnName="LambdaExpressionType" />
+                <ScalarProperty Name="EnumerationDetailsId" ColumnName="EnumerationDetailsId" />
+                <ScalarProperty Name="RoleId" ColumnName="RoleId" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="LambdaRegistryDetails">
+            <EntityTypeMapping TypeName="CRS.Models.LambdaRegistryDetail">
+              <MappingFragment StoreEntitySet="LambdaRegistryDetails">
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="LambdaExpression" ColumnName="LambdaExpression" />
+                <ScalarProperty Name="ExpressionType" ColumnName="ExpressionType" />
+                <ScalarProperty Name="LambdaRegistryId" ColumnName="LambdaRegistryId" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams>
+      <Diagram Name="DataModel" ZoomLevel="78">
+        <EntityTypeShape EntityType="CRS.Models.ActivityLog" Width="1.5" PointX="14" PointY="11.25" Height="2.3648893229166674" IsExpanded="true" />
+        <EntityTypeShape EntityType="CRS.Models.ApplicantOutcome" Width="1.5" PointX="17" PointY="11" Height="2.9417936197916674" IsExpanded="true" />
+        <EntityTypeShape EntityType="CRS.Models.Applicants" Width="1.5" PointX="11.75" PointY="10.125" Height="4.6725065104166674" IsExpanded="true" />
+        <EntityTypeShape EntityType="CRS.Models.Comments" Width="1.5" PointX="14" PointY="7.25" Height="2.3648893229166665" IsExpanded="true" />
+        <EntityTypeShape EntityType="CRS.Models.Documents" Width="1.5" PointX="14" PointY="20.125" Height="1.9802864583333317" IsExpanded="true" />
+        <EntityTypeShape EntityType="CRS.Models.EnumerationDetails" Width="1.5" PointX="3" PointY="8.75" Height="3.9033007812499996" IsExpanded="true" />
+        <EntityTypeShape EntityType="CRS.Models.Enumerations" Width="1.5" PointX="0.75" PointY="9.75" Height="1.9802864583333317" IsExpanded="true" />
+        <EntityTypeShape EntityType="CRS.Models.InterviewFeedback" Width="1.5" PointX="14" PointY="1.125" Height="4.8648079427083317" IsExpanded="true" />
+        <EntityTypeShape EntityType="CRS.Models.Interviews" Width="1.5" PointX="14" PointY="15.25" Height="2.3648893229166674" IsExpanded="true" />
+        <EntityTypeShape EntityType="CRS.Models.PageInventory" Width="1.5" PointX="5.25" PointY="6.75" Height="2.5571907552083317" IsExpanded="true" />
+        <EntityTypeShape EntityType="CRS.Models.RolePermission" Width="1.5" PointX="9.75" PointY="10.625" Height="2.7494921874999996" IsExpanded="true" />
+        <EntityTypeShape EntityType="CRS.Models.Role" Width="1.5" PointX="7.5" PointY="12.75" Height="2.3648893229166656" IsExpanded="true" />
+        <EntityTypeShape EntityType="CRS.Models.Table" Width="1.5" PointX="5.25" PointY="16.25" Height="1.9802864583333388" IsExpanded="true" />
+        <EntityTypeShape EntityType="CRS.Models.UserNotes" Width="1.5" PointX="9.75" PointY="19.875" Height="1.7879850260416674" IsExpanded="true" />
+        <EntityTypeShape EntityType="CRS.Models.Users" Width="1.5" PointX="11.75" PointY="0.75" Height="5.4417122395833326" IsExpanded="true" />
+        <EntityTypeShape EntityType="CRS.Models.WidgetAccessInfo" Width="1.5" PointX="0.75" PointY="2.75" Height="1.7879850260416674" IsExpanded="true" />
+        <EntityTypeShape EntityType="CRS.Models.WidgetBehaviorInventory" Width="1.5" PointX="9.75" PointY="7.375" Height="2.172587890624996" IsExpanded="true" />
+        <EntityTypeShape EntityType="CRS.Models.WidgetInventory" Width="1.5" PointX="7.5" PointY="8.25" Height="2.9417936197916674" IsExpanded="true" />
+        <AssociationConnector Association="CRS.Models.FK_ActivityLogs_Applicants" ManuallyRouted="false">
+          <ConnectorPoint PointX="13.25" PointY="12.432444661458334" />
+          <ConnectorPoint PointX="13.541666666666666" PointY="12.432444661458334" />
+          <ConnectorPoint PointX="13.708333333333334" PointY="12.432444661458334" />
+          <ConnectorPoint PointX="14" PointY="12.432444661458334" />
+        </AssociationConnector>
+        <AssociationConnector Association="CRS.Models.FK_ActivityLogs_Users" ManuallyRouted="false">
+          <ConnectorPoint PointX="13.25" PointY="6.1340189318910241" />
+          <ConnectorPoint PointX="13.71875" PointY="6.6027689318910241" />
+          <ConnectorPoint PointX="13.71875" PointY="11.809970330729167" />
+          <ConnectorPoint PointX="14" PointY="11.809970330729167" />
+        </AssociationConnector>
+        <AssociationConnector Association="CRS.Models.FK_ApplicantOutcomes_Applicants" ManuallyRouted="false">
+          <ConnectorPoint PointX="13.25" PointY="13.809591471354167" />
+          <ConnectorPoint PointX="13.541666666666666" PointY="13.809591471354167" />
+          <ConnectorPoint PointX="13.708333333333334" PointY="13.809591471354167" />
+          <ConnectorPoint PointX="17" PointY="13.809591471354167" />
+        </AssociationConnector>
+        <AssociationConnector Association="CRS.Models.FK_ApplicantOutcomes_Users" ManuallyRouted="false">
+          <ConnectorPoint PointX="13.25" PointY="0.90625" />
+          <ConnectorPoint PointX="17.75" PointY="0.90625" />
+          <ConnectorPoint PointX="17.75" PointY="11" />
+        </AssociationConnector>
+        <AssociationConnector Association="CRS.Models.FK_Comments_Applicants" ManuallyRouted="false">
+          <ConnectorPoint PointX="12.3125" PointY="10.125" />
+          <ConnectorPoint PointX="12.3125" PointY="8.7436820768229211" />
+          <ConnectorPoint PointX="13.541666666666666" PointY="8.74368207682292" />
+          <ConnectorPoint PointX="13.802083333333334" PointY="8.7436820768229211" />
+          <ConnectorPoint PointX="14" PointY="8.7436820768229211" />
+        </AssociationConnector>
+        <AssociationConnector Association="CRS.Models.FK_Documents_Applicants" ManuallyRouted="false">
+          <ConnectorPoint PointX="12.5" PointY="14.989807942708334" />
+          <ConnectorPoint PointX="12.5" PointY="21.300179036458331" />
+          <ConnectorPoint PointX="14" PointY="21.300179036458331" />
+        </AssociationConnector>
+        <AssociationConnector Association="CRS.Models.FK_Interviews_Applicants" ManuallyRouted="false">
+          <ConnectorPoint PointX="12.9062525" PointY="14.989807942708334" />
+          <ConnectorPoint PointX="12.9062525" PointY="16.432444661458334" />
+          <ConnectorPoint PointX="14" PointY="16.432444661458334" />
+        </AssociationConnector>
+        <AssociationConnector Association="CRS.Models.FK_UserNotes_Applicants" ManuallyRouted="false">
+          <ConnectorPoint PointX="12.0937475" PointY="14.989807942708334" />
+          <ConnectorPoint PointX="12.0937475" PointY="20.587589518229166" />
+          <ConnectorPoint PointX="11.25" PointY="20.587589518229166" />
+        </AssociationConnector>
+        <AssociationConnector Association="CRS.Models.FK_Comments_Users" ManuallyRouted="false">
+          <ConnectorPoint PointX="12.875" PointY="6.1917122395833326" />
+          <ConnectorPoint PointX="12.875" PointY="7.8099698307291732" />
+          <ConnectorPoint PointX="13.541666666666666" PointY="7.8099698307291723" />
+          <ConnectorPoint PointX="13.770833333333334" PointY="7.8099698307291732" />
+          <ConnectorPoint PointX="14" PointY="7.8099698307291732" />
+        </AssociationConnector>
+        <AssociationConnector Association="CRS.Models.FK_EnumerationEnumerationDetail" ManuallyRouted="false">
+          <ConnectorPoint PointX="2.25" PointY="10.643992513020834" />
+          <ConnectorPoint PointX="3" PointY="10.643992513020834" />
+        </AssociationConnector>
+        <AssociationConnector Association="CRS.Models.FK_PageInventory_EnumerationDetails1" ManuallyRouted="false">
+          <ConnectorPoint PointX="4.5" PointY="9.12474609375" />
+          <ConnectorPoint PointX="4.854166666666667" PointY="9.12474609375" />
+          <ConnectorPoint PointX="5.083333333333333" PointY="9.12474609375" />
+          <ConnectorPoint PointX="5.25" PointY="9.12474609375" />
+        </AssociationConnector>
+        <AssociationConnector Association="CRS.Models.FK_RolePermissions_EnumerationDetails" ManuallyRouted="false">
+          <ConnectorPoint PointX="4.2760631865234373" PointY="8.75" />
+          <ConnectorPoint PointX="4.2760631865234373" PointY="8.5" />
+          <ConnectorPoint PointX="4.9375" PointY="8.5" />
+          <ConnectorPoint PointX="4.9375" PointY="10.5" />
+          <ConnectorPoint PointX="7.25" PointY="10.5" />
+          <ConnectorPoint PointX="7.25" PointY="12.1631982421875" />
+          <ConnectorPoint PointX="9.2916666666666661" PointY="12.1631982421875" />
+          <ConnectorPoint PointX="9.5208333333333339" PointY="12.1631982421875" />
+          <ConnectorPoint PointX="9.75" PointY="12.1631982421875" />
+        </AssociationConnector>
+        <AssociationConnector Association="CRS.Models.FK_Roles_EnumerationDetails" ManuallyRouted="false">
+          <ConnectorPoint PointX="3.9352726266123228" PointY="13.807109375" />
+          <ConnectorPoint PointX="3.9352726266123228" PointY="14.499027110571678" />
+          <ConnectorPoint PointX="4.2443901184753026" PointY="14.499027110571678" />
+          <ConnectorPoint PointX="4.4110567851419686" PointY="14.499027110571678" />
+          <ConnectorPoint PointX="7.166666666666667" PointY="14.499027110571678" />
+          <ConnectorPoint PointX="7.333333333333333" PointY="14.499027110571678" />
+          <ConnectorPoint PointX="7.5" PointY="14.499027110571678" />
+        </AssociationConnector>
+        <AssociationConnector Association="CRS.Models.FK_Tables_EnumerationDetails" ManuallyRouted="false">
+          <ConnectorPoint PointX="3.4614724958497187" PointY="13.807109375" />
+          <ConnectorPoint PointX="3.4614724958497187" PointY="17.240143229166669" />
+          <ConnectorPoint PointX="5.25" PointY="17.240143229166669" />
+        </AssociationConnector>
+        <AssociationConnector Association="CRS.Models.FK_WidgetBehaviorInventory_EnumerationDetails" ManuallyRouted="false">
+          <ConnectorPoint PointX="3.8698109365234377" PointY="8.75" />
+          <ConnectorPoint PointX="3.8698109365234377" PointY="8.398793945312498" />
+          <ConnectorPoint PointX="5" PointY="8.398793945312498" />
+          <ConnectorPoint PointX="5" PointY="9.7494921875" />
+          <ConnectorPoint PointX="7.25" PointY="9.7494921875" />
+          <ConnectorPoint PointX="7.25" PointY="8" />
+          <ConnectorPoint PointX="8.0104141666666653" PointY="7.9999999999999991" />
+          <ConnectorPoint PointX="8.1770808333333331" PointY="8" />
+          <ConnectorPoint PointX="9.25" PointY="8" />
+          <ConnectorPoint PointX="9.25" PointY="8.1056449726562487" />
+          <ConnectorPoint PointX="9.3541666666666661" PointY="8.1056449726562487" />
+          <ConnectorPoint PointX="9.5208333333333339" PointY="8.1056449726562487" />
+          <ConnectorPoint PointX="9.75" PointY="8.1056449726562487" />
+        </AssociationConnector>
+        <AssociationConnector Association="CRS.Models.FK_WidgetInventory_EnumerationDetails" ManuallyRouted="false">
+          <ConnectorPoint PointX="4.5" PointY="10.12474609375" />
+          <ConnectorPoint PointX="4.854166666666667" PointY="10.12474609375" />
+          <ConnectorPoint PointX="5.020833333333333" PointY="10.12474609375" />
+          <ConnectorPoint PointX="7.5" PointY="10.12474609375" />
+        </AssociationConnector>
+        <AssociationConnector Association="CRS.Models.FK_InterviewFeedbacks_Users1" ManuallyRouted="false">
+          <ConnectorPoint PointX="13.25" PointY="3.5574039713541659" />
+          <ConnectorPoint PointX="14" PointY="3.5574039713541659" />
+        </AssociationConnector>
+        <AssociationConnector Association="CRS.Models.FK_Interviews_Users" ManuallyRouted="false">
+          <ConnectorPoint PointX="13.225769230769231" PointY="6.1917122395833326" />
+          <ConnectorPoint PointX="13.625" PointY="6.5909430088141008" />
+          <ConnectorPoint PointX="13.625" PointY="15.809970330729165" />
+          <ConnectorPoint PointX="14" PointY="15.809970330729165" />
+        </AssociationConnector>
+        <AssociationConnector Association="CRS.Models.FK_WidgetInventory_PageInventory" ManuallyRouted="false">
+          <ConnectorPoint PointX="6.75" PointY="8.87474609375" />
+          <ConnectorPoint PointX="7.166666666666667" PointY="8.87474609375" />
+          <ConnectorPoint PointX="7.333333333333333" PointY="8.87474609375" />
+          <ConnectorPoint PointX="7.5" PointY="8.87474609375" />
+        </AssociationConnector>
+        <AssociationConnector Association="CRS.Models.FK_RolePermissions_Roles" ManuallyRouted="false">
+          <ConnectorPoint PointX="9" PointY="13.20799460246538" />
+          <ConnectorPoint PointX="9.2916666666666661" PointY="13.20799460246538" />
+          <ConnectorPoint PointX="9.4583333333333339" PointY="13.20799460246538" />
+          <ConnectorPoint PointX="9.75" PointY="13.20799460246538" />
+        </AssociationConnector>
+        <AssociationConnector Association="CRS.Models.FK_RolePermissions_WidgetInventory" ManuallyRouted="false">
+          <ConnectorPoint PointX="9" PointY="11.1006982421875" />
+          <ConnectorPoint PointX="9.3541666666666661" PointY="11.1006982421875" />
+          <ConnectorPoint PointX="9.5833333333333339" PointY="11.1006982421875" />
+          <ConnectorPoint PointX="9.75" PointY="11.1006982421875" />
+        </AssociationConnector>
+        <AssociationConnector Association="CRS.Models.FK_WidgetBehaviorInventory_WidgetInventory" ManuallyRouted="false">
+          <ConnectorPoint PointX="9" PointY="8.898793945312498" />
+          <ConnectorPoint PointX="9.3541666666666661" PointY="8.898793945312498" />
+          <ConnectorPoint PointX="9.5208333333333339" PointY="8.898793945312498" />
+          <ConnectorPoint PointX="9.75" PointY="8.898793945312498" />
+        </AssociationConnector>
+        <EntityTypeShape EntityType="CRS.Models.List" Width="1.5" PointX="9.75" PointY="15.625" Height="2.1725878906249996" />
+        <AssociationConnector Association="CRS.Models.FK_Lists_WidgetInventory" >
+          <ConnectorPoint PointX="9" PointY="11.576396484375" />
+          <ConnectorPoint PointX="9.375" PointY="11.951396484375" />
+          <ConnectorPoint PointX="9.375" PointY="16.777003027136494" />
+          <ConnectorPoint PointX="9.75" PointY="16.777003027136494" />
+        </AssociationConnector>
+        <AssociationConnector Association="CRS.Models.FK_Lists_EnumerationDetails" >
+          <ConnectorPoint PointX="4.3277234518086356" PointY="13.807109375" />
+          <ConnectorPoint PointX="4.3277234518086356" PointY="16.040345052083332" />
+          <ConnectorPoint PointX="7.166666666666667" PointY="16.040345052083332" />
+          <ConnectorPoint PointX="7.333333333333333" PointY="16.040345052083332" />
+          <ConnectorPoint PointX="8.1666666666666661" PointY="16.040345052083332" />
+          <ConnectorPoint PointX="8.3333333333333339" PointY="16.040345052083332" />
+          <ConnectorPoint PointX="9.2916666666666661" PointY="16.040345052083332" />
+          <ConnectorPoint PointX="9.5833333333333339" PointY="16.040345052083332" />
+          <ConnectorPoint PointX="9.75" PointY="16.040345052083332" />
+        </AssociationConnector>
+        <AssociationConnector Association="CRS.Models.FK_Roles_EnumerationDetails1" >
+          <ConnectorPoint PointX="3.6983725612310208" PointY="13.807109375" />
+          <ConnectorPoint PointX="3.6983725612310208" PointY="15.525734584530014" />
+          <ConnectorPoint PointX="4.2443901184753026" PointY="15.525734584530014" />
+          <ConnectorPoint PointX="4.4110567851419686" PointY="15.525734584530014" />
+          <ConnectorPoint PointX="7.166666666666667" PointY="15.525734584530014" />
+          <ConnectorPoint PointX="7.333333333333333" PointY="15.525734584530014" />
+          <ConnectorPoint PointX="7.5" PointY="15.525734584530014" />
+        </AssociationConnector>
+        <AssociationConnector Association="CRS.Models.FK_Roles_EnumerationDetails2" >
+          <ConnectorPoint PointX="3.1994837479248592" PointY="13.807109375" />
+          <ConnectorPoint PointX="3.1994837479248592" PointY="15.012380847550846" />
+          <ConnectorPoint PointX="3.3781391625163852" PointY="15.012380847550846" />
+          <ConnectorPoint PointX="3.5448058291830522" PointY="15.012380847550846" />
+          <ConnectorPoint PointX="3.6150392278976873" PointY="15.012380847550846" />
+          <ConnectorPoint PointX="3.7817058945643542" PointY="15.012380847550846" />
+          <ConnectorPoint PointX="4.2443901184753026" PointY="15.012380847550846" />
+          <ConnectorPoint PointX="4.4110567851419686" PointY="15.012380847550846" />
+          <ConnectorPoint PointX="7.166666666666667" PointY="15.012380847550846" />
+          <ConnectorPoint PointX="7.333333333333333" PointY="15.012380847550846" />
+          <ConnectorPoint PointX="7.5" PointY="15.012380847550846" />
+        </AssociationConnector>
+        <AssociationConnector Association="CRS.Models.FK_RolePermissions_Roles1" >
+          <ConnectorPoint PointX="9" PointY="12.91649730123269" />
+          <ConnectorPoint PointX="9.2916666666666661" PointY="12.91649730123269" />
+          <ConnectorPoint PointX="9.4583333333333339" PointY="12.91649730123269" />
+          <ConnectorPoint PointX="9.75" PointY="12.91649730123269" />
+        </AssociationConnector>
+        <AssociationConnector Association="CRS.Models.FK_Lists_Roles" >
+          <ConnectorPoint PointX="8.25" PointY="15.884095052083332" />
+          <ConnectorPoint PointX="8.25" PointY="17.51084939117241" />
+          <ConnectorPoint PointX="9.75" PointY="17.51084939117241" />
+        </AssociationConnector>
+        <EntityTypeShape EntityType="CRS.Models.DisplaySelection" Width="1.5" PointX="7.25" PointY="4" Height="2.1725878906250031" />
+        <AssociationConnector Association="CRS.Models.FK_DisplaySelection_WidgetInventory" >
+          <ConnectorPoint PointX="8.0937475" PointY="8.25" />
+          <ConnectorPoint PointX="8.0937475" PointY="6.7494921875" />
+        </AssociationConnector>
+        <AssociationConnector Association="CRS.Models.FK_DisplaySelection_EnumerationDetails" >
+          <ConnectorPoint PointX="3.4036529682617189" PointY="8.75" />
+          <ConnectorPoint PointX="3.4036529682617189" PointY="5.37474609375" />
+          <ConnectorPoint PointX="7.25" PointY="5.37474609375" />
+        </AssociationConnector>
+        <AssociationConnector Association="CRS.Models.FK_DisplaySelection_Roles" >
+          <ConnectorPoint PointX="9" PointY="12.812306692307692" />
+          <ConnectorPoint PointX="9.31607443490112" PointY="12.496232257406572" />
+          <ConnectorPoint PointX="9.4339255650988783" PointY="12.378381127208815" />
+          <ConnectorPoint PointX="9.4375" PointY="12.374806692307693" />
+          <ConnectorPoint PointX="9.4375" PointY="7.1244921875" />
+          <ConnectorPoint PointX="9.1261548461538453" PointY="7.1244921875" />
+          <ConnectorPoint PointX="8.75" PointY="6.7483373413461534" />
+        </AssociationConnector>
+        <EntityTypeShape EntityType="CRS.Models.QueryRegistry" Width="1.5" PointX="5.25" PointY="10.75" Height="2.5571907552083282" />
+        <AssociationConnector Association="CRS.Models.FK_QueryRegistry_EnumerationDetails" >
+          <ConnectorPoint PointX="4.5" PointY="12.942384524854653" />
+          <ConnectorPoint PointX="4.916666666666667" PointY="12.942384524854653" />
+          <ConnectorPoint PointX="5.083333333333333" PointY="12.942384524854653" />
+          <ConnectorPoint PointX="5.25" PointY="12.942384524854653" />
+        </AssociationConnector>
+        <AssociationConnector Association="CRS.Models.FK_QueryRegistry_EnumerationDetails1" >
+          <ConnectorPoint PointX="4.5" PointY="11.783692262427326" />
+          <ConnectorPoint PointX="4.791666666666667" PointY="11.783692262427325" />
+          <ConnectorPoint PointX="5.083333333333333" PointY="11.783692262427326" />
+          <ConnectorPoint PointX="5.25" PointY="11.783692262427326" />
+        </AssociationConnector>
+        <EntityTypeShape EntityType="CRS.Models.LambdaRegistry" Width="1.5" PointX="16.75" PointY="15" Height="2.5571907552083388" />
+        <AssociationConnector Association="CRS.Models.FK_LambdaRegistry_EnumerationDetails" >
+          <ConnectorPoint PointX="4.5" PointY="11.110593631213662" />
+          <ConnectorPoint PointX="4.791666666666667" PointY="11.110593631213662" />
+          <ConnectorPoint PointX="4.958333333333333" PointY="11.110593631213662" />
+          <ConnectorPoint PointX="5" PointY="11.110593631213662" />
+          <ConnectorPoint PointX="5" PointY="14.134095052083332" />
+          <ConnectorPoint PointX="7.25" PointY="14.134095052083332" />
+          <ConnectorPoint PointX="7.25" PointY="16.134095052083332" />
+          <ConnectorPoint PointX="8.1666666666666661" PointY="16.134095052083332" />
+          <ConnectorPoint PointX="8.3333333333333339" PointY="16.134095052083332" />
+          <ConnectorPoint PointX="9.2916666666666661" PointY="16.134095052083332" />
+          <ConnectorPoint PointX="9.4583333333333339" PointY="16.134095052083332" />
+          <ConnectorPoint PointX="9.5" PointY="16.134095052083332" />
+          <ConnectorPoint PointX="9.5" PointY="15.239807942708332" />
+          <ConnectorPoint PointX="12.010414166666665" PointY="15.239807942708332" />
+          <ConnectorPoint PointX="12.177080833333333" PointY="15.239807942708332" />
+          <ConnectorPoint PointX="12.416666666666666" PointY="15.239807942708332" />
+          <ConnectorPoint PointX="12.583333333333334" PointY="15.239807942708332" />
+          <ConnectorPoint PointX="12.822919166666667" PointY="15.239807942708332" />
+          <ConnectorPoint PointX="12.989585833333335" PointY="15.239807942708332" />
+          <ConnectorPoint PointX="13.541666666666666" PointY="15.239807942708332" />
+          <ConnectorPoint PointX="13.708333333333334" PointY="15.239807942708332" />
+          <ConnectorPoint PointX="13.75" PointY="15.239807942708332" />
+          <ConnectorPoint PointX="13.75" PointY="14.75" />
+          <ConnectorPoint PointX="17.5" PointY="14.75" />
+          <ConnectorPoint PointX="17.5" PointY="15" />
+        </AssociationConnector>
+        <AssociationConnector Association="CRS.Models.FK_LambdaRegistry_Roles" >
+          <ConnectorPoint PointX="9" PointY="15.057403971354166" />
+          <ConnectorPoint PointX="9.2916666666666661" PointY="15.057403971354166" />
+          <ConnectorPoint PointX="9.4583333333333339" PointY="15.057403971354166" />
+          <ConnectorPoint PointX="13.541666666666666" PointY="15.057403971354164" />
+          <ConnectorPoint PointX="13.833333333333334" PointY="15.057403971354166" />
+          <ConnectorPoint PointX="16.75" PointY="15.057403971354166" />
+        </AssociationConnector>
+        <EntityTypeShape EntityType="CRS.Models.LambdaRegistryDetail" Width="1.5" PointX="20" PointY="12.125" Height="2.3648893229166674" />
+        <AssociationConnector Association="CRS.Models.FK_LambdaRegistryDetails_ToEnumerationDetails" >
+          <ConnectorPoint PointX="4.5" PointY="12.36303839364099" />
+          <ConnectorPoint PointX="4.875" PointY="12.36303839364099" />
+          <ConnectorPoint PointX="4.875" PointY="10.625" />
+          <ConnectorPoint PointX="7" PointY="10.625" />
+          <ConnectorPoint PointX="7" PointY="11.826396484375" />
+          <ConnectorPoint PointX="7.166666666666667" PointY="11.826396484375" />
+          <ConnectorPoint PointX="7.333333333333333" PointY="11.826396484375" />
+          <ConnectorPoint PointX="9.1666666666666661" PointY="11.826396484375" />
+          <ConnectorPoint PointX="9.3333333333333339" PointY="11.826396484375" />
+          <ConnectorPoint PointX="9.5" PointY="11.826396484375" />
+          <ConnectorPoint PointX="9.5" PointY="9.875" />
+          <ConnectorPoint PointX="12.229166666666666" PointY="9.875" />
+          <ConnectorPoint PointX="12.395833333333334" PointY="9.875" />
+          <ConnectorPoint PointX="13.541666666666666" PointY="9.8749999999999982" />
+          <ConnectorPoint PointX="13.802083333333334" PointY="9.875" />
+          <ConnectorPoint PointX="17.666666666666668" PointY="9.875" />
+          <ConnectorPoint PointX="17.833333333333332" PointY="9.875" />
+          <ConnectorPoint PointX="20.75" PointY="9.875" />
+          <ConnectorPoint PointX="20.75" PointY="12.125" />
+        </AssociationConnector>
+        <AssociationConnector Association="CRS.Models.FK_LambdaRegistryDetails_ToLambdaRegistryId" >
+          <ConnectorPoint PointX="18.25" PointY="16.470896809895834" />
+          <ConnectorPoint PointX="20.75" PointY="16.470896809895834" />
+          <ConnectorPoint PointX="20.75" PointY="14.489889322916667" />
+        </AssociationConnector>
+      </Diagram>
+    </Diagrams>
+  </Designer>
+</edmx:Edmx>

@@ -3,7 +3,7 @@ using System.ComponentModel;
 using System.Windows.Forms;
 using Utilties;
 
-namespace TestScreens
+namespace Screens
 {
     public partial class SearchBox : UserControl
     {

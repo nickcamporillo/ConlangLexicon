@@ -69,7 +69,7 @@ namespace ConsoleDriver
         {
             IUnitOfWork unitOfWork = new EfUnitOfWork();
             //BaseService service = new LexiconService(unitOfWork);
-            IService<LexiconRaw> service = new LexSer<LexiconRaw>(unitOfWork);
+            IService<LexiconRaw> service = new LexiconService<LexiconRaw>(unitOfWork);
 
             return service.FindAll<T>().Distinct().ToList();
         }

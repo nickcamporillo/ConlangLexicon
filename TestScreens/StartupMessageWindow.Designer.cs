@@ -1,4 +1,4 @@
-﻿namespace TestScreens
+﻿namespace Screens
 {
     partial class StartupMessageWindow
     {

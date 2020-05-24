@@ -1,0 +1,4 @@
+﻿All the stuff here under CRS.Repositories is temporary.  The methodology in Dat's model is different,
+and most likely the same thing too with Rekha's SSV.  Both use DI, so there's no "new EfContext()"
+anywhere in those apps.  So these files are just temporary until the DI can be implemented
+using Unity.

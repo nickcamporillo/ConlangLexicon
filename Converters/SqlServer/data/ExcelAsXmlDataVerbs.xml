@@ -1,0 +1,5529 @@
+<?xml version="1.0" standalone="yes"?>
+<DocumentElement>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>garragum</Entry>
+    <Meaning>feel pain</Meaning>
+    <Pos>Verb</Pos>
+    <Domain>Sensation</Domain>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>kaggarrum</Entry>
+    <Meaning>feel pain in the mouth from tasting something very sour</Meaning>
+    <Pos>Verb</Pos>
+    <PosSubtype>Stative</PosSubtype>
+    <Domain>Sensation</Domain>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>neppay</Entry>
+    <Meaning>accompany</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>xattamwiša</Entry>
+    <Meaning>act scandalously</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>sutta, nurhāti</Entry>
+    <Meaning>add, supplement</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>irriyērusmakšarhakan </Entry>
+    <Meaning>agree</Meaning>
+    <Pos>Verb</Pos>
+    <GrammaticalNotes>irriyērum-sakšar-hak-an
+
+idea-RECIP.BEN-1P.INCL.ABS-INTRANS
+
+Lit. "This idea, we share it with each other"</GrammaticalNotes>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>kirimimmakast</Entry>
+    <Meaning>agree (verbally)</Meaning>
+    <SecondaryMeanings>Lit: to talk as a group for everyone's benefit</SecondaryMeanings>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>neyūn; nyunn</Entry>
+    <Meaning>aim true</Meaning>
+    <SecondaryMeanings>osprey</SecondaryMeanings>
+    <Pos>Verb</Pos>
+    <Etymology>Derivation into Osprey Speaker “neyūn” (osprey) is metaphor – the raptor is admired for its accuracy</Etymology>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>laxmakk</Entry>
+    <Meaning>angry</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>naħt</Entry>
+    <Meaning>annoying</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>yapak</Entry>
+    <Meaning>apologize</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Salmon Speaker </Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>ha/hā</Entry>
+    <Meaning>approach</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>sumat</Entry>
+    <Meaning>approach</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>haswatte</Entry>
+    <Meaning>approve</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>niħrim</Entry>
+    <Meaning>argue about</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>kizā</Entry>
+    <Meaning>arise from the dead</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>bastet</Entry>
+    <Meaning>arrange</Meaning>
+    <Pos>Verb</Pos>
+    <PosSubtype>Interrogative</PosSubtype>
+    <AdditionalNotes>This is a conjugated Impersonal Interrogative Verb, tippak-an=š </AdditionalNotes>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>gūla</Entry>
+    <Meaning>arrive</Meaning>
+    <Pos>Verb</Pos>
+    <PosSubtype>Interrogative</PosSubtype>
+    <AdditionalNotes>This is a fully conjugated Interrogative Verb, kurrak-tah-an=š </AdditionalNotes>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>tuytaha</Entry>
+    <Meaning>arrogant, haughty; overconfident</Meaning>
+    <Pos>Verb</Pos>
+    <PosSubtype>Interrogative</PosSubtype>
+    <AdditionalNotes>This is a fully conjugated Interrogative Verb, nansuriat-tah-an=š </AdditionalNotes>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>tippakaš</Entry>
+    <Meaning>ask “How did it happen”</Meaning>
+    <Pos>Verb</Pos>
+    <PosSubtype>Interrogative</PosSubtype>
+    <AdditionalNotes>This is a fully conjugated Interrogative Verb, inne-an=š </AdditionalNotes>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>kurraktahaš </Entry>
+    <Meaning>ask “how many do you want?”</Meaning>
+    <Pos>Verb</Pos>
+    <PosSubtype>Interrogative</PosSubtype>
+    <AdditionalNotes>This is a conjugated Impersonal Interrogative Verb, paxtam-an=š </AdditionalNotes>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>nansuriattahaš </Entry>
+    <Meaning>ask “what did you do?”</Meaning>
+    <Pos>Verb</Pos>
+    <PosSubtype>Interrogative</PosSubtype>
+    <AdditionalNotes>This is a fully conjugated Interrogative Verb, iskumat-tah-an=š </AdditionalNotes>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>inneaš</Entry>
+    <Meaning>ask “What happened?”</Meaning>
+    <Pos>Verb</Pos>
+    <PosSubtype>Interrogative</PosSubtype>
+    <AdditionalNotes>This is a fully conjugated Interrogative Verb, annatim-tah-an=š </AdditionalNotes>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>paxtamaš</Entry>
+    <Meaning>ask “When did it happen?”</Meaning>
+    <Pos>Verb</Pos>
+    <PosSubtype>Interrogative</PosSubtype>
+    <AdditionalNotes>This is a fully conjugated Interrogative Verb, naktatin-tah-an=š </AdditionalNotes>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>iskumattahaš</Entry>
+    <Meaning>ask “when will you come”</Meaning>
+    <Pos>Verb</Pos>
+    <PosSubtype>Interrogative</PosSubtype>
+    <AdditionalNotes>This is a fully conjugated Interrogative Verb, maymaš-tah-an=š </AdditionalNotes>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>annatimtahaš</Entry>
+    <Meaning>ask “Where will you do this”</Meaning>
+    <Pos>Verb</Pos>
+    <PosSubtype>Stative</PosSubtype>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>naktatintahaš</Entry>
+    <Meaning>ask “Where will you go”</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>maymaštahaš </Entry>
+    <Meaning>ask “who did this”</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>mamtūr</Entry>
+    <Meaning>ask a question</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>asuk</Entry>
+    <Meaning>ask for something</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>ikšāk</Entry>
+    <Meaning>ask someone do something, request</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>Uyyi-šattar-</Entry>
+    <Meaning>assemble as a group</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>nayyaki</Entry>
+    <Meaning>assemble something together</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>bayūra</Entry>
+    <Meaning>astonish, dazzle, amaze</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>nekạħt</Entry>
+    <Meaning>avoid, evade (an attack or bodily harm)</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>wahaspe</Entry>
+    <Meaning>avoid; elude</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>sawwat</Entry>
+    <Meaning>bad, evil</Meaning>
+    <Pos>Verb</Pos>
+    <PosSubtype>Stative-Reflexive</PosSubtype>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>warhi</Entry>
+    <Meaning>badly formed (said of things, not sentient animates)</Meaning>
+    <Pos>Verb</Pos>
+    <GrammaticalNotes>Occurs in verb serialization</GrammaticalNotes>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>unnuruššu</Entry>
+    <Meaning>bald</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>neħk</Entry>
+    <Meaning>barter, trade</Meaning>
+    <SecondaryMeanings>engage in commerce</SecondaryMeanings>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>giddus</Entry>
+    <Meaning>bathe</Meaning>
+    <Pos>Verb</Pos>
+    <PosSubtype>Stative</PosSubtype>
+    <Dialect>Salmon Speaker</Dialect>
+    <Domain>Emotion</Domain>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>naram</Entry>
+    <Meaning>bathe</Meaning>
+    <Pos>Verb</Pos>
+    <PosSubtype>Stative</PosSubtype>
+    <Domain>Position</Domain>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>Naram-šat-</Entry>
+    <Meaning>bathe oneself</Meaning>
+    <Pos>Verb</Pos>
+    <PosSubtype>Stative</PosSubtype>
+    <Dialect>Upper Minhast </Dialect>
+    <Domain>Position</Domain>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>siddūy</Entry>
+    <Meaning>beat a drum</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>keswan-</Entry>
+    <Meaning>beautiful (said of animals, particularly wild undomesticated animals)</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>tayra</Entry>
+    <Meaning>beautiful (said of man-made objects)</Meaning>
+    <Pos>Verb</Pos>
+    <Domain>Defect</Domain>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>muwaššikam</Entry>
+    <Meaning>beautiful (said of music)</Meaning>
+    <Pos>Verb</Pos>
+    <PosSubtype>Stative</PosSubtype>
+    <Domain>Appearance</Domain>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>neskap</Entry>
+    <Meaning>beautiful (said of natural scenery)</Meaning>
+    <Pos>Verb</Pos>
+    <Domain>Appearance</Domain>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>maššak</Entry>
+    <Meaning>beautiful (said of people; romantic beauty)</Meaning>
+    <Pos>Verb</Pos>
+    <Domain>Appearance</Domain>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>uxrada</Entry>
+    <Meaning>beg</Meaning>
+    <Pos>Verb</Pos>
+    <Domain>Appearance</Domain>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>ast</Entry>
+    <Meaning>begat</Meaning>
+    <Pos>Verb</Pos>
+    <Domain>Appearance</Domain>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>huyuttim</Entry>
+    <Meaning>behave like, behave as if, simulate</Meaning>
+    <Pos>Verb</Pos>
+    <Domain>Appearance</Domain>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>keppayak</Entry>
+    <Meaning>behave well</Meaning>
+    <Pos>Verb</Pos>
+    <Domain>Colour</Domain>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>yimmak</Entry>
+    <Meaning>believe; opine</Meaning>
+    <Pos>Verb</Pos>
+    <PosSubtype>Stative</PosSubtype>
+    <Domain>Defect</Domain>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>sind</Entry>
+    <Meaning>bend</Meaning>
+    <Pos>Verb</Pos>
+    <Domain>Colour</Domain>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>sindiruppu-</Entry>
+    <Meaning>bend one's face, i.e. pay attention to</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>urussu</Entry>
+    <Meaning>bend towards the ground</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>kitta</Entry>
+    <Meaning>betray</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>arrusi</Entry>
+    <Meaning>big; large</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>šakwas</Entry>
+    <Meaning>bind, tie up</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>tukk</Entry>
+    <Meaning>bite</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>kūr</Entry>
+    <Meaning>black</Meaning>
+    <Pos>Verb</Pos>
+    <GrammaticalNotes>Used when there is no other color-adjective</GrammaticalNotes>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>kūr</Entry>
+    <Meaning>black</Meaning>
+    <Pos>Verb</Pos>
+    <Domain>Emotion</Domain>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>wastan-</Entry>
+    <Meaning>bleed</Meaning>
+    <Pos>Verb</Pos>
+    <Domain>Emotion</Domain>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>aggahe</Entry>
+    <Meaning>bless a totem</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>suspaħ</Entry>
+    <Meaning>blind</Meaning>
+    <Pos>Verb</Pos>
+    <Domain>Speech</Domain>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>išpimmat</Entry>
+    <Meaning>block a path;impede</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Salmon Speaker</Dialect>
+    <Domain>Shape</Domain>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>yurruda</Entry>
+    <Meaning>blow away in the wind</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Stone Speaker </Dialect>
+    <Domain>Shape</Domain>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>Šp-yurruda</Entry>
+    <Meaning>blow something in the wind</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Horse Speaker </Dialect>
+    <Domain>Shape</Domain>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>hušur</Entry>
+    <Meaning>blue</Meaning>
+    <Pos>Verb</Pos>
+    <Domain>Appearance</Domain>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>hušur</Entry>
+    <Meaning>blue – violet</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>tubbur</Entry>
+    <Meaning>bob up and down in water</Meaning>
+    <Pos>Verb</Pos>
+    <Domain>Colour</Domain>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>sallak</Entry>
+    <Meaning>boil</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>ukkarka</Entry>
+    <Meaning>bounce</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>yattu</Entry>
+    <Meaning>bow before someone</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Lower Minhast </Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>pahasp</Entry>
+    <Meaning>brace oneself firmly against an opposing force</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Classical Minhast</Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>harat</Entry>
+    <Meaning>brave</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Upper Minhast </Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>huwask</Entry>
+    <Meaning>break in</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Gull Speaker </Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>harad</Entry>
+    <Meaning>break, shatter</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Stone Speaker </Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>tašk</Entry>
+    <Meaning>breathe</Meaning>
+    <Pos>Verb</Pos>
+    <Domain>Defect</Domain>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>nayyib</Entry>
+    <Meaning>bright</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>išpint</Entry>
+    <Meaning>bring</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>išpintapaħy</Entry>
+    <Meaning>bring home</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>miznet</Entry>
+    <Meaning>brown</Meaning>
+    <Pos>Verb</Pos>
+    <Domain>Position</Domain>
+    <Etymology>ruppumak (noun) = “face”</Etymology>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>miznet</Entry>
+    <Meaning>brown</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>tayba</Entry>
+    <Meaning>brush off dirt</Meaning>
+    <Pos>Verb</Pos>
+    <PosSubtype>Stative</PosSubtype>
+    <Domain>Emotion</Domain>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>siyyekkit</Entry>
+    <Meaning>burn</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>tazāru</Entry>
+    <Meaning>bury</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>ikkirgimat</Entry>
+    <Meaning>busy</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>attem</Entry>
+    <Meaning>buy</Meaning>
+    <Pos>Verb</Pos>
+    <PosSubtype>Stative-Reflexive</PosSubtype>
+    <Domain>Position</Domain>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>irrixpaħ</Entry>
+    <Meaning>buy</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>tindaħ</Entry>
+    <Meaning>buy</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>tirpaħ</Entry>
+    <Meaning>buy</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Modern Standard</Dialect>
+    <Etymology>Arabic mutattarif (note Minhast mispronunciation)</Etymology>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>wasama</Entry>
+    <Meaning>calm</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>ehah</Entry>
+    <Meaning>capture (prey, a fugitive, etc)</Meaning>
+    <Pos>Verb</Pos>
+    <Domain>Position</Domain>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>seyyeh</Entry>
+    <Meaning>carried away in a current</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>sipsab</Entry>
+    <Meaning>carry</Meaning>
+    <Pos>Verb</Pos>
+    <Domain>Defect</Domain>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>hawwak</Entry>
+    <Meaning>challenge/confront for a fight/battle</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>naški</Entry>
+    <Meaning>change, evolve</Meaning>
+    <Pos>Verb</Pos>
+    <PosSubtype>Stative</PosSubtype>
+    <Dialect>Common</Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>irriyampir</Entry>
+    <Meaning>cheat someone, gip</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>širta</Entry>
+    <Meaning>chirp like a bird</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>ezzak</Entry>
+    <Meaning>choose, select</Meaning>
+    <Pos>Verb</Pos>
+    <Domain>Emotion</Domain>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>rugak</Entry>
+    <Meaning>clasp, curl one's fingers around something</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>nihiyy</Entry>
+    <Meaning>clean</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>sepat</Entry>
+    <Meaning>clear up (weather)</Meaning>
+    <Pos>Verb</Pos>
+    <Domain>Emotion</Domain>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>ixtixrihapmikahikkarkayhattar-</Entry>
+    <Meaning>click (“tap”) the “Like” button on Facebook obsessively all over the place without any self-control</Meaning>
+    <Pos>Verb</Pos>
+    <Domain>Texture</Domain>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>tahapn/laš</Entry>
+    <Meaning>close a door or other opening</Meaning>
+    <Pos>Verb</Pos>
+    <Domain>Health</Domain>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>sahea-tar</Entry>
+    <Meaning>clothe oneself</Meaning>
+    <Pos>Verb</Pos>
+    <Domain>Attribute</Domain>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>izzayya</Entry>
+    <Meaning>cold</Meaning>
+    <Pos>Verb</Pos>
+    <Domain>Attribute</Domain>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>kifrāk</Entry>
+    <Meaning>color of (+(Similitude) + NI)</Meaning>
+    <Pos>Verb</Pos>
+    <Domain>Attribute</Domain>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>yambat</Entry>
+    <Meaning>come by invitation</Meaning>
+    <Pos>Verb</Pos>
+    <Domain>Colour</Domain>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>saxt-huttay </Entry>
+    <Meaning>come one’s senses</Meaning>
+    <Pos>Verb</Pos>
+    <Domain>Appearance</Domain>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>hā</Entry>
+    <Meaning>come, approach</Meaning>
+    <Pos>Verb</Pos>
+    <Domain>Attribute</Domain>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>ista</Entry>
+    <Meaning>come, approach</Meaning>
+    <Pos>Verb</Pos>
+    <Domain>Emotion</Domain>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>kattak</Entry>
+    <Meaning>conceal</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>yatawam</Entry>
+    <Meaning>concerned with, interested in</Meaning>
+    <Pos>Verb</Pos>
+    <Domain>Texture</Domain>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>pašk</Entry>
+    <Meaning>condemn</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>Iksillaš</Entry>
+    <Meaning>consumate a sexual joining</Meaning>
+    <Pos>Verb</Pos>
+    <Domain>Position</Domain>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>sūp</Entry>
+    <Meaning>consume (eat, drink, smoke, etc)</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>intakayhata</Entry>
+    <Meaning>consumed with lust/passion towards</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>nuwassuk</Entry>
+    <Meaning>contain, be filled with</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>nahaštuħ</Entry>
+    <Meaning>cook</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>našt</Entry>
+    <Meaning>cook</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>naštuħ</Entry>
+    <Meaning>cook</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>aššanakt</Entry>
+    <Meaning>cost (in monetary units)</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Horse Speaker</Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>naškent</Entry>
+    <Meaning>cough</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>sebbut</Entry>
+    <Meaning>cover</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>tenyak</Entry>
+    <Meaning>covered with snow</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>šandaħ</Entry>
+    <Meaning>crawl</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>nuyye</Entry>
+    <Meaning>create alliances;engage in politics</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>šunāsi</Entry>
+    <Meaning>create in verbal a verbal trap</Meaning>
+    <SecondaryMeanings>engage in sophistry</SecondaryMeanings>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>attarap</Entry>
+    <Meaning>create, make</Meaning>
+    <Pos>Verb</Pos>
+    <NounIncorporatedForm>-attarp-</NounIncorporatedForm>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>intaharad</Entry>
+    <Meaning>crush</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>killumbuy</Entry>
+    <Meaning>cry in sexual ecstasy</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>hafr</Entry>
+    <Meaning>cry out in distress</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>raħy</Entry>
+    <Meaning>cry, shed tears</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>laxt</Entry>
+    <Meaning>cry, weep</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>naspa</Entry>
+    <Meaning>cry/wail in mourning</Meaning>
+    <Pos>Verb</Pos>
+    <AdditionalNotes>“Kaymawākan” is also the name of a deer-ghost in Wolf Speaker myths</AdditionalNotes>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>ayēta</Entry>
+    <Meaning>curved</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>gdur</Entry>
+    <Meaning>curved</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>huslampaħ</Entry>
+    <Meaning>curved</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>hagdu</Entry>
+    <Meaning>cut off</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>attanī</Entry>
+    <Meaning>cut with surgical precision around a wound extract an arrow with a barbed head</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>tabbuk</Entry>
+    <Meaning>cut, slice</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>izyet</Entry>
+    <Meaning>cute</Meaning>
+    <Pos>Verb</Pos>
+    <Etymology>IRL name: “Andrew C. Lee”</Etymology>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>nazda</Entry>
+    <Meaning>dance</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>wattaħp</Entry>
+    <Meaning>dangerous</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>xwar</Entry>
+    <Meaning>dark</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>xwar</Entry>
+    <Meaning>dark</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>hakkuba</Entry>
+    <Meaning>decide</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>zuzzul</Entry>
+    <Meaning>defile</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>gattaħ</Entry>
+    <Meaning>deformed (said of living things)</Meaning>
+    <Pos>Verb</Pos>
+    <GrammaticalNotes>takes Dative argument</GrammaticalNotes>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>ispikaħ</Entry>
+    <Meaning>deliberately descend the lower depths (i.e. gohell)</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>murre</Entry>
+    <Meaning>delicious</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>rukkuwa</Entry>
+    <Meaning>demand payment</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>ikn</Entry>
+    <Meaning>depart;leave</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>masset</Entry>
+    <Meaning>deprive</Meaning>
+    <SecondaryMeanings>lay siege</SecondaryMeanings>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>intakwask</Entry>
+    <Meaning>destroy</Meaning>
+    <Pos>Verb</Pos>
+    <Etymology>C.f. Chutcki “kel'ek” (ghost, spirit)</Etymology>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>kuspimat</Entry>
+    <Meaning>destroy</Meaning>
+    <Pos>Verb</Pos>
+    <Domain>Emotion</Domain>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>kafak</Entry>
+    <Meaning>devious, deceitful</Meaning>
+    <Pos>Verb</Pos>
+    <Domain>Emotion</Domain>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>marrat</Entry>
+    <Meaning>die</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>tilbašk</Entry>
+    <Meaning>die in the comfort of one's friends and loved ones</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Salmon Speaker </Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>-zg-</Entry>
+    <Meaning>difficult</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>azrag, azurag, azzag</Entry>
+    <Meaning>difficult</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>azzag</Entry>
+    <Meaning>difficult</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>hagn</Entry>
+    <Meaning>difficult</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Upper Minhast </Dialect>
+    <Domain>Emotion</Domain>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>uzzug</Entry>
+    <Meaning>difficult</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Modern Standard</Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>ptas</Entry>
+    <Meaning>dig</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>riggiyak</Entry>
+    <Meaning>disorganized</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>namban-</Entry>
+    <Meaning>dispute, challenge</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>kanāw</Entry>
+    <Meaning>do</Meaning>
+    <Pos>Verb</Pos>
+    <Domain>Geological</Domain>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>kāw</Entry>
+    <Meaning>do</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Idiom for Impersonal clause constructions: “Suwakammā” + Verb serialization</Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>paskan</Entry>
+    <Meaning>do something hard (e.g. hitting)</Meaning>
+    <Pos>Verb</Pos>
+    <Domain>Emotion</Domain>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>utumtak</Entry>
+    <Meaning>do something in a strange manner </Meaning>
+    <Pos>Verb</Pos>
+    <Domain>Texture</Domain>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>kaškak</Entry>
+    <Meaning>do something skillfully, do well</Meaning>
+    <Pos>Verb</Pos>
+    <Domain>Health</Domain>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>sump</Entry>
+    <Meaning>dock</Meaning>
+    <Pos>Verb</Pos>
+    <Domain>Health</Domain>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>yuspa</Entry>
+    <Meaning>dock</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>eyimtat</Entry>
+    <Meaning>draw</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>kakkun</Entry>
+    <Meaning>draw out a weapon (eg unsheathe a knife or sword, pull out a gun, etc)</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>tummut</Entry>
+    <Meaning>draw the bowstring backward with the arrow ready</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>saddu</Entry>
+    <Meaning>draw water from a well</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>huskap</Entry>
+    <Meaning>dream</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>kuteam</Entry>
+    <Meaning>dress</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>nessa</Entry>
+    <Meaning>drink</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>dāwap </Entry>
+    <Meaning>drip</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>niaš</Entry>
+    <Meaning>drop inboiling water</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>ašmuk</Entry>
+    <Meaning>drop inwater</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>yantay</Entry>
+    <Meaning>drop the ground</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>essarhe</Entry>
+    <Meaning>drunk</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>inyuz</Entry>
+    <Meaning>dry</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>bastet-šar</Entry>
+    <Meaning>dwell (lit. set oneself down in an orderly fashion)</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>ruppūkī</Entry>
+    <Meaning>early; stand in front of</Meaning>
+    <SecondaryMeanings>To be early = “to stand in front of the day”</SecondaryMeanings>
+    <Pos>Verb</Pos>
+    <Dialect>Salmon Speaker</Dialect>
+    <AdditionalNotes>notice expected -dn- &gt; -nd- metathesis does not occur</AdditionalNotes>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>ussat</Entry>
+    <Meaning>earn respect of one’s peers</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>hāšakn</Entry>
+    <Meaning>easy</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>gez</Entry>
+    <Meaning>eat</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>kallut</Entry>
+    <Meaning>eat</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>luktal</Entry>
+    <Meaning>eat</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>“sūpapnimāš sūpampimāš”</Entry>
+    <Meaning>eat shit and die</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>ne’ayta</Entry>
+    <Meaning>elapse, pass (time)</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>durda</Entry>
+    <Meaning>encounter someone on a path</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>gillāt</Entry>
+    <Meaning>encourage,coax</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>aktam</Entry>
+    <Meaning>enjoy the taste of one's food</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>gakkam</Entry>
+    <Meaning>enjoy your day (due celebrations, etc)</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>sapkun</Entry>
+    <Meaning>enraged the point of killing</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>kahasl</Entry>
+    <Meaning>entangled</Meaning>
+    <Pos>Verb</Pos>
+    <GrammaticalNotes>takes Dative arg</GrammaticalNotes>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>issayax</Entry>
+    <Meaning>enter</Meaning>
+    <Pos>Verb</Pos>
+    <PosSubtype>Intrans-Active</PosSubtype>
+    <Dialect>Salmon Speaker</Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>sarrek</Entry>
+    <Meaning>enter</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>šarrek</Entry>
+    <Meaning>enter</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>suttat</Entry>
+    <Meaning>enter</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>kaħmaštattar</Entry>
+    <Meaning>entwine, embrace</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>gayya</Entry>
+    <Meaning>ephemeral, short-lived</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>yakab</Entry>
+    <Meaning>equivalent, equal</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>tubbat</Entry>
+    <Meaning>escape capture</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>nattuak-tar-[pronominals]</Entry>
+    <Meaning>everywhere</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>fāl</Entry>
+    <Meaning>evil</Meaning>
+    <Pos>Verb</Pos>
+    <PosSubtype>Trans</PosSubtype>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>aydak</Entry>
+    <Meaning>exceed (time)</Meaning>
+    <Pos>Verb</Pos>
+    <PosSubtype>Trans</PosSubtype>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>nask</Entry>
+    <Meaning>exceed;excel</Meaning>
+    <Pos>Verb</Pos>
+    <PosSubtype>Trans</PosSubtype>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>aggapsa</Entry>
+    <Meaning>excel in archery</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>sassarax</Entry>
+    <Meaning>exchange a bad thing for a good thing</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>ištirāku</Entry>
+    <Meaning>exercise responsible stewardship over the earth</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>issaxmiyut</Entry>
+    <Meaning>exert a lot of effort recall something, and come close remembering it, but the memory still eludes you</Meaning>
+    <Pos>Verb</Pos>
+    <GrammaticalNotes>Occurs with the  (with Distr). The implicit Agent is “iksēt” (wind), so this really means “the wind blows away something”</GrammaticalNotes>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>išpissiblūl</Entry>
+    <Meaning>exile, banish</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>yaxrak</Entry>
+    <Meaning>extend from head toe</Meaning>
+    <SecondaryMeanings>long bow (Salmon Speaker dialect only)</SecondaryMeanings>
+    <Pos>Verb</Pos>
+    <Dialect>Salmon Speaker</Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>mutattarif</Entry>
+    <Meaning>extremist in political and/or religious ideology</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>yakf</Entry>
+    <Meaning>extremist in viewpoint (not necessarily referring to religious or political extremism); to be a lunatic; to be a conspiracy theorist; hold outrageous views</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>ente</Entry>
+    <Meaning>factual, be a fact; be true, ie an observable truth, fact, empirical observation</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>wassakki</Entry>
+    <Meaning>fall dead to the ground</Meaning>
+    <Pos>Verb</Pos>
+    <Etymology>C.f Nankôre “pash” (to set one's foot against a firm object)</Etymology>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>gayya</Entry>
+    <Meaning>fall off</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>ayyalut</Entry>
+    <Meaning>fall off an edge or ledge</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>damikman</Entry>
+    <Meaning>fall on one day (i.e. once upon a time)</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>napinnak</Entry>
+    <Meaning>fall to the ground</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>haldix</Entry>
+    <Meaning>fall victim</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>hakkum</Entry>
+    <Meaning>far away, distant</Meaning>
+    <Pos>Verb</Pos>
+    <PosSubtype>Intrans-Active</PosSubtype>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>sakwat</Entry>
+    <Meaning>fat</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>agyuk</Entry>
+    <Meaning>favor, give favor</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>annāk</Entry>
+    <Meaning>fear, be afraid</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Modern Standard; Stone Speaker </Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>rizza'</Entry>
+    <Meaning>feel empathy towards </Meaning>
+    <Pos>Verb</Pos>
+    <PosSubtype>Trans</PosSubtype>
+    <Dialect>Modern Standard; Stone Speaker </Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>yahagawan-</Entry>
+    <Meaning>feel extreme pain</Meaning>
+    <Pos>Verb</Pos>
+    <PosSubtype>Trans</PosSubtype>
+    <Dialect>Horse Speaker </Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>hayāyat</Entry>
+    <Meaning>feel good</Meaning>
+    <Pos>Verb</Pos>
+    <PosSubtype>Trans</PosSubtype>
+    <Dialect>Gull Speaker </Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>hagna</Entry>
+    <Meaning>feel remorse</Meaning>
+    <Pos>Verb</Pos>
+    <PosSubtype>Trans</PosSubtype>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>tadw, tadu</Entry>
+    <Meaning>few</Meaning>
+    <Pos>Verb</Pos>
+    <PosSubtype>Trans</PosSubtype>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>innaħ, gubbāt/gubbat</Entry>
+    <Meaning>fight; battle; wage war</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>ankyūy</Entry>
+    <Meaning>fill up</Meaning>
+    <Pos>Verb</Pos>
+    <PosSubtype>Intrans-Stative</PosSubtype>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>gulak</Entry>
+    <Meaning>filthy, unclean, dirty</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>kuman-</Entry>
+    <Meaning>find a lost item</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>sarim</Entry>
+    <Meaning>find, encounter s.t</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>ubarrās</Entry>
+    <Meaning>fish</Meaning>
+    <Pos>Verb</Pos>
+    <GrammaticalNotes>Irregular verb: nihī + C (not expected “nihiyyi” + C)</GrammaticalNotes>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>iknappa</Entry>
+    <Meaning>fit</Meaning>
+    <Pos>Verb</Pos>
+    <Domain>Meteorological</Domain>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>yakpi</Entry>
+    <Meaning>float in water</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>yukni</Entry>
+    <Meaning>flow downstream</Meaning>
+    <Pos>Verb</Pos>
+    <PosSubtype>Trans</PosSubtype>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>ħtaštāwap </Entry>
+    <Meaning>flow, pour down vertically (e.g. waterfall, pouring tea from a pot through the spout, etc)</Meaning>
+    <Pos>Verb</Pos>
+    <PosSubtype>Stative-Reflexive</PosSubtype>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>tālē</Entry>
+    <Meaning>fly</Meaning>
+    <Pos>Verb</Pos>
+    <PosSubtype>Intrans-Active</PosSubtype>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>yuhup</Entry>
+    <Meaning>foil, frustrate</Meaning>
+    <Pos>Verb</Pos>
+    <Domain>Emotion</Domain>
+    <Etymology>huttay</Etymology>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>eški</Entry>
+    <Meaning>follow</Meaning>
+    <Pos>Verb</Pos>
+    <PosSubtype>Stative</PosSubtype>
+    <Domain>Emotion</Domain>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>hattu</Entry>
+    <Meaning>follow, tag along</Meaning>
+    <Pos>Verb</Pos>
+    <PosSubtype>Stative</PosSubtype>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>aškahāt</Entry>
+    <Meaning>forbid a behavior</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>yakkapi</Entry>
+    <Meaning>forest-green, dark pine-green</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>taham</Entry>
+    <Meaning>forget</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>hurriak</Entry>
+    <Meaning>forget say a prayer a fallen animal's spirit for slaying it in the hunt</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>yizm</Entry>
+    <Meaning>forgive, pardon</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>segw</Entry>
+    <Meaning>form a fist</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>innāt</Entry>
+    <Meaning>free, independent, autonomous</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Classical Minhast</Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>saxtiyutukna</Entry>
+    <Meaning>freeze,become frozen</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Upper Minhast </Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>nikkāš</Entry>
+    <Meaning>friendly, to be friendly</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Modern Standard</Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>kāb</Entry>
+    <Meaning>frightened</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>ītuna</Entry>
+    <Meaning>frozen</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>empuz</Entry>
+    <Meaning>fruit, bear fruit/produce for the harvest</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>daffāk </Entry>
+    <Meaning>fuck off</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>payrad</Entry>
+    <Meaning>gawk; stop and stare (often with Intensive)</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>tamandarak</Entry>
+    <Meaning>generous</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>dammaf</Entry>
+    <Meaning>gentle</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>assua</Entry>
+    <Meaning>gentle the touch, soft</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>dammaf</Entry>
+    <Meaning>gentle the touch, soft</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>gulguzad</Entry>
+    <Meaning>gently poach fish in simmering broth very briefly such that the surface is cooked but the flesh underneath is very rare</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>sassarax</Entry>
+    <Meaning>get a refund</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>bass</Entry>
+    <Meaning>give</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>hitt</Entry>
+    <Meaning>give</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>ted</Entry>
+    <Meaning>give</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Horse Speaker </Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>matt, mattet</Entry>
+    <Meaning>give birth</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>yaħla</Entry>
+    <Meaning>give directions a location;advise</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>isnappuz</Entry>
+    <Meaning>glare</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>intaduttistar</Entry>
+    <Meaning>glare at</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>sampi</Entry>
+    <Meaning>glare at</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>hanappis</Entry>
+    <Meaning>glare; give an evil eye</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>kiktidāš</Entry>
+    <Meaning>glide</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>innustar</Entry>
+    <Meaning>glitter</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>wašāħ</Entry>
+    <Meaning>glow</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Upper Minhast </Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>nispikkar</Entry>
+    <Meaning>glue</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Lower Minhast </Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>nuspiggar </Entry>
+    <Meaning>glue</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>ikna/iknā</Entry>
+    <Meaning>go</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>ixtirtayyap</Entry>
+    <Meaning>go bowling</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>neššim</Entry>
+    <Meaning>go down, descend</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>watīn</Entry>
+    <Meaning>go eastward</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>paydān-</Entry>
+    <Meaning>go in circles</Meaning>
+    <Pos>Verb</Pos>
+    <PosSubtype>Stative</PosSubtype>
+    <Domain>Colour</Domain>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>irriyasku-</Entry>
+    <Meaning>go north</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>irriyakp</Entry>
+    <Meaning>go north; go to the North Coast</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>iyyakp</Entry>
+    <Meaning>go north; go to Upper Minhay</Meaning>
+    <Pos>Verb</Pos>
+    <NounIncorporatedForm>-kašk(a)-</NounIncorporatedForm>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>aryep</Entry>
+    <Meaning>go off path</Meaning>
+    <SecondaryMeanings>digress; be distracted (with INCH)</SecondaryMeanings>
+    <Pos>Verb</Pos>
+    <GrammaticalNotes>Notice NI of “tak” (way/manner)</GrammaticalNotes>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>intanūm-</Entry>
+    <Meaning>go past, beyond</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>kalkil</Entry>
+    <Meaning>go south</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Gull Speaker </Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>peyye</Entry>
+    <Meaning>go south</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>kask</Entry>
+    <Meaning>go south; go Lower Minhay</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>inta</Entry>
+    <Meaning>go to</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Modern Standard;all </Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>sihatt</Entry>
+    <Meaning>go to</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Dog Speaker</Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>mekti</Entry>
+    <Meaning>go upwards, ascend</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>paħm</Entry>
+    <Meaning>go westward</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>irrapna</Entry>
+    <Meaning>good in health</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>hepraħ</Entry>
+    <Meaning>good quality</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>yikna</Entry>
+    <Meaning>good, desirable</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>niswak</Entry>
+    <Meaning>good, just</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>rabba</Entry>
+    <Meaning>grab</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>teprāħ</Entry>
+    <Meaning>grab</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>tahāl</Entry>
+    <Meaning>green</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Dog Speaker</Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>tahāl</Entry>
+    <Meaning>green</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Modern Standard</Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>uyyi</Entry>
+    <Meaning>greet;meet someone, receive s.o</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Horse Speaker </Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>urruħyak</Entry>
+    <Meaning>grind powder</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>takk</Entry>
+    <Meaning>grow (plants)</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>rununk</Entry>
+    <Meaning>guide</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>ipnis</Entry>
+    <Meaning>habit, doing by habit</Meaning>
+    <SecondaryMeanings>compulsive</SecondaryMeanings>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>unnure</Entry>
+    <Meaning>hairless</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>inniš</Entry>
+    <Meaning>handsome</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>išpikaggi</Entry>
+    <Meaning>hang something</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Stone Speaker </Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>kaggi</Entry>
+    <Meaning>hang suspended; be suspended</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Upper Minhast  (except Salmon Speaker)</Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>kaddara</Entry>
+    <Meaning>happen</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Salmon Speaker</Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>haxmut</Entry>
+    <Meaning>happy</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Lower Minhast </Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>nessep</Entry>
+    <Meaning>harangued;henpecked</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>akyat</Entry>
+    <Meaning>hard, tough, solid</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>hurkan</Entry>
+    <Meaning>harm</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Horse Speaker</Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>ayāka/ayka</Entry>
+    <Meaning>hate</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>rīyak</Entry>
+    <Meaning>hate</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>muttark</Entry>
+    <Meaning>hate an event (used in nominalizations)</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <Entry>arrut</Entry>
+    <Meaning>have an advantage, be in an advantageous situation</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>yuššat</Entry>
+    <Meaning>have an illicit affair</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>uhurrimi</Entry>
+    <Meaning>have an odor, scent</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>ittaškaħ</Entry>
+    <Meaning>have s.t. (incidentally)</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>isp</Entry>
+    <Meaning>have the lesser portion</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>paxm</Entry>
+    <Meaning>heal</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>šullum</Entry>
+    <Meaning>hear</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>ittawas</Entry>
+    <Meaning>hear news of</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>tintay</Entry>
+    <Meaning>heavy</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>ruwwas, ruwass</Entry>
+    <Meaning>help, aid</Meaning>
+    <Pos>Verb</Pos>
+    <Domain>State</Domain>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>yikka'</Entry>
+    <Meaning>hiccup</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>kattak-šattar-</Entry>
+    <Meaning>hide oneself</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>iħy</Entry>
+    <Meaning>high, raised, elevated</Meaning>
+    <Pos>Verb</Pos>
+    <Domain>Cognitive</Domain>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>ušn</Entry>
+    <Meaning>hit</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>sagwi</Entry>
+    <Meaning>hold a feast/festival</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>rišām</Entry>
+    <Meaning>hold a public ritual; have a festival</Meaning>
+    <Pos>Verb</Pos>
+    <Domain>Cognitive</Domain>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>biyyaxne</Entry>
+    <Meaning>hold close one’s body; clutch</Meaning>
+    <Pos>Verb</Pos>
+    <Domain>Cognitive</Domain>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>subek</Entry>
+    <Meaning>hold in the hand; to have</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Salmon Speaker</Dialect>
+    <Etymology>From concatenation of roots “kaxram-garragum-erum”
+(sour-pain-mouth)</Etymology>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>wanket</Entry>
+    <Meaning>hold in the hand; to have</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>tayyes</Entry>
+    <Meaning>hollow; empty</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>seysab</Entry>
+    <Meaning>honorable, virtuous</Meaning>
+    <SecondaryMeanings>valiant</SecondaryMeanings>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>ennus</Entry>
+    <Meaning>hope for the better</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>saggak</Entry>
+    <Meaning>hopeless, without hope; cursed, damned</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>nayafnā</Entry>
+    <Meaning>hot</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>kabb</Entry>
+    <Meaning>howl</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Salmon Speaker</Dialect>
+    <Domain>Hunting</Domain>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>šimūz</Entry>
+    <Meaning>hungry</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>tamašk</Entry>
+    <Meaning>hunt (actively running after prey);chase after a fugitive</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>našše</Entry>
+    <Meaning>hunt/chase with perfect silence and stealth by hiding behind various objects like trees and boulders</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>kwask</Entry>
+    <Meaning>hurt;damage</Meaning>
+    <Pos>Verb</Pos>
+    <Etymology>Note use of Durative to derive from -dāwap- “to drip”</Etymology>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>ta'azzaxirrērušmar </Entry>
+    <Meaning>hypocritical (lit. not word-match oneself)</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>eykaya</Entry>
+    <Meaning>impenetrable, invulnerable</Meaning>
+    <SecondaryMeanings>utterly mysterious, unknowable; densely tangled brush or woodland</SecondaryMeanings>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>husnašpa</Entry>
+    <Meaning>important</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>yikšar </Entry>
+    <Meaning>important</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>nakkanī</Entry>
+    <Meaning>incompetent in archery</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>yamtut</Entry>
+    <Meaning>incorrect</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>išpinusill</Entry>
+    <Meaning>inform</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>išpirak</Entry>
+    <Meaning>inform</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>yattanay</Entry>
+    <Meaning>insane</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>ambak</Entry>
+    <Meaning>insincere</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>kittum</Entry>
+    <Meaning>interrupt</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>laxte</Entry>
+    <Meaning>intersect</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>tawwe</Entry>
+    <Meaning>introduce, present</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>ayawašk, yawašk </Entry>
+    <Meaning>invade, pillage</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>saktu</Entry>
+    <Meaning>invert, turn upside-down</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>išpirakne</Entry>
+    <Meaning>invite, welcome</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>City Speaker</Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>yaspe/yašpe</Entry>
+    <Meaning>it is good that</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Common</Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>tawaš/twaš</Entry>
+    <Meaning>it is unfortunate</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>uprašt</Entry>
+    <Meaning>jab</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>ataħk</Entry>
+    <Meaning>join a group</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>tenneb</Entry>
+    <Meaning>join together (e.g. as friends, lovers, or spouses</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Stone Speaker </Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>anatt</Entry>
+    <Meaning>juicy, luscious</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>yuttay</Entry>
+    <Meaning>judge/consider something be</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>kab</Entry>
+    <Meaning>jump</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Classical Minhast</Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>kaysat</Entry>
+    <Meaning>jump</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>razzuešš</Entry>
+    <Meaning>jump/leap over an obstacle; jump and maneuver in “Parkour” style, combined with rock climbing and boulder scrambling</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>wakkāb</Entry>
+    <Meaning>keep at a distance</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Upper Minhast </Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>ħtaħšitt</Entry>
+    <Meaning>keep hold of, maintain control over</Meaning>
+    <Pos>Verb</Pos>
+    <Etymology>Complex derivation: INTENS-DAT.APPL-sar-
+
+Root: -sar-</Etymology>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>padaxn</Entry>
+    <Meaning>keep things slowly over an extended period of time due one's own laziness</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>nahubb</Entry>
+    <Meaning>keep, put back in place</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Lower Minhast </Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>usapār</Entry>
+    <Meaning>kick</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>sattabe</Entry>
+    <Meaning>kill</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>išpimarrat</Entry>
+    <Meaning>kill (cause someone die)</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>nakkur</Entry>
+    <Meaning>kiss</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Classical Minhast</Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>katya</Entry>
+    <Meaning>kneel on both knees (e.g. a cushion)</Meaning>
+    <SecondaryMeanings>Same word in Horse Speaker dialect means “to sit down”</SecondaryMeanings>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>intakahešnuk</Entry>
+    <Meaning>knock down</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Common</Dialect>
+    <GrammaticalNotes>irregular sound change when it applies NI: ikna</GrammaticalNotes>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>nušill</Entry>
+    <Meaning>know a fact</Meaning>
+    <Pos>Verb</Pos>
+    <Etymology>-xtir-</Etymology>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>irak</Entry>
+    <Meaning>know a general truism (not necessarily a fact, cf nusill); know by taking confidence in and taking their word</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>ibbal</Entry>
+    <Meaning>know about a person or a people (cf Spanish “Conocer”</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Common</Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>ikmiskirim, ikmiskirm</Entry>
+    <Meaning>know how speak</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>ikmiz</Entry>
+    <Meaning>know how to</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>tannuyki</Entry>
+    <Meaning>know the lay of the land, be familiar with a place’s layout</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Common</Dialect>
+    <Etymology>Osprey Speaker settlement, easternmost point in Minhay</Etymology>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>yusnak</Entry>
+    <Meaning>late</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Common</Dialect>
+    <Etymology>Irriyaskum: Salmon Speaker military settlement established during the Ainu-Salmon Speaker Wars</Etymology>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>weggit</Entry>
+    <Meaning>laugh</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Salmon Speaker</Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>hammek</Entry>
+    <Meaning>lay an egg</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Upper Minhast </Dialect>
+    <Etymology>Iyyakpe: another Salmon Speaker military settlement on the northern coast of Minhay, established during the Ainu-Salmon Speaker Wars</Etymology>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>kummat</Entry>
+    <Meaning>lay by bow and arrow</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>akyam</Entry>
+    <Meaning>lead an area (e.g. a paths leads the fields)</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Modern Standard</Dialect>
+    <Etymology>Kakmil: southernmost Stone Speaker village</Etymology>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>tebbu</Entry>
+    <Meaning>lead, serve as leader; give instructions for a common goal</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Osprey Speaker </Dialect>
+    <Etymology>Peyye: southernmost Osprey Speaker settlement bordering Dog Speaker and Gull Speaker territories</Etymology>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>kūm, kum</Entry>
+    <Meaning>lean</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Upper Minhast </Dialect>
+    <Etymology>Kask: a large settlement in the southern coast of Minhay</Etymology>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>tertaradam</Entry>
+    <Meaning>leap</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Modern Standard</Dialect>
+    <Synonyms>ikna-/ikni</Synonyms>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>yišizm</Entry>
+    <Meaning>leap</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Osprey Speaker </Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>yišizmek</Entry>
+    <Meaning>leap</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>aldu</Entry>
+    <Meaning>learn</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Salmon Speaker </Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>hāšakn</Entry>
+    <Meaning>learn</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>išpintanusillišattar</Entry>
+    <Meaning>learn</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>surūdi</Entry>
+    <Meaning>leave behind</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>iknitūman</Entry>
+    <Meaning>leave the house</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>umi</Entry>
+    <Meaning>leave, depart</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>surukki</Entry>
+    <Meaning>lie down</Meaning>
+    <Pos>Verb</Pos>
+    <PosSubtype>Stative</PosSubtype>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>surukkatan-</Entry>
+    <Meaning>lie down in bed</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>meppun</Entry>
+    <Meaning>lie on one's side</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>yaškakka</Entry>
+    <Meaning>lie; deceive</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>sittuy</Entry>
+    <Meaning>lift close in order see and inspect more closely</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>waħtu</Entry>
+    <Meaning>lift up</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Upper Minhast; Modern Standard</Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>isangar</Entry>
+    <Meaning>light a fire</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Classical Minhast;Salmon Speaker </Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>tast</Entry>
+    <Meaning>light in weight</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>kamb</Entry>
+    <Meaning>like, i.e. enjoy something</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>šullum</Entry>
+    <Meaning>listen (with Dative)</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>ittaššullumtahan</Entry>
+    <Meaning>listen carefully</Meaning>
+    <SecondaryMeanings>Lit: you shall take the hearing, i.e. listen carefully!</SecondaryMeanings>
+    <Pos>Verb</Pos>
+    <GrammaticalNotes>alienable possession</GrammaticalNotes>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>duštullum</Entry>
+    <Meaning>listen to</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>arbuħ</Entry>
+    <Meaning>live</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>rasma</Entry>
+    <Meaning>live</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>gawwek</Entry>
+    <Meaning>long timewise; for a long time elapse</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>temme</Entry>
+    <Meaning>long; (with Distributive)extend</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>sīhey, siħy</Entry>
+    <Meaning>look down from an elevated vantage point</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>urar</Entry>
+    <Meaning>lose a child in childbirth</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>gimyax</Entry>
+    <Meaning>lose a conflict (verbal or physical)</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>hurrax</Entry>
+    <Meaning>lose a game</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>paxnut</Entry>
+    <Meaning>lose an object/possession</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>henku</Entry>
+    <Meaning>lose one's direction; get lost</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>unnuaš</Entry>
+    <Meaning>loud</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Common</Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>diyāhe</Entry>
+    <Meaning>love</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Upper Minhast </Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>jā</Entry>
+    <Meaning>love</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>kayhata</Entry>
+    <Meaning>love</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>keyta, kēta, kētata, ketta</Entry>
+    <Meaning>love</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>xumma</Entry>
+    <Meaning>magnificent</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>yakkup</Entry>
+    <Meaning>maintain ties;keep in touch</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>biktāt</Entry>
+    <Meaning>make a mistake</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>lasibba</Entry>
+    <Meaning>make a sound</Meaning>
+    <Pos>Verb</Pos>
+    <Etymology>causative form of “nusill-”to know a fact</Etymology>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>išpassusessenann</Entry>
+    <Meaning>make something pliable by beating with a stick</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>addua</Entry>
+    <Meaning>many, countless</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>minnik</Entry>
+    <Meaning>masturbate</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>azzax</Entry>
+    <Meaning>match</Meaning>
+    <Pos>Verb</Pos>
+    <AdditionalNotes>(an old one from Freewebs!)</AdditionalNotes>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>illāz</Entry>
+    <Meaning>mate</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>kilkimaš</Entry>
+    <Meaning>mean</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>urugam </Entry>
+    <Meaning>mean, petty, nasty</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>rašpāħī</Entry>
+    <Meaning>mediate</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>uyyi-šattar-</Entry>
+    <Meaning>meet as a group; assemble</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>attawaħr</Entry>
+    <Meaning>meet at an appointed place, rendezvous</Meaning>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>wakkay</Entry>
+    <Meaning>meet someone incidentally, bump into</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>uyyi</Entry>
+    <Meaning>meet someone, receive s.o; greet</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Classical Minhast;Salmon Speaker </Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>ašku</Entry>
+    <Meaning>melt down</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Salmon Speaker </Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>taħl</Entry>
+    <Meaning>menacing; evil</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>ikakkaharrampūy </Entry>
+    <Meaning>menstruate</Meaning>
+    <Pos>Verb</Pos>
+    <Etymology>from “ħtaš-hitt” (DURATIVE-take/have)</Etymology>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>nayāw</Entry>
+    <Meaning>meow like a cat  (root: nayā')</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>kaymawāk</Entry>
+    <Meaning>merciless, ruthless</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>nītak</Entry>
+    <Meaning>miserable</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>yikkapars</Entry>
+    <Meaning>miss one's aim</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>wapni</Entry>
+    <Meaning>miss, long for</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>kawārum </Entry>
+    <Meaning>missing, extremely hard find</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>yamtut</Entry>
+    <Meaning>mistaken, wrong, incorrect</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Gull Speaker </Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>bamaxt</Entry>
+    <Meaning>mixed breed (as in mixed tribal parentage)</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>munteħ</Entry>
+    <Meaning>mount one’s horse; get ina vehicle</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>bābat</Entry>
+    <Meaning>mourn</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>išpihakkar</Entry>
+    <Meaning>move s.t.</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>hakkar</Entry>
+    <Meaning>move to a different location</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>irriy</Entry>
+    <Meaning>move, make a motion</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>haddā'</Entry>
+    <Meaning>much, many</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Salmon Speaker</Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>duršila</Entry>
+    <Meaning>murderous, homicidal</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>tuwappi</Entry>
+    <Meaning>nearby</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Horse Speaker </Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>kipkuyl</Entry>
+    <Meaning>need s.t. </Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>isirrip</Entry>
+    <Meaning>needy emotionally</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>karri</Entry>
+    <Meaning>new</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>yusahappi</Entry>
+    <Meaning>normal, typical</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>siblūl</Entry>
+    <Meaning>not belong; be foreign</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Salmon Speaker </Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>baxtut</Entry>
+    <Meaning>not realize</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Lower Minhast </Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>tiwaške/tiwakše</Entry>
+    <Meaning>NOT want do (trans., does NOT have -u marker)</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Osprey Speaker </Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>nuwapi</Entry>
+    <Meaning>obstruct;blockade;embargo;boycot;forbid entry through customs;interdict</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Stone Speaker </Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>gurr</Entry>
+    <Meaning>short length or short height</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Modern Standard</Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>annam</Entry>
+    <Meaning>old</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Modern Standard, Salmon Speaker  </Dialect>
+    <Etymology>(from šp-inta-nusill-šattar “to intensely cause oneself to know (a) fact(s)”</Etymology>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>kunn</Entry>
+    <Meaning>older than someone</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>bātar</Entry>
+    <Meaning>open</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>nuħpa</Entry>
+    <Meaning>open</Meaning>
+    <Pos>Verb</Pos>
+    <AdditionalNotes>Do not confuse this with iknatūman “to go home”</AdditionalNotes>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>kušm</Entry>
+    <Meaning>order, give an order (trans. only, like “sillu”)</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>hannu</Entry>
+    <Meaning>ordinary</Meaning>
+    <Pos>Verb</Pos>
+    <Etymology>NI with “yatan” (bed)</Etymology>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>sušt/suššut</Entry>
+    <Meaning>originate from</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>yār</Entry>
+    <Meaning>originate from</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>gazz</Entry>
+    <Meaning>out of reach</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>hāweš</Entry>
+    <Meaning>outflank in pursuit of something during a hunt (or chasing a fugitive)</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>yekkib</Entry>
+    <Meaning>outside</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>kukkur/kukkūr</Entry>
+    <Meaning>own</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>annūy</Entry>
+    <Meaning>paddle a canoe or boat</Meaning>
+    <Pos>Verb</Pos>
+    <Etymology>šullum + Dative Applicative</Etymology>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>kibbut</Entry>
+    <Meaning>pass through</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>taktamat</Entry>
+    <Meaning>pay</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Modern Standard</Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>wasama</Entry>
+    <Meaning>peaceful</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Upper Minhast </Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>yukk</Entry>
+    <Meaning>peel; skin (an animal)</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>natt</Entry>
+    <Meaning>perfect, flawless;without peer,the best</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>intayepkepimmak</Entry>
+    <Meaning>philosophize</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>yukkey</Entry>
+    <Meaning>pickpocket</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Osprey Speaker </Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>sup</Entry>
+    <Meaning>pick up from the ground</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>supp</Entry>
+    <Meaning>pick up from the ground</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>wakasab</Entry>
+    <Meaning>pick up something that has fallen down</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>kuddum</Entry>
+    <Meaning>pierce; make a hole</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>yu'aytamma  </Entry>
+    <Meaning>pinkish-orange, vaguely like color of grapefruit or the inner lobes of Chicken in the Woods</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>bastet</Entry>
+    <Meaning>plan, prepare a strategy</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Lower Minhast </Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>ast</Entry>
+    <Meaning>plant</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Upper Minhast </Dialect>
+    <AdditionalNotes>don't confuse this with the noun “kayhat” (box)</AdditionalNotes>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>keyd</Entry>
+    <Meaning>play</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Gull Speaker </Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>raspar</Entry>
+    <Meaning>play</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Stone Speaker </Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>mukaras</Entry>
+    <Meaning>plot, scheme</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Lower Minhast</Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>nerriy</Entry>
+    <Meaning>plot, scheme</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Stone Speaker </Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>nuyyepa</Entry>
+    <Meaning>plot, scheme</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Upper Minhast </Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>ayupp</Entry>
+    <Meaning>point at</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>kyam</Entry>
+    <Meaning>poised and ready strike;aim</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>isf</Entry>
+    <Meaning>positioned at a low vantage point</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>isp</Entry>
+    <Meaning>positioned at a low vantage point</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>kirrāt</Entry>
+    <Meaning>possess, own</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>kellek</Entry>
+    <Meaning>possessed by an evil spirit; insane</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>iyyarku</Entry>
+    <Meaning>pound, grind with mortar &amp; pestle</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>nurrur</Entry>
+    <Meaning>pour</Meaning>
+    <Pos>Verb</Pos>
+    <Etymology>c.f. nurr- (to spill)</Etymology>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>wahikn</Entry>
+    <Meaning>pray</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>agyuk</Entry>
+    <Meaning>prefer</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>tayy</Entry>
+    <Meaning>prepare food</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>hirimm</Entry>
+    <Meaning>prepare food for the guests</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Salmon Speaker  </Dialect>
+    <AdditionalNotes>(note: used by women; it is considered taboo and serious social offense if said by a man)</AdditionalNotes>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>tammalukt</Entry>
+    <Meaning>prepare the house for guests</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>bastet</Entry>
+    <Meaning>prepare, arrange</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>ikyam</Entry>
+    <Meaning>prepared, ready</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>yuttak</Entry>
+    <Meaning>promise, vow</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>idammat</Entry>
+    <Meaning>protect</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>ennehax</Entry>
+    <Meaning>prudish</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>nikkat</Entry>
+    <Meaning>pull</Meaning>
+    <Pos>Verb</Pos>
+    <PosSubtype>Stative</PosSubtype>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>pallap</Entry>
+    <Meaning>pull an arrow out of flesh</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>uzzat</Entry>
+    <Meaning>pull out of a container</Meaning>
+    <Pos>Verb</Pos>
+    <GrammaticalNotes>Do not confuse this with the Necessitative</GrammaticalNotes>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>niyett</Entry>
+    <Meaning>pull out of the water</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>nayyiz</Entry>
+    <Meaning>punish</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>naħke</Entry>
+    <Meaning>purchase</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>xurr</Entry>
+    <Meaning>purr like a cat</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Modern Standard</Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>daggik</Entry>
+    <Meaning>push</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Salmon Speaker </Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>išpintahakkar</Entry>
+    <Meaning>push</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>sunep</Entry>
+    <Meaning>push</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Upper Minhast </Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>undap</Entry>
+    <Meaning>put down on the ground</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Lower Minhast </Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>ayaya</Entry>
+    <Meaning>put ina container; put away; keep</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Upper Minhast </Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>bastet</Entry>
+    <Meaning>put, set, place in an orderly fashion</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>sapp(a)</Entry>
+    <Meaning>quick</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>sukk</Entry>
+    <Meaning>quick</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Salmon Speaker</Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>nuntay</Entry>
+    <Meaning>quiet</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>yagmaka</Entry>
+    <Meaning>raid, launch a blitz</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>yusap</Entry>
+    <Meaning>rain</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>tušša</Entry>
+    <Meaning>raise a building, build; invest in infrastructure</Meaning>
+    <Pos>Verb</Pos>
+    <Etymology>inta-yepkep-mmak
+INTENS-give.opinion.as.fact-ASSOC</Etymology>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>puhar</Entry>
+    <Meaning>raise a child adulthood</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>sapar</Entry>
+    <Meaning>raise a weapon strike at someone</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>yanaxtut</Entry>
+    <Meaning>raise one's hands in the air calm people</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>rassibar</Entry>
+    <Meaning>reach for in order pick up</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>ittuyip</Entry>
+    <Meaning>reach out with hands extended</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>innax</Entry>
+    <Meaning>reach out with hands open (usually with Distributive)</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>sakkaf</Entry>
+    <Meaning>reach the end;conclude (e.g. a story)</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Modern Standard</Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>assu-</Entry>
+    <Meaning>reach, arrive at</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Salmon Speaker </Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>yaħ</Entry>
+    <Meaning>reach, arrive at</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Horse Speaker </Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>ixrisašširkattar</Entry>
+    <Meaning>read</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Salmon Speaker</Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>suhar</Entry>
+    <Meaning>read</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Modern Standard</Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>kantaš</Entry>
+    <Meaning>realistic, possible, probable</Meaning>
+    <Pos>Verb</Pos>
+    <AlternateForms>-ayukk- (when followed by affix or IN starting with /p/</AlternateForms>
+    <Dialect>Salmon Speaker</Dialect>
+    <GrammaticalNotes>This is considered an irregular verb given that the the root does not follow the phonotactic rules; /p/ + /k/ usually results in /pk/</GrammaticalNotes>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>hintay</Entry>
+    <Meaning>reasonable; logical, rational</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>massua</Entry>
+    <Meaning>receive,get</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>dār</Entry>
+    <Meaning>recite an epic</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>kaħlē</Entry>
+    <Meaning>recite poetry</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>betaxye</Entry>
+    <Meaning>recognize</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>ittay</Entry>
+    <Meaning>reconcile</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>iskaħ</Entry>
+    <Meaning>red</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>sarham</Entry>
+    <Meaning>red</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>iskaħ</Entry>
+    <Meaning>red – dark orange</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>sassaraxšatt</Entry>
+    <Meaning>redeem oneself</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>āzik-tallu</Entry>
+    <Meaning>reform (“repair”) society; promote social justice</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>karintem </Entry>
+    <Meaning>regard</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Horse Speaker </Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>akwar</Entry>
+    <Meaning>rejoice</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>išpiwasama-</Entry>
+    <Meaning>relaxing</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>teba</Entry>
+    <Meaning>release</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>haxtuy</Entry>
+    <Meaning>remember</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>turmak, tummak</Entry>
+    <Meaning>remember something that makes you remember something else that you previously had forgotten</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>gaxl</Entry>
+    <Meaning>render verdict; pass judgment on someone</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>āzik</Entry>
+    <Meaning>repair</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Upper Minhast </Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>turtank</Entry>
+    <Meaning>repay</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Modern Standard</Dialect>
+    <Etymology>Complex derivation:  CAUS-INTENS-hakkar-
+
+Root: -hakkar-</Etymology>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>kas</Entry>
+    <Meaning>resemble;be an image of</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>tašl</Entry>
+    <Meaning>respond a question, reply</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>ikassu</Entry>
+    <Meaning>rest</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>beytāk</Entry>
+    <Meaning>rest or lay one’s head, chin, or face on something in a leisurely manner</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>bi</Entry>
+    <Meaning>return a location</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>ambahak</Entry>
+    <Meaning>return from the sea spawn (salmon)</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>sayyup</Entry>
+    <Meaning>return home; return one's origin/birthplace</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>yuxri</Entry>
+    <Meaning>return something someone</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>sagma</Entry>
+    <Meaning>return the gravesite, place of cremation, or site of death (e.g. a murder) on the anniversary in order mourn and give remembrance</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>silap</Entry>
+    <Meaning>ride</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>ixtir</Entry>
+    <Meaning>roll (e.g. roll a ball)</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>hidašt</Entry>
+    <Meaning>rope; trap</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>sassam</Entry>
+    <Meaning>rot</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>allusp</Entry>
+    <Meaning>round</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Upper Minhast </Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>yapit</Entry>
+    <Meaning>rule</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Modern Standard</Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>neš</Entry>
+    <Meaning>run (as opposed jog)</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Modern Standard</Dialect>
+    <Etymology>Complex derivation:
+
+ITER-sar-NI(širkat)-DISTR [ITER-see-scratchmark-DISTR]
+
+Root: -sar-
+IN: -širkat-</Etymology>
+    <AdditionalNotes>
+
+lit: to look back and forth along the scratches (writing</AdditionalNotes>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>niššuk</Entry>
+    <Meaning>run off, flee</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Stone Speaker </Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>tumwī</Entry>
+    <Meaning>run silently for the purpose of attack</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>dammar</Entry>
+    <Meaning>rupture</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>siraz</Entry>
+    <Meaning>rush forward in attack</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>karan-</Entry>
+    <Meaning>sad</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>ulkutuktar</Entry>
+    <Meaning>sandy all over the place</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>kunne</Entry>
+    <Meaning>satisfy hunger/thirst</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>yaħsum</Entry>
+    <Meaning>save, store</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>yizmil</Entry>
+    <Meaning>save from danger;grant salvation (e.g. Christianity)</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>tašle</Entry>
+    <Meaning>say</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>saspa</Entry>
+    <Meaning>say a greeting</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>iklaħw</Entry>
+    <Meaning>say one or two words, make an utterance</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>minnikrim</Entry>
+    <Meaning>say one or two words, make an utterance</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>narasp</Entry>
+    <Meaning>scale up a rocky cliff in order harvest sea bird eggs</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Salmon Speaker</Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>suwak</Entry>
+    <Meaning>scandalous</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>yumataħmit</Entry>
+    <Meaning>scared</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>nuhasp</Entry>
+    <Meaning>scold</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>waksara</Entry>
+    <Meaning>scout, reconnaissance</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>yasse</Entry>
+    <Meaning>scratch an itch</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>širkat</Entry>
+    <Meaning>scratch a mark; engrave</Meaning>
+    <Pos>Verb</Pos>
+    <GrammaticalNotes>Occurs in verb serializationto denote Equalis</GrammaticalNotes>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>šurkat</Entry>
+    <Meaning>scratch a mark; engrave</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>tasnumbat</Entry>
+    <Meaning>scratch at an itch</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>nittam</Entry>
+    <Meaning>scream at, berate</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>hayra, hayraħ</Entry>
+    <Meaning>scream due extreme emotion</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Salmon Speaker </Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>kayy</Entry>
+    <Meaning>search for an item</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>išpikattey,išpikatya</Entry>
+    <Meaning>seat</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>sar/sār</Entry>
+    <Meaning>see</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>bayhe</Entry>
+    <Meaning>seek assistance</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>rubbān</Entry>
+    <Meaning>seek sympathy for one’s own ego</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>rabba</Entry>
+    <Meaning>seize</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>yittay</Entry>
+    <Meaning>sew, stitch</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>iddaxpaħ</Entry>
+    <Meaning>sell</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>narrek</Entry>
+    <Meaning>separate, be separate; to be one-of-a-kind</Meaning>
+    <SecondaryMeanings>to be standoffish, to shun (with RFLX); to segregate, impose segregation, to quarantine (with CAUS + INCHO)</SecondaryMeanings>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>rašpāħī</Entry>
+    <Meaning>serve as a go-between</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>yakki</Entry>
+    <Meaning>serve, render service</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>kuttari</Entry>
+    <Meaning>shake a weapon as a threat</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>kuzzi</Entry>
+    <Meaning>shake something off one's body</Meaning>
+    <Pos>Verb</Pos>
+    <Domain>Assault</Domain>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>wampā</Entry>
+    <Meaning>shake, tremble; “intawampām” (convulse)</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>hawassab</Entry>
+    <Meaning>shape;form;influence</Meaning>
+    <SecondaryMeanings>create</SecondaryMeanings>
+    <Pos>Verb</Pos>
+    <Domain>Assault</Domain>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>huslap</Entry>
+    <Meaning>sharp</Meaning>
+    <Pos>Verb</Pos>
+    <Domain>Assault</Domain>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>innuz</Entry>
+    <Meaning>shine</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>intinnuz</Entry>
+    <Meaning>shine brightly,blaze</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>niwāzin</Entry>
+    <Meaning>shoot an arrow</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Stone Speaker </Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>wakma</Entry>
+    <Meaning>shoot an arrow</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Upper Minhast </Dialect>
+    <Domain>Vocalization</Domain>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>keykam</Entry>
+    <Meaning>shoot an arrow on horseback</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Salmon Speaker </Dialect>
+    <Domain>Vocalization</Domain>
+    <Etymology>Root: -kirim-</Etymology>
+    <GrammaticalNotes>Note use of Semelfective</GrammaticalNotes>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>eyyurāt</Entry>
+    <Meaning>shoot an arrow on horseback while leaning sideways, therefore shooting the arrow from a horizontal position</Meaning>
+    <Pos>Verb</Pos>
+    <Domain>Vocalization</Domain>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>kirkarim</Entry>
+    <Meaning>shout</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Salmon Speaker </Dialect>
+    <Domain>Motion</Domain>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>saħr</Entry>
+    <Meaning>shout</Meaning>
+    <Pos>Verb</Pos>
+    <Domain>Vocalization</Domain>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>intakrim</Entry>
+    <Meaning>shout, scream</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Upper Minhast </Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>nusyak</Entry>
+    <Meaning>shout, scream</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Lower Minhast </Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>kuld</Entry>
+    <Meaning>sick</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>misk</Entry>
+    <Meaning>sick</Meaning>
+    <Pos>Verb</Pos>
+    <Domain>Vocalization</Domain>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>kiskār</Entry>
+    <Meaning>silent</Meaning>
+    <Pos>Verb</Pos>
+    <Domain>Vocalization</Domain>
+    <Etymology>Root: -kirim-</Etymology>
+    <GrammaticalNotes>Note Intensive form combined with Dative-Applicative</GrammaticalNotes>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>gūl</Entry>
+    <Meaning>sing</Meaning>
+    <Pos>Verb</Pos>
+    <PosSubtype>Trans</PosSubtype>
+    <Dialect>Horse Speaker </Dialect>
+    <Domain>Position</Domain>
+    <Etymology>Root: -kattey-,-katya-</Etymology>
+    <GrammaticalNotes>Note use of Causative</GrammaticalNotes>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>tawan</Entry>
+    <Meaning>sing</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>kattey</Entry>
+    <Meaning>sit down</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>katya</Entry>
+    <Meaning>sit down</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>saššia</Entry>
+    <Meaning>sit down</Meaning>
+    <Pos>Verb</Pos>
+    <AdditionalNotes>Easter Egg: from Robbie Alan Long</AdditionalNotes>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>saššia</Entry>
+    <Meaning>sit down</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>narrax</Entry>
+    <Meaning>sit down by the fire/at the hearth</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>taramp</Entry>
+    <Meaning>sleep</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>xnim</Entry>
+    <Meaning>sleep</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>ittun</Entry>
+    <Meaning>slide, slither</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>kaddut</Entry>
+    <Meaning>slip; stumble</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>nistat</Entry>
+    <Meaning>small</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>tayyatta</Entry>
+    <Meaning>small</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>nazak</Entry>
+    <Meaning>smart, knowledgeable</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>hittatayr</Entry>
+    <Meaning>smell, give an odor, be fragrant</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Common</Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>rimmiyāt</Entry>
+    <Meaning>smell something; sniff (w. INV.VOL)</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>xnī </Entry>
+    <Meaning>sneeze</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>yipate</Entry>
+    <Meaning>snow falling from sky (phenomonological verb)</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>hulwin</Entry>
+    <Meaning>soar</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Upper Minhast </Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>naherkakunī </Entry>
+    <Meaning>solve a problematic issue</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Horse Speaker </Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>yapkeħ</Entry>
+    <Meaning>solve a problematic issue</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Horse Speaker </Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>iyyattar</Entry>
+    <Meaning>sorry</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Horse Speaker </Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>kaxram</Entry>
+    <Meaning>sour</Meaning>
+    <Pos>Verb</Pos>
+    <Domain>Vocalization</Domain>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>nikkās</Entry>
+    <Meaning>sparkle</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Salmon Speaker </Dialect>
+    <Domain>Vocalization</Domain>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>kimm</Entry>
+    <Meaning>speak</Meaning>
+    <Pos>Verb</Pos>
+    <Domain>Vocalization</Domain>
+    <Etymology>Root: -kirim-</Etymology>
+    <GrammaticalNotes>Note Intensive form</GrammaticalNotes>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>kirim</Entry>
+    <Meaning>speak</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Salmon Speaker</Dialect>
+    <Domain>Vocalization</Domain>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>kirm</Entry>
+    <Meaning>speak</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Upper Minhast </Dialect>
+    <Domain>Vocalization</Domain>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>wattu</Entry>
+    <Meaning>speared, impaled</Meaning>
+    <Pos>Verb</Pos>
+    <PosSubtype>Stative</PosSubtype>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>yattu</Entry>
+    <Meaning>spend time w/ s.o/s.t; be married for X years</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Lower Minhast</Dialect>
+    <Domain>Vocalization</Domain>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>nurr</Entry>
+    <Meaning>spill</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Horse Speaker </Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>sayyet</Entry>
+    <Meaning>stab</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Horse Speaker </Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>umyas</Entry>
+    <Meaning>stab</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>urraxpippâ</Entry>
+    <Meaning>stab in the back</Meaning>
+    <SecondaryMeanings>Sabotage; bring down someone's reputation</SecondaryMeanings>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>yassu</Entry>
+    <Meaning>stand dangerously at the edge of something and risk falling over</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Upper Minhast </Dialect>
+    <Domain>Position</Domain>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>ruppūkī</Entry>
+    <Meaning>stand in front of; be early</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Horse Speaker</Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>weskutaħ</Entry>
+    <Meaning>stand on firm ground; be certain, sure</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>nippa</Entry>
+    <Meaning>stand on something to look over an obstruction</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>nirrak</Entry>
+    <Meaning>stand over someone; be master of, superior to</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>kabak</Entry>
+    <Meaning>stand unsteadly; to wobble</Meaning>
+    <Pos>Verb</Pos>
+    <Domain>Vocalization</Domain>
+    <Etymology>Onomatopoeia</Etymology>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>puħtan</Entry>
+    <Meaning>stand upright</Meaning>
+    <Pos>Verb</Pos>
+    <Domain>Meteorological</Domain>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>ruħya</Entry>
+    <Meaning>starve</Meaning>
+    <Pos>Verb</Pos>
+    <Domain>Motion</Domain>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>tūman-</Entry>
+    <Meaning>stay specifically at home</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Stone Speaker </Dialect>
+    <AdditionalNotes>An old word from Freewebs!</AdditionalNotes>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>immat</Entry>
+    <Meaning>stay, remain</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>uyākaš</Entry>
+    <Meaning>steal</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Common</Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>yekmet</Entry>
+    <Meaning>step across a boundary, threshold, or a period of time</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Modern Standard;Lower Minhast </Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>mattuyek</Entry>
+    <Meaning>step backward</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Classical</Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>ikšima</Entry>
+    <Meaning>step forward</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Salmon Speaker</Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>mammat</Entry>
+    <Meaning>step on something</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>waħmik</Entry>
+    <Meaning>step over a puddle or a muddy area</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>surud</Entry>
+    <Meaning>step over an object (e.g. step over a puddle)</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Modern Standard</Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>terad</Entry>
+    <Meaning>step upward; climb</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Classical Minhast</Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>yak</Entry>
+    <Meaning>still (e.g. still waters), not moving</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Common</Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>gaggūl</Entry>
+    <Meaning>stink</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>yaš</Entry>
+    <Meaning>stop, come a halt</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>yakyak</Entry>
+    <Meaning>stranded; stuck (e.g. in an airport)</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Common</Dialect>
+    <Etymology>cf yak- (still, non-moving)</Etymology>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>utum</Entry>
+    <Meaning>strange</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>nitask</Entry>
+    <Meaning>strike at, aim at</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>kurg</Entry>
+    <Meaning>strong</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>kaddut</Entry>
+    <Meaning>stumble; slip</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>hald</Entry>
+    <Meaning>stupid</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>kuhakn</Entry>
+    <Meaning>stupid</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>dissuruat</Entry>
+    <Meaning>substitute something in the place of another</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>isli</Entry>
+    <Meaning>substitute to, “be instead”</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>suksan</Entry>
+    <Meaning>suck, be disagreeable</Meaning>
+    <Pos>Verb</Pos>
+    <PosSubtype>Stative</PosSubtype>
+    <Dialect>City Speaker</Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>innattu</Entry>
+    <Meaning>suffer</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>innak</Entry>
+    <Meaning>summon</Meaning>
+    <Pos>Verb</Pos>
+    <Domain>Motion</Domain>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>iyāyak</Entry>
+    <Meaning>summon</Meaning>
+    <Pos>Verb</Pos>
+    <Domain>Motion</Domain>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>špiyuharšar</Entry>
+    <Meaning>surround</Meaning>
+    <Pos>Verb</Pos>
+    <Domain>Motion</Domain>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>kišmatta</Entry>
+    <Meaning>sweet</Meaning>
+    <Pos>Verb</Pos>
+    <Domain>Motion</Domain>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>asmik</Entry>
+    <Meaning>swim</Meaning>
+    <Pos>Verb</Pos>
+    <Domain>Motion</Domain>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>yummat</Entry>
+    <Meaning>swing a fist</Meaning>
+    <Pos>Verb</Pos>
+    <Domain>Motion</Domain>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>irriyak</Entry>
+    <Meaning>swing a weapon</Meaning>
+    <Pos>Verb</Pos>
+    <Domain>Motion</Domain>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>ittaħš, ittašš</Entry>
+    <Meaning>take</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>bittakt</Entry>
+    <Meaning>take a family member as hostage; commit cultural appropriation</Meaning>
+    <Pos>Verb</Pos>
+    <Domain>Motion</Domain>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>rubwa</Entry>
+    <Meaning>take advantage of an opportunity, exploit</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>dustindiruppu-</Entry>
+    <Meaning>take an interest in</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>ruyyamb</Entry>
+    <Meaning>take off clothing</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>yapk</Entry>
+    <Meaning>take shelter from bad weather</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>City Speaker</Dialect>
+    <Etymology>English “suck”</Etymology>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>paħpār</Entry>
+    <Meaning>tall</Meaning>
+    <Pos>Verb</Pos>
+    <Domain>Emotion</Domain>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>kkar</Entry>
+    <Meaning>tap one's finger</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>neyhak</Entry>
+    <Meaning>taste</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>yakmut</Entry>
+    <Meaning>taste bad</Meaning>
+    <Pos>Verb</Pos>
+    <Domain>Position</Domain>
+    <Etymology>Root: yuhar
+Lit: to cause oneself to be a circle around s.t.</Etymology>
+    <GrammaticalNotes>Note combination of Causative and Reflexive affixes</GrammaticalNotes>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>išpintanusill</Entry>
+    <Meaning>teach</Meaning>
+    <Pos>Verb</Pos>
+    <Domain>Motion</Domain>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>yaxpak</Entry>
+    <Meaning>tear (through clothing, fiber, fabric, etc)</Meaning>
+    <Pos>Verb</Pos>
+    <Domain>Assault</Domain>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>ukur</Entry>
+    <Meaning>tell a story</Meaning>
+    <Pos>Verb</Pos>
+    <Domain>Assault</Domain>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>sibuk</Entry>
+    <Meaning>thank</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Common</Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>kammayuk</Entry>
+    <Meaning>thank an animal spirit for surrendering its life so that the hunter and his family may live</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>unnat</Entry>
+    <Meaning>thick</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>yittahi</Entry>
+    <Meaning>think about a topic, ponder, plan a solution for something</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>šarkirim</Entry>
+    <Meaning>think oneself, say oneself</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>huttay</Entry>
+    <Meaning>think rationally; be logical</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>axla</Entry>
+    <Meaning>thirsty</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>temmak</Entry>
+    <Meaning>threaten; be a threat</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>neħk</Entry>
+    <Meaning>throw away, discard</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>yippehe</Entry>
+    <Meaning>throw ina fire</Meaning>
+    <Pos>Verb</Pos>
+    <Etymology>Root: -nusill-</Etymology>
+    <GrammaticalNotes>Note use of Causative and Intensive affixes</GrammaticalNotes>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>nist</Entry>
+    <Meaning>throw outwards</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>allat</Entry>
+    <Meaning>throw the ground</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>pux</Entry>
+    <Meaning>thunder, boom, make an explosive sound</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>išpikaħmad</Entry>
+    <Meaning>tie</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>yukudna</Entry>
+    <Meaning>time for harvest</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>ešnuk</Entry>
+    <Meaning>tip over accidentally</Meaning>
+    <Pos>Verb</Pos>
+    <Etymology>Root: -kirim-</Etymology>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>yenn</Entry>
+    <Meaning>tired</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>sargu</Entry>
+    <Meaning>to function, work</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>sambi</Entry>
+    <Meaning>to lose a mother in childbirth</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>yarkut</Entry>
+    <Meaning>to lose both one’s wife and child in childbirth</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>gesmek</Entry>
+    <Meaning>tolerate</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>amand</Entry>
+    <Meaning>touch; feel</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>naššak</Entry>
+    <Meaning>track during hunting</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>hattalussa</Entry>
+    <Meaning>trade, exchange (used with Reciprocal affix)</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>siwwî</Entry>
+    <Meaning>trail, drag on the ground</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>Minhastim irriyērum hittatirtahuš</Entry>
+    <Meaning>translate (lit. “Give [me] the Minhast word)</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>Minhastim kirim hawassab-erum</Entry>
+    <Meaning>translate (lit. “mouth-shape Minhast-speak)</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>mattey</Entry>
+    <Meaning>trap someone verbally in an argument</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>hidašt</Entry>
+    <Meaning>trap with a rope or snare</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>tummak</Entry>
+    <Meaning>travel,tour, visit</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Modern Standard</Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>rakne</Entry>
+    <Meaning>travel,wander, journey, be nomadic</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Modern Standard</Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>uyyupa</Entry>
+    <Meaning>treat someone well, be kind</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>ħtaštāwap</Entry>
+    <Meaning>trickle</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>muyye</Entry>
+    <Meaning>true (non-empirical,i.e. subjective truth, “heart”-truth), “to give an opinion that is true because it is self-evident” not based on evidence but on philosophy; to tell the truth</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>hurpa</Entry>
+    <Meaning>trust</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Salmon Speaker </Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>tekup</Entry>
+    <Meaning>tumble from the air towards the earth (vs. tumbling ON the GROUND)</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>unnuz</Entry>
+    <Meaning>turn around look at s.o/s.t</Meaning>
+    <Pos>Verb</Pos>
+    <Etymology>Root: -dāwap-</Etymology>
+    <GrammaticalNotes>Note use of Durative derivational affix “-ħtaš-”</GrammaticalNotes>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>nakput</Entry>
+    <Meaning>turn away</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>kaħmad</Entry>
+    <Meaning>twist</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>yikr</Entry>
+    <Meaning>ugly</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>gulak</Entry>
+    <Meaning>unclean</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>empiħ</Entry>
+    <Meaning>understand</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>intendiħ, tindiħ</Entry>
+    <Meaning>understand</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>kannek</Entry>
+    <Meaning>understand</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Gull Speaker </Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>nimpī</Entry>
+    <Meaning>understand</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Seal Speaker</Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>baxtet</Entry>
+    <Meaning>use an instrument or other tool</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Salmon Speaker </Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>andek</Entry>
+    <Meaning>use the discourse particle “anda” when the polite form “šendek” was not tried prior for the prerequisite 5 times; be rude, without manners; be pushy and aggressive</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Stone Speaker </Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>šenda</Entry>
+    <Meaning>use the discourse particle “šenek” when the more forceful form “anda” should be used; be meek and docile; be a pushover</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>kakram</Entry>
+    <Meaning>use, utilize</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>yawwan-</Entry>
+    <Meaning>volcano explodes</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>hapli</Entry>
+    <Meaning>venerate</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>taške</Entry>
+    <Meaning>violent</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>All dialects</Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>tattarħa</Entry>
+    <Meaning>viscuous</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>lusk</Entry>
+    <Meaning>visit a friend</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>wayyeħka</Entry>
+    <Meaning>visit relatives after a long extended absence</Meaning>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>immatta</Entry>
+    <Meaning>wait one's turn</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>kungat</Entry>
+    <Meaning>wait/look forward to</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>kafr</Entry>
+    <Meaning>wake up, get up,arise from sleep</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>yalk</Entry>
+    <Meaning>walk</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>tars</Entry>
+    <Meaning>walk between two or more objects</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>laxnak</Entry>
+    <Meaning>walk downwards from upper elevations (i.e. a mountain or hillside, which is slightly different from “descend”)</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Salmon Speaker</Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>ambun</Entry>
+    <Meaning>walk specifically on a path or road</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Modern Standard</Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>sull</Entry>
+    <Meaning>walk WHILE doing something else</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>saħp</Entry>
+    <Meaning>walk, stroll</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>hattu</Entry>
+    <Meaning>wane, die down (flames)</Meaning>
+    <Pos>Verb</Pos>
+    <Dialect>Salmon Speaker</Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>sillu</Entry>
+    <Meaning>want (always trans)</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>waške/wakše</Entry>
+    <Meaning>want someone else to do/perform an action (trans., does NOT have -u marker)</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>namme</Entry>
+    <Meaning>warm</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>sekkey</Entry>
+    <Meaning>warn of impending danger, sound the alarm</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>ħtaššar</Entry>
+    <Meaning>watch</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>kaħtisartahipn</Entry>
+    <Meaning>watch tv; watch movies</Meaning>
+    <Pos>Verb</Pos>
+    <Etymology>Root: -sar- + DUR  -ħtaš-</Etymology>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>innut</Entry>
+    <Meaning>wave an object threateningly</Meaning>
+    <Pos>Verb</Pos>
+    <Etymology>Complex derivation: kaħt-sar-tahipna &lt;&lt; INV.CTRL +  root + NI (-tahipn-)
+
+Root: -sar-</Etymology>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>nitatta</Entry>
+    <Meaning>wave one's hands wildly</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>naħtikemkaraban</Entry>
+    <Meaning>we were being annoying</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>uyyak</Entry>
+    <Meaning>wear an article of clothing</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>aššanakt</Entry>
+    <Meaning>weigh</Meaning>
+    <Pos>Verb</Pos>
+    <PosSubtype>Intrans-Stative</PosSubtype>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>išmanad</Entry>
+    <Meaning>wet</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>kiyyit</Entry>
+    <Meaning>whine, whimper</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>iyyāsay</Entry>
+    <Meaning>whirl away</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>sasrahaš</Entry>
+    <Meaning>whisper</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>kirimikset</Entry>
+    <Meaning>whisper (lit. wind-speak)</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>nišwak</Entry>
+    <Meaning>white</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>nišwak</Entry>
+    <Meaning>white</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>šikk</Entry>
+    <Meaning>who</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>šalgī</Entry>
+    <Meaning>wide</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>laħw</Entry>
+    <Meaning>wiggle the tongue</Meaning>
+    <Pos>Verb</Pos>
+    <Etymology>Verbal Compound: -nusill- + -sar-</Etymology>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>ayyiz</Entry>
+    <Meaning>wilt</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>sakkēda</Entry>
+    <Meaning>win, victorious</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>sunnum</Entry>
+    <Meaning>wise</Meaning>
+    <SecondaryMeanings>clever</SecondaryMeanings>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>nitirrib</Entry>
+    <Meaning>wish someone well</Meaning>
+    <Pos>Verb</Pos>
+    <PosSubtype>Trans</PosSubtype>
+    <Dialect>Horse Speaker </Dialect>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>nappak</Entry>
+    <Meaning>withdraw one's affections; disown</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>natta</Entry>
+    <Meaning>without equal, peer</Meaning>
+    <Pos>Verb</Pos>
+    <PosSubtype>Trans</PosSubtype>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>sillisar</Entry>
+    <Meaning>witness</Meaning>
+    <SecondaryMeanings>Lit: to know by seeing</SecondaryMeanings>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>ikkirgimat</Entry>
+    <Meaning>work, perform work; be busy, preoccupied with a task</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>hayaššamat</Entry>
+    <Meaning>worry about</Meaning>
+    <Pos>Verb</Pos>
+    <Etymology>Root: -širk- + Distrib -tar-</Etymology>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>kemmut</Entry>
+    <Meaning>wound s.o. in the back with an arrow; considered a term of dishonor when the wounded target is a Horse Speaker; also considered an insult a Horse Speaker</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>knaħn</Entry>
+    <Meaning>wrap</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>urrud</Entry>
+    <Meaning>wrap around something like a vine, entwine</Meaning>
+    <Pos>Verb</Pos>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>išpillešt</Entry>
+    <Meaning>wreak havoc</Meaning>
+    <Pos>Verb</Pos>
+    <PosSubtype>Stative</PosSubtype>
+    <Domain>Colour</Domain>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>yatasm</Entry>
+    <Meaning>wrinkle one's brow in worry</Meaning>
+    <Pos>Verb</Pos>
+    <PosSubtype>Stative</PosSubtype>
+    <Domain>Colour</Domain>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>širkattar</Entry>
+    <Meaning>write</Meaning>
+    <SecondaryMeanings>scratch across a surface</SecondaryMeanings>
+    <Pos>Verb</Pos>
+    <PosSubtype>Stative</PosSubtype>
+    <Domain>Colour</Domain>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>taymak</Entry>
+    <Meaning>yellow</Meaning>
+    <Pos>Verb</Pos>
+    <PosSubtype>Stative</PosSubtype>
+    <Domain>Colour</Domain>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>taymak</Entry>
+    <Meaning>yellow – yellow-orange – orange</Meaning>
+    <Pos>Verb</Pos>
+    <PosSubtype>Stative</PosSubtype>
+    <Domain>Colour</Domain>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>tašnišpipsaryentinasummatittaharu</Entry>
+    <Meaning>you did not even try get them reconsider the evidence</Meaning>
+    <Pos>Verb</Pos>
+    <PosSubtype>Stative</PosSubtype>
+    <Domain>Colour</Domain>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>tibbāt</Entry>
+    <Meaning>young</Meaning>
+    <Pos>Verb</Pos>
+    <PosSubtype>Stative</PosSubtype>
+    <Domain>Colour</Domain>
+  </Word>
+  <Word>
+    <LanguageId>1</LanguageId>
+    <Entry>sinnet</Entry>
+    <Meaning>younger than someone</Meaning>
+    <Pos>Verb</Pos>
+    <PosSubtype>Stative</PosSubtype>
+    <Domain>Colour</Domain>
+  </Word>
+</DocumentElement>

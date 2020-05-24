@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{92D34E47-A8E2-47D9-BA0E-26A6416A2922}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CRS.Services</RootNamespace>
+    <AssemblyName>CRS.Services</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="IT.GPS.Service">
+      <HintPath>..\lib\IT.GPS.Service.dll</HintPath>
+    </Reference>
+    <Reference Include="IT.IRepository">
+      <HintPath>..\lib\IT.IRepository.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaseService.cs" />
+    <Compile Include="LambdaRegistryService.cs" />
+    <Compile Include="QueryRegistryService.cs" />
+    <Compile Include="IMetaServices.cs" />
+    <Compile Include="Invokers\DataserviceGetDataInvoker.cs" />
+    <Compile Include="Invokers\DataserviceGetAllInvoker.cs" />
+    <Compile Include="DataServiceFactory.cs" />
+    <Compile Include="DataServices.cs" />
+    <Compile Include="Interfaces\IService.cs" />
+    <Compile Include="Interfaces\IStoredProcedureObjectResultFactory.cs" />
+    <Compile Include="Interfaces\IDataServicesInvoker.cs" />
+    <Compile Include="Invokers\EnumerationDetailInvocationContainer.cs" />
+    <Compile Include="MetaServices.cs" />
+    <Compile Include="PermissionsService.cs" />
+    <Compile Include="RoleService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MetaServiceFactory.cs" />
+    <Compile Include="StoredProcedureObjectResultFactory.cs" />
+    <Compile Include="ApplicantsService.cs" />
+    <Compile Include="CommentsService.cs" />
+    <Compile Include="EnumerationService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TableService.cs" />
+    <Compile Include="UserService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Utils\ComparisonUtility.cs" />
+    <Compile Include="WidgetService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CRS.App_Level\CRS.App_Level.csproj">
+      <Project>{4D37B47D-B15A-4108-8E69-4649F951F8CE}</Project>
+      <Name>CRS.App_Level</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CRS.Models\CRS.Models.csproj">
+      <Project>{9E44BAAA-95C3-4A3B-B145-688BDF8CE7FF}</Project>
+      <Name>CRS.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CRS.Repositories\CRS.Repositories.csproj">
+      <Project>{1CD6F667-C446-43F3-9C88-66B27905F6E2}</Project>
+      <Name>CRS.Repositories</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
