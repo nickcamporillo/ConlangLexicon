@@ -17,6 +17,7 @@ namespace Presenters
         public EventHandler Update;
         public EventHandler Delete;
         public EventHandler Cancel;
+        public EventHandler Reactivate;
 
         private ILexiconService<LexiconRaw> _service;
 
@@ -37,10 +38,16 @@ namespace Presenters
             _view.Insert += Insert;
 
             Delete += new EventHandler(Deactivate);
-            _view.Insert += Insert;
+            _view.Delete += Delete;
+
+            Reactivate += new EventHandler(Restore);
+            _view.ReactivateItem += Reactivate;
 
             Update += new EventHandler(Save);
             _view.UpdateItem += Update;
+
+            Reactivate += new EventHandler(Reactivate);
+            _view.ReactivateItem += new EventHandler(Reactivate);
 
             _view.PageMoveCompleted += CompletedPageMove;
         }
@@ -90,13 +97,6 @@ namespace Presenters
             _view.DeactivatedDate = item.DeactivatedDate.ToString();
         }
 
-        private void Deactivate(object sender, EventArgs e)
-        {
-            _view.LanguageId = (_view.LanguageId < 1 ? 1 : _view.LanguageId);
-
-            //string sql = CreateSqlInsert();
-        }
-
         private LexiconRaw GetDataFromView()
         {
             LexiconRaw newItem = new LexiconRaw();
@@ -137,6 +137,16 @@ namespace Presenters
 
             return newItem;
         }
+        private void Deactivate(object sender, EventArgs e)
+        {
+            string s = "30;";
+            Update(sender, e);
+        }
+        private void Restore(object sender, EventArgs e)
+        {
+            string s = "31;";
+            Update(sender, e);
+        }
 
         private void Insert(object sender, EventArgs e)
         {
@@ -148,7 +158,6 @@ namespace Presenters
             }
             _isAdding = false;
         }
-        
         private void Save(object sender, EventArgs e)
         {
             LexiconRaw newItem = null;

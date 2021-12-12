@@ -20,6 +20,8 @@ namespace Screens
         public event EventHandler RecordChanged;
         public event EventHandler InvokeSearch;
         public event EventHandler ExportToFile;
+        public event EventHandler DeactivateItem;
+        public event EventHandler ReactivateItem;
 
         private IPresenter _presenter;
 

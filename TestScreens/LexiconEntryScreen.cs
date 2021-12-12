@@ -22,6 +22,8 @@ namespace TestScreens
         public event EventHandler PreviousScreen;
         public event EventHandler CloseAll;
         public event EventHandler RecordChanged;
+        public event EventHandler DeactivateItem;
+        public event EventHandler ReactivateItem;
 
         private string _msg = string.Empty;
 
@@ -165,6 +167,12 @@ namespace TestScreens
             btnAdd.Click += Message;
             btnAdd.Click += SaveRecord;
             btnAdd.Click += AddRecord;
+
+            btnReactivate.Click += RestoreItem;
+            btnReactivate.Click += ReactivateItem;
+
+            btnDeactivate.Click += DeleteRecord;
+            btnDeactivate.Click += Delete;
         }
         private void SetTabOrder()
         {
@@ -286,6 +294,20 @@ namespace TestScreens
         {
             //stuff here
             _msg = "Add record";
+        }
+        //Deletion isreally deactivation
+        public void DeleteRecord(object sender, EventArgs e)
+        {
+            _msg = "Click 'Ok' to continue.";
+            txtDeactivatedDate.Text = DateTime.Now.ToString();
+            SaveRecord(sender, e);
+        }
+        public void RestoreItem(object sender, EventArgs e)
+        {
+            _msg = "Click 'Ok' to continue.";
+            txtDeactivatedDate.Text = "";
+            txtEntryDate.Text = DateTime.Now.ToString();
+            SaveRecord(sender, e);
         }
 
         public void SaveRecord(object sender, EventArgs e)

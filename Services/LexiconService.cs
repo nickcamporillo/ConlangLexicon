@@ -93,7 +93,8 @@ namespace Services
                      NounIncorporatedForm = item.NounIncorporatedForm,
                      Pos = item.Pos,
                      Dialect = item.Dialect,
-                     EntryDate = item.EntryDate
+                     EntryDate = item.EntryDate,
+                     DeactivatedDate = item.DeactivatedDate
                  } as ILexiconSummary)
                  .ToList();
 
