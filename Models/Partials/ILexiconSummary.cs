@@ -14,5 +14,6 @@ namespace Models
         string Pos { get; set; }
         string Dialect { get; set; }
         DateTime? EntryDate { get; set; }
+        DateTime? DeactivatedDate { get; set; }
     }
 }

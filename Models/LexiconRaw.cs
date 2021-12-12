@@ -12,7 +12,7 @@ namespace Models
     using System;
     using System.Collections.Generic;
     
-    public partial class LexiconRaw : ILexiconSummary
+    public partial class LexiconRaw
     {
         public int Id { get; set; }
         public Nullable<int> LanguageId { get; set; }
