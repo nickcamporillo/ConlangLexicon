@@ -30,8 +30,6 @@ namespace IViews
         string AdditionalNotes { get; set; }
         string AlternateForms { get; set; }
         string EntryDate { get; set; }
-        string DeactivatedDate { get; set; }
-
-        void RefreshData();
+        string DeactivatedDate { get; set; }        
     }
 }

@@ -14,6 +14,8 @@ namespace IViews
         event EventHandler RecordChanged;
         event EventHandler PageMoveCompleted;
         event FormClosingEventHandler FormClosing;
+        event EventHandler DeactivateItem;
+        event EventHandler ReactivateItem;
         event EventHandler UpdateItem;
         event EventHandler NextScreen;
         event EventHandler PreviousScreen;
