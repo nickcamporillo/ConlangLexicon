@@ -30,6 +30,8 @@ namespace Screens
         public event EventHandler PreviousScreen;
         public event EventHandler UpdateItem;
         public event EventHandler RecordChanged;
+        public event EventHandler DeactivateItem;
+        public event EventHandler ReactivateItem;
 
         public void AddRecord(object sender, EventArgs e)
         {

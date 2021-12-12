@@ -40,6 +40,10 @@
     <Reference Include="nunit.framework, Version=3.12.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb, processorArchitecture=MSIL">
       <HintPath>..\packages\NUnit.3.12.0\lib\net45\nunit.framework.dll</HintPath>
     </Reference>
+    <Reference Include="Repositories, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\libs\Repositories.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -70,21 +74,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\IPresenters\IPresenters.csproj">
-      <Project>{f174467b-e928-4c7f-9ec8-c51e79f67a27}</Project>
-      <Name>IPresenters</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\IViews\IViews.csproj">
-      <Project>{a604f731-c361-4dc9-ad08-9173f451c44f}</Project>
-      <Name>IViews</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Models\Models.csproj">
       <Project>{8dff8f3a-7156-4798-960e-24cfdd016993}</Project>
       <Name>Models</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Presenters\Presenters.csproj">
-      <Project>{931261fe-223c-47ac-ab46-66efbd56b716}</Project>
-      <Name>Presenters</Name>
     </ProjectReference>
     <ProjectReference Include="..\Services\LexServices.csproj">
       <Project>{33286957-b797-42e9-908a-438df3dc5664}</Project>

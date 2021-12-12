@@ -31,6 +31,13 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="CRS.IRepository, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\libs\CRS.IRepository.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework">
+      <HintPath>..\libs\EntityFramework.dll</HintPath>
+    </Reference>
     <Reference Include="IModels, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
     <Reference Include="IRepository">
       <HintPath>..\libs\IRepository.dll</HintPath>
@@ -49,13 +56,18 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
+    <Reference Include="WTF.Core.OleExcel, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\libs\WTF.Core.OleExcel.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="LexServiceTypes.cs" />
+    <Compile Include="ExcelService.cs" />
     <Compile Include="ILexiconService.cs" />
     <Compile Include="IServiceFactory.cs" />
     <Compile Include="LexiconService.cs" />
     <Compile Include="LexiconServiceFactory.cs" />
+    <Compile Include="LexServiceTypes.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
